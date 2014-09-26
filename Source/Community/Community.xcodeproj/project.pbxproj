@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8A5C519D6345F000F98E8 /* SverviceBase.m */; };
 		7CB6316E19D5254E00334193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6316C19D5254E00334193 /* ViewController.m */; };
 		7CB6317119D5256800334193 /* QMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317019D5256800334193 /* QMViewController.m */; };
 		7CB6317419D5259200334193 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317319D5259200334193 /* SignUpViewController.m */; };
@@ -47,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		2373A47D3A2949EABB6521B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2ED8A5C419D6345F000F98E8 /* SverviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SverviceBase.h; sourceTree = "<group>"; };
+		2ED8A5C519D6345F000F98E8 /* SverviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SverviceBase.m; sourceTree = "<group>"; };
 		7CB6316B19D5254E00334193 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7CB6316C19D5254E00334193 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CB6316F19D5256800334193 /* QMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMViewController.h; sourceTree = "<group>"; };
@@ -116,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ED8A5C319D63433000F98E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2ED8A5C419D6345F000F98E8 /* SverviceBase.h */,
+				2ED8A5C519D6345F000F98E8 /* SverviceBase.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7CB6316719D5254E00334193 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +277,7 @@
 				7CD7F47F19D4F425008D9141 /* AppDelegate.h */,
 				7CD7F48019D4F425008D9141 /* AppDelegate.m */,
 				7CD7F48219D4F426008D9141 /* Main.storyboard */,
+				2ED8A5C319D63433000F98E8 /* Services */,
 				7CB6316719D5254E00334193 /* UI */,
 				7CD7F48819D4F426008D9141 /* Images.xcassets */,
 				7CD7F47719D4F425008D9141 /* Supporting Files */,
@@ -444,6 +457,7 @@
 				7CD7F48119D4F425008D9141 /* AppDelegate.m in Sources */,
 				7CB6318F19D52CBE00334193 /* PersonalMainController.m in Sources */,
 				7CB6317A19D5264200334193 /* SignUpViewController02.m in Sources */,
+				2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */,
 				7CB6317119D5256800334193 /* QMViewController.m in Sources */,
 				7CD7F47D19D4F425008D9141 /* main.m in Sources */,
 				F0F388C719D616ED00990797 /* HomeViewController.m in Sources */,

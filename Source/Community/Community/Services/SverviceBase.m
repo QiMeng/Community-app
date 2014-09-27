@@ -35,9 +35,11 @@
     
     if (callback && [callback respondsToSelector:@selector(requestDidFinish:)] ) {
         
-        
-        [callback requestDidFinish:nil];
-        
+        if ([name isEqualToString:@"123"]) {
+             [callback requestDidFinish:@"success"];
+        }else {
+             [callback requestDidFinish:nil];
+        }
     }
     
 }

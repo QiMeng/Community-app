@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "SverviceBase.h"
-
+#import "QMUserInfo.h"
 
 @protocol ServiceApi <NSObject>
 

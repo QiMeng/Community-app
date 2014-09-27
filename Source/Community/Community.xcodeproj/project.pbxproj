@@ -32,6 +32,7 @@
 		7CD7F49A19D4F426008D9141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CD7F49819D4F426008D9141 /* InfoPlist.strings */; };
 		7CD7F49C19D4F426008D9141 /* CommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7F49B19D4F426008D9141 /* CommunityTests.m */; };
 		A66641B669CF455BAAF2F54A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D951DF1DD041DB8D9D6A11 /* libPods.a */; };
+		F002558919D76AE5000DBF25 /* QMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F002558819D76AE5000DBF25 /* QMUserInfo.m */; };
 		F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */; };
 		F05C4A9619D64D8300A97966 /* NSString+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8419D64D8300A97966 /* NSString+QM_Category.m */; };
 		F05C4A9719D64D8300A97966 /* UIButton+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8819D64D8300A97966 /* UIButton+QM_Category.m */; };
@@ -95,6 +96,8 @@
 		7CD7F49919D4F426008D9141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CD7F49B19D4F426008D9141 /* CommunityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityTests.m; sourceTree = "<group>"; };
 		B1D951DF1DD041DB8D9D6A11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F002558719D76AE5000DBF25 /* QMUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUserInfo.h; sourceTree = "<group>"; };
+		F002558819D76AE5000DBF25 /* QMUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUserInfo.m; sourceTree = "<group>"; };
 		F05C4A8019D64D8300A97966 /* NSDictionary+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QM_Category.h"; sourceTree = "<group>"; };
 		F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QM_Category.m"; sourceTree = "<group>"; };
 		F05C4A8319D64D8300A97966 /* NSString+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QM_Category.h"; sourceTree = "<group>"; };
@@ -146,10 +149,12 @@
 		2ED8A5C319D63433000F98E8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F05C4A9D19D6503F00A97966 /* ServiceMacro.h */,
 				F0E7987419D6EE9700BF0980 /* ServiceApi.h */,
+				F05C4A9D19D6503F00A97966 /* ServiceMacro.h */,
 				2ED8A5C419D6345F000F98E8 /* SverviceBase.h */,
 				2ED8A5C519D6345F000F98E8 /* SverviceBase.m */,
+				F002558719D76AE5000DBF25 /* QMUserInfo.h */,
+				F002558819D76AE5000DBF25 /* QMUserInfo.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -556,6 +561,7 @@
 				F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */,
 				7CB6318319D52A5600334193 /* PropertyMainController.m in Sources */,
 				7CB6318619D52C5300334193 /* LifeSupportMainController.m in Sources */,
+				F002558919D76AE5000DBF25 /* QMUserInfo.m in Sources */,
 				7CB6318919D52C7400334193 /* SocialMainController.m in Sources */,
 				F05C4A9B19D64D8300A97966 /* UIView+QM_Category.m in Sources */,
 				7CB6317719D525B900334193 /* SignUpViewController01.m in Sources */,

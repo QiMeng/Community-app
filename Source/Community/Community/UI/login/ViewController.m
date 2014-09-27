@@ -10,7 +10,7 @@
 
 #import "SverviceBase.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
 
 @end
 
@@ -20,14 +20,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    
+   
+    nameTextField.text = [kQMUserInfo getUserName];
+    pwsTextField.text = [kQMUserInfo getPassword];
     
 }
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    [kSverviceInstance clientLogin:@"账号" password:@"密码" callBack:self];
+    [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
 }
 
 - (void)requestDidFinish:(id)sender {
@@ -35,10 +36,14 @@
     DLog(@"%@",sender);
     
     if (sender) {
+        
+        kQMUserInfo.userName = nameTextField.text;
+        kQMUserInfo.userPws = pwsTextField.text;
+        [kQMUserInfo saveUserName:nameTextField.text Pws:pwsTextField.text];
+        
         [self performSegueWithIdentifier:@"HomeViewController" sender:self];
     }else {
         
-        [self performSegueWithIdentifier:@"SignUpViewController" sender:self];
         
     }
     
@@ -47,12 +52,15 @@
 
 - (IBAction)touchLogin:(id)sender {
     
-    [self performSegueWithIdentifier:@"SignUpViewController" sender:self];
+    [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
 }
 
 
 
-
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
 
 - (void)didReceiveMemoryWarning
 {

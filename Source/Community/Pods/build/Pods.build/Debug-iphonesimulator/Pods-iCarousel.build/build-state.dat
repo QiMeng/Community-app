@@ -38,6 +38,11 @@ c00000000531F1FB50000000000000ADC
 t1394548661
 s2780
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
+t1411742720
+s4057
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-iCarousel-dummy.m
 c0000000054257C000000000000000084
 t1411742720
@@ -49,8 +54,8 @@ t1411742720
 s77
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a
-t1411742720
-s242200
+t1411768201
+s242264
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel-dummy.o
 t1411768200
@@ -64,6 +69,11 @@ s357
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/iCarousel.o
 t1411768201
 s236160
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/iCarousel/iCarousel/iCarousel.h
+c0000000054257C000000000000001BEC
+t1411742720
+s7148
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/iCarousel/iCarousel/iCarousel.m
 c0000000054257C000000000000010EAA
@@ -142,7 +152,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4793730717d6b941^9162140817d6b941^---0#1#1#--18"Check dependencies36"C431C6DC-3760-4E68-A33C-2EE03A32A2A3-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies31ec0060efd6b941^0c590160efd6b941^---0#1#1#--18"Check dependencies36"F49754F4-901E-4588-9AEF-AA67E22BF1B1-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-iCarousel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433461000.542746

@@ -32,6 +32,11 @@ c00000000531F1FB50000000000000ADC
 t1394548661
 s2780
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/JSONKit/JSONKit.h
+c0000000054257C000000000000002DBE
+t1411742720
+s11710
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/JSONKit/JSONKit.m
 c0000000054257C00000000000002B24E
 t1411742720
@@ -47,9 +52,14 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
-N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
 t1411742720
-s258608
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a
+t1411768199
+s258688
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/JSONKit.o
 t1411768198
@@ -128,7 +138,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies15fd6dff16d6b941^2920d5ff16d6b941^---0#1#1#--18"Check dependencies36"FB626863-630E-48A0-9398-0C57180FCAB7-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies45f4fb5fefd6b941^ec16fd5fefd6b941^---0#1#1#--18"Check dependencies36"FC84A452-E294-40B4-B2A7-B18AC2A24814-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/JSONKit.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.738508

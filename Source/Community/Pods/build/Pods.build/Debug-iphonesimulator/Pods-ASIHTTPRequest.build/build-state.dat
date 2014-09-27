@@ -64,128 +64,128 @@ t1394548634
 s414
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/HTMLparser.h
-c00000000531FD61400000000000024B6
-t1394595348
+c00000000531F1FB100000000000024B6
+t1394548657
 s9398
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/SAX.h
-c00000000531FD61400000000000010F5
-t1394595348
+c00000000531F1FB100000000000010F5
+t1394548657
 s4341
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/SAX2.h
-c00000000531FD614000000000000130E
-t1394595348
+c00000000531F1FB1000000000000130E
+t1394548657
 s4878
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/dict.h
-c00000000531FD6140000000000000732
-t1394595348
+c00000000531F1FB10000000000000732
+t1394548657
 s1842
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/encoding.h
-c00000000531FD614000000000000208C
-t1394595348
+c00000000531F1FB1000000000000208C
+t1394548657
 s8332
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/entities.h
-c00000000531FD614000000000000125F
-t1394595348
+c00000000531F1FB1000000000000125F
+t1394548657
 s4703
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/globals.h
-c00000000531FD614000000000000393B
-t1394595348
+c00000000531F1FB1000000000000393B
+t1394548657
 s14651
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/hash.h
-c00000000531FD614000000000000195C
-t1394595348
+c00000000531F1FB1000000000000195C
+t1394548657
 s6492
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/list.h
-c00000000531FD6140000000000000D26
-t1394595348
+c00000000531F1FB10000000000000D26
+t1394548657
 s3366
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/parser.h
-c00000000531FD6140000000000009B27
-t1394595348
+c00000000531F1FB10000000000009B27
+t1394548657
 s39719
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/threads.h
-c00000000531FD614000000000000073C
-t1394595348
+c00000000531F1FB1000000000000073C
+t1394548657
 s1852
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/tree.h
-c00000000531FD61400000000000093D3
-t1394595348
+c00000000531F1FB100000000000093D3
+t1394548657
 s37843
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/valid.h
-c00000000531FD6140000000000003536
-t1394595348
+c00000000531F1FB10000000000003536
+t1394548657
 s13622
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xlink.h
-c00000000531FD61400000000000013B0
-t1394595348
+c00000000531F1FB100000000000013B0
+t1394548657
 s5040
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlIO.h
-c00000000531FD6140000000000002977
-t1394595348
+c00000000531F1FB10000000000002977
+t1394548657
 s10615
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlautomata.h
-c00000000531FD6140000000000000F74
-t1394595348
+c00000000531F1FB10000000000000F74
+t1394548657
 s3956
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlerror.h
-c00000000531FD6140000000000008FC3
-t1394595348
+c00000000531F1FB10000000000008FC3
+t1394548657
 s36803
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlexports.h
-c00000000531FD6140000000000000F50
-t1394595348
+c00000000531F1FB10000000000000F50
+t1394548657
 s3920
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlmemory.h
-c00000000531FD6140000000000001739
-t1394595348
+c00000000531F1FB10000000000001739
+t1394548657
 s5945
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlregexp.h
-c00000000531FD6140000000000001552
-t1394595348
+c00000000531F1FB10000000000001552
+t1394548657
 s5458
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlsave.h
-c00000000531FD6140000000000000921
-t1394595348
+c00000000531F1FB10000000000000921
+t1394548657
 s2337
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlstring.h
-c00000000531FD614000000000000155D
-t1394595348
+c00000000531F1FB1000000000000155D
+t1394548657
 s5469
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlversion.h
-c00000000531FD6140000000000001F2B
-t1394595348
+c00000000531F1FB10000000000001F2B
+t1394548657
 s7979
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xpath.h
-c00000000531FD614000000000000400E
-t1394595348
+c00000000531F1FB1000000000000400E
+t1394548657
 s16398
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xpathInternals.h
-c00000000531FD6140000000000004B99
-t1394595348
+c00000000531F1FB10000000000004B99
+t1394548657
 s19353
 
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
@@ -193,110 +193,240 @@ c00000000531F1FB50000000000000ADC
 t1394548661
 s2780
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIAuthenticationDialog.h
+c0000000054257C000000000000000453
+t1411742720
+s1107
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIAuthenticationDialog.m
 c0000000054257C0000000000000043A9
 t1411742720
 s17321
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASICacheDelegate.h
+c0000000054257C00000000000000141F
+t1411742720
+s5151
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIDataCompressor.h
+c0000000054257C00000000000000072C
+t1411742720
+s1836
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIDataCompressor.m
 c0000000054257C000000000000001A54
 t1411742720
 s6740
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIDataDecompressor.h
+c0000000054257C0000000000000006A3
+t1411742720
+s1699
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIDataDecompressor.m
 c0000000054257C000000000000001907
 t1411742720
 s6407
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIDownloadCache.h
+c0000000054257C0000000000000007CC
+t1411742720
+s1996
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIDownloadCache.m
 c0000000054257C000000000000004561
 t1411742720
 s17761
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIFormDataRequest.h
+c0000000054257C000000000000000A85
+t1411742720
+s2693
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIFormDataRequest.m
 c0000000054257C000000000000002C02
 t1411742720
 s11266
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIHTTPRequest.h
+c0000000054257C00000000000000AFF5
+t1411742720
+s45045
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIHTTPRequest.m
 c0000000054257C00000000000002D270
 t1411742720
 s184944
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIHTTPRequestConfig.h
+c0000000054257C000000000000000511
+t1411742720
+s1297
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIHTTPRequestDelegate.h
+c0000000054257C00000000000000063E
+t1411742720
+s1598
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIInputStream.h
+c0000000054257C0000000000000003C9
+t1411742720
+s969
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIInputStream.m
 c0000000054257C000000000000000C32
 t1411742720
 s3122
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASINetworkQueue.h
+c0000000054257C00000000000000120D
+t1411742720
+s4621
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASINetworkQueue.m
 c0000000054257C000000000000002C8D
 t1411742720
 s11405
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIProgressDelegate.h
+c0000000054257C000000000000000678
+t1411742720
+s1656
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIWebPageRequest/ASIWebPageRequest.h
+c0000000054257C000000000000000E59
+t1411742720
+s3673
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIWebPageRequest/ASIWebPageRequest.m
 c0000000054257C000000000000007B06
 t1411742720
 s31494
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesCDNRequest.h
+c0000000054257C00000000000000078B
+t1411742720
+s1931
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesCDNRequest.m
 c0000000054257C0000000000000015D8
 t1411742720
 s5592
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesContainer.h
+c0000000054257C000000000000000341
+t1411742720
+s833
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesContainer.m
 c0000000054257C000000000000000238
 t1411742720
 s568
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesContainerRequest.h
+c0000000054257C0000000000000005C2
+t1411742720
+s1474
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesContainerRequest.m
 c0000000054257C000000000000001183
 t1411742720
 s4483
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesContainerXMLParserDelegate.h
+c0000000054257C000000000000000306
+t1411742720
+s774
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesContainerXMLParserDelegate.m
 c0000000054257C000000000000000A4D
 t1411742720
 s2637
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesObject.h
+c0000000054257C000000000000000258
+t1411742720
+s600
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesObject.m
 c0000000054257C0000000000000001E5
 t1411742720
 s485
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesObjectRequest.h
+c0000000054257C000000000000000DE8
+t1411742720
+s3560
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesObjectRequest.m
 c0000000054257C000000000000002955
 t1411742720
 s10581
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesRequest.h
+c0000000054257C000000000000000434
+t1411742720
+s1076
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/CloudFiles/ASICloudFilesRequest.m
 c0000000054257C000000000000000ECE
 t1411742720
 s3790
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3Bucket.h
+c0000000054257C0000000000000003CC
+t1411742720
+s972
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3Bucket.m
 c0000000054257C000000000000000376
 t1411742720
 s886
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3BucketObject.h
+c0000000054257C00000000000000060E
+t1411742720
+s1550
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3BucketObject.m
 c0000000054257C000000000000000787
 t1411742720
 s1927
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3BucketRequest.h
+c0000000054257C000000000000000A2E
+t1411742720
+s2606
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3BucketRequest.m
 c0000000054257C000000000000001816
 t1411742720
 s6166
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3ObjectRequest.h
+c0000000054257C000000000000000E1C
+t1411742720
+s3612
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3ObjectRequest.m
 c0000000054257C000000000000001533
 t1411742720
 s5427
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3Request.h
+c0000000054257C0000000000000010E6
+t1411742720
+s4326
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3Request.m
 c0000000054257C0000000000000028FC
 t1411742720
 s10492
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3ServiceRequest.h
+c0000000054257C000000000000000325
+t1411742720
+s805
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/S3/ASIS3ServiceRequest.m
 c0000000054257C000000000000000A4B
@@ -313,9 +443,19 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
-N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ASIHTTPRequest.a
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
 t1411742720
-s1475592
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Reachability/Reachability.h
+c0000000054257C000000000000000E57
+t1411742720
+s3671
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ASIHTTPRequest.a
+t1411768201
+s1476408
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-ASIHTTPRequest.build/Objects-normal/i386/ASIAuthenticationDialog.o
 t1411768200
@@ -923,7 +1063,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies47ff730717d6b941^6de7e70717d6b941^---0#1#1#--18"Check dependencies36"3A3FC6B0-F45E-4A5D-94B1-E16D1AFD5B9A-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies25cdff5fefd6b941^cb0f0060efd6b941^---0#1#1#--18"Check dependencies36"2E7B9227-12F9-4B2F-9BEC-4FEAC843F19A-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-ASIHTTPRequest.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433461000.385180

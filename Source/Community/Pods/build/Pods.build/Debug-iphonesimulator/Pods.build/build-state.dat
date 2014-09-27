@@ -91,8 +91,8 @@ t1411768201
 s242264
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods.a
-t1411742720
-s4176528
+t1411768202
+s4178712
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
 t1411742720
@@ -184,7 +184,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc85fa60917d6b941^1554b80917d6b941^---0#1#1#--18"Check dependencies36"13000115-C14B-400D-861E-F8BC1C919A13-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7b4c0460efd6b941^016c0460efd6b941^---0#1#1#--18"Check dependencies36"F3591569-6298-48CE-959D-311C89E3DAE9-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0

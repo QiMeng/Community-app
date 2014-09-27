@@ -30,7 +30,11 @@
 }
 
 
-
+- (IBAction)touchBack:(id)sender{
+    
+    [self dismissViewControllerAnimated:YES completion:^{}];
+    
+}
 
 
 

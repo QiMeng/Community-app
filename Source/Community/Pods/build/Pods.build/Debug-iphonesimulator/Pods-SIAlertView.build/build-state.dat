@@ -48,14 +48,24 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
+t1411742720
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.h
+c0000000054257C000000000000000EE2
+t1411742720
+s3810
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m
 c0000000054257C00000000000000962E
 t1411742720
 s38446
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SIAlertView.a
-t1411742720
-s235792
+t1411768199
+s235856
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o
 t1411768198
@@ -142,7 +152,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc6fb6dff16d6b941^1aa2deff16d6b941^---0#1#1#--18"Check dependencies36"0E0B6FE5-C252-46E5-8645-6461C6660DB9-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1806fc5fefd6b941^992dfd5fefd6b941^---0#1#1#--18"Check dependencies36"6F374F04-302E-4A25-BD57-23FFA32237FA-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460998.485642

@@ -8,6 +8,14 @@
 
 #import "QMViewController.h"
 
-@interface ViewController : QMViewController
+@interface ViewController : QMViewController {
+    
+    
+    __weak IBOutlet UITextField *nameTextField;
+    
+    __weak IBOutlet UITextField *pwsTextField;
+    
+    
+}
 
 @end

@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "SverviceBase.h"
+
 @interface ViewController ()
 
 @end
@@ -18,7 +20,39 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    [kSverviceInstance clientLogin:@"账号" password:@"密码" callBack:self];
+}
+
+- (void)requestDidFinish:(id)sender {
+    
+    DLog(@"%@",sender);
+    
+    if (sender) {
+        [self performSegueWithIdentifier:@"HomeViewController" sender:self];
+    }else {
+        
+        [self performSegueWithIdentifier:@"SignUpViewController" sender:self];
+        
+    }
+    
+    
+}
+
+- (IBAction)touchLogin:(id)sender {
+    
+    [self performSegueWithIdentifier:@"SignUpViewController" sender:self];
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning
 {

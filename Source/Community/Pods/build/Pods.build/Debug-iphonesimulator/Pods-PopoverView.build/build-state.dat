@@ -42,14 +42,34 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
+t1411742720
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/PopoverView/PopoverView/PopoverView.h
+c0000000054257C000000000000001DDA
+t1411742720
+s7642
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/PopoverView/PopoverView/PopoverView.m
 c0000000054257C00000000000000A9CF
 t1411742720
 s43471
 
-N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/PopoverView/PopoverView/PopoverViewCompatibility.h
+c0000000054257C00000000000000028A
 t1411742720
-s191728
+s650
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/PopoverView/PopoverView/PopoverView_Configuration.h
+c0000000054257C000000000000000B39
+t1411742720
+s2873
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a
+t1411768199
+s191792
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView-dummy.o
 t1411768197
@@ -138,7 +158,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8e046eff16d6b941^5c1ccdff16d6b941^---0#1#1#--18"Check dependencies36"D2EBEDA3-E150-4118-BBA4-A2800CD4C079-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfc00fc5fefd6b941^1824fd5fefd6b941^---0#1#1#--18"Check dependencies36"CC4A1C9B-7166-48C9-84C1-DF03A0CBE3DB-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-PopoverView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.627177

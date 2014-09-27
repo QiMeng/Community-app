@@ -61,70 +61,150 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
+t1411742720
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h
+c0000000054257C000000000000000235
+t1411742720
+s565
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m
 c0000000054257C000000000000000496
 t1411742720
 s1174
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDImageCache.h
+c0000000054257C000000000000001D5B
+t1411742720
+s7515
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDImageCache.m
 c0000000054257C000000000000004B3D
 t1411742720
 s19261
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h
+c0000000054257C0000000000000006C3
+t1411742720
+s1731
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m
 c0000000054257C0000000000000005C2
 t1411742720
 s1474
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h
+c0000000054257C0000000000000001C5
+t1411742720
+s453
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m
 c0000000054257C000000000000000A24
 t1411742720
 s2596
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h
+c0000000054257C000000000000001793
+t1411742720
+s6035
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m
 c0000000054257C000000000000002B19
 t1411742720
 s11033
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h
+c0000000054257C00000000000000092B
+t1411742720
+s2347
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m
 c0000000054257C000000000000003DE4
 t1411742720
 s15844
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageManager.h
+c0000000054257C00000000000000290F
+t1411742720
+s10511
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageManager.m
 c0000000054257C00000000000000386A
 t1411742720
 s14442
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h
+c0000000054257C000000000000000149
+t1411742720
+s329
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h
+c0000000054257C000000000000000E03
+t1411742720
+s3587
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m
 c0000000054257C000000000000001373
 t1411742720
 s4979
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h
+c0000000054257C000000000000003496
+t1411742720
+s13462
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m
 c0000000054257C000000000000002E21
 t1411742720
 s11809
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+GIF.h
+c0000000054257C00000000000000017E
+t1411742720
+s382
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+GIF.m
 c0000000054257C0000000000000012F5
 t1411742720
 s4853
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h
+c0000000054257C000000000000000107
+t1411742720
+s263
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m
 c0000000054257C000000000000000CBB
 t1411742720
 s3259
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h
+c0000000054257C000000000000001404
+t1411742720
+s5124
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m
 c0000000054257C000000000000001281
 t1411742720
 s4737
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h
+c0000000054257C0000000000000026D1
+t1411742720
+s9937
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m
 c0000000054257C0000000000000020EC
 t1411742720
 s8428
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h
+c0000000054257C0000000000000003CA
+t1411742720
+s970
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m
 c0000000054257C000000000000000771
@@ -132,8 +212,8 @@ t1411742720
 s1905
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a
-t1411742720
-s867224
+t1411768200
+s867688
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/NSData+ImageContentType.o
 t1411768198
@@ -537,7 +617,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies82ff6dff16d6b941^db13e4ff16d6b941^---0#1#1#--18"Check dependencies36"235992DF-3BBE-4E10-BA05-2EB2BC15B64B-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5c02fc5fefd6b941^b133fd5fefd6b941^---0#1#1#--18"Check dependencies36"71E6C2DE-95FE-4AD6-998D-CA65D7B200EE-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/NSData+ImageContentType.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460997.801191

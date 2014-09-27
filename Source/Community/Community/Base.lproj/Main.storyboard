@@ -9,8 +9,8 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="vXZ-lx-hvc" userLabel="登录界面" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="J87-ID-OpV"/>
+                        <viewControllerLayoutGuide type="bottom" id="nta-PY-ICo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -48,7 +48,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="HXq-Qa-53E" kind="modal" modalTransitionStyle="crossDissolve" id="7Rl-Jm-51r"/>
+                                            <action selector="touchLogin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="An6-Wc-06I"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrE-3M-1Kx">
@@ -59,7 +59,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="hH4-dX-2bf" kind="modal" id="aRL-dX-mAY"/>
+                                            <segue destination="hH4-dX-2bf" kind="modal" identifier="SignUpViewController" id="aRL-dX-mAY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -67,6 +67,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="VmO-Ao-OAe" id="VJ1-Bo-MSr"/>
+                        <outlet property="pwsTextField" destination="Bof-3o-5Jx" id="b29-w0-uXg"/>
+                        <segue destination="HXq-Qa-53E" kind="modal" identifier="HomeViewController" modalTransitionStyle="crossDissolve" id="KBm-gj-dMN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,8 +82,8 @@
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" id="9i7-sV-hXk" userLabel="首页" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NWt-sA-ep0"/>
-                        <viewControllerLayoutGuide type="bottom" id="4Fq-qF-PXN"/>
+                        <viewControllerLayoutGuide type="top" id="RcZ-9m-mu0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yog-Je-E1u"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="byi-ki-XR1">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -293,7 +298,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lkL-3d-3cb"/>
+                    <navigationItem key="navigationItem" id="lkL-3d-3cb">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="elq-EX-SfP">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yzu-lJ-MLa">
+                                <rect key="frame" x="16" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchBack:" destination="9i7-sV-hXk" eventType="touchUpInside" id="aPC-yn-8cB"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UV3-pz-CO0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -304,8 +323,8 @@
             <objects>
                 <viewController id="pgC-dM-yUB" userLabel="个人中心" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cLU-R7-XfK"/>
-                        <viewControllerLayoutGuide type="bottom" id="5RF-Jc-P2s"/>
+                        <viewControllerLayoutGuide type="top" id="c8n-9a-0be"/>
+                        <viewControllerLayoutGuide type="bottom" id="orr-12-NDp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QQy-IB-h4o">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -323,8 +342,8 @@
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController" id="cYL-a2-FyU" userLabel="注册界面" customClass="SignUpViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TIL-dV-yJV"/>
-                        <viewControllerLayoutGuide type="bottom" id="CCe-V2-bPc"/>
+                        <viewControllerLayoutGuide type="top" id="Aoc-4R-sX3"/>
+                        <viewControllerLayoutGuide type="bottom" id="ycJ-zd-AYa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aNG-oD-vhM">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -418,8 +437,8 @@
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController01" id="Ftn-jh-CdK" userLabel="注册界面1" customClass="SignUpViewController01" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eSB-B7-Jr1"/>
-                        <viewControllerLayoutGuide type="bottom" id="hTj-1Z-b30"/>
+                        <viewControllerLayoutGuide type="top" id="lsn-Ke-pdP"/>
+                        <viewControllerLayoutGuide type="bottom" id="soM-5q-hJN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3kJ-a2-36a">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -460,8 +479,8 @@
             <objects>
                 <viewController id="PMo-0V-EGd" userLabel="社区公告" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EWU-FX-EEW"/>
-                        <viewControllerLayoutGuide type="bottom" id="klC-3F-n81"/>
+                        <viewControllerLayoutGuide type="top" id="Dh2-vt-NcG"/>
+                        <viewControllerLayoutGuide type="bottom" id="NbY-FM-Bhu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5AI-cU-TwC">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -479,8 +498,8 @@
             <objects>
                 <viewController id="5jx-oy-wSD" userLabel="快递代收" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SrV-pZ-dsi"/>
-                        <viewControllerLayoutGuide type="bottom" id="3OS-bj-6zq"/>
+                        <viewControllerLayoutGuide type="top" id="H20-sW-ySH"/>
+                        <viewControllerLayoutGuide type="bottom" id="mpJ-hO-IWC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Of-IV-bnZ">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -498,8 +517,8 @@
             <objects>
                 <viewController id="UBm-wM-Zb4" userLabel="论坛" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DBf-im-Nua"/>
-                        <viewControllerLayoutGuide type="bottom" id="pDp-j2-6eH"/>
+                        <viewControllerLayoutGuide type="top" id="oQ8-w3-TGe"/>
+                        <viewControllerLayoutGuide type="bottom" id="KSG-o6-wdu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UF3-he-ei0">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -517,8 +536,8 @@
             <objects>
                 <viewController id="WUe-WM-5Jn" userLabel="呼叫" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="15R-pn-YyH"/>
-                        <viewControllerLayoutGuide type="bottom" id="EpJ-Ey-HPh"/>
+                        <viewControllerLayoutGuide type="top" id="LYC-Hs-uPe"/>
+                        <viewControllerLayoutGuide type="bottom" id="EnL-ny-shy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nww-G4-Uct">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -536,8 +555,8 @@
             <objects>
                 <viewController id="gCq-Lx-imS" userLabel="摄像头" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Jyc-VV-fIs"/>
-                        <viewControllerLayoutGuide type="bottom" id="pAn-BZ-TD2"/>
+                        <viewControllerLayoutGuide type="top" id="Mkp-TY-77k"/>
+                        <viewControllerLayoutGuide type="bottom" id="ftI-oB-f84"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="f5G-dH-4VV">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -555,8 +574,8 @@
             <objects>
                 <viewController id="MDt-r9-rgK" userLabel="家庭组" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L05-ph-1mx"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cdh-NA-06X"/>
+                        <viewControllerLayoutGuide type="top" id="Vif-Yl-fnT"/>
+                        <viewControllerLayoutGuide type="bottom" id="vmJ-73-g4B"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EMo-UU-Xku">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -574,8 +593,8 @@
             <objects>
                 <viewController id="pHB-df-t58" userLabel="群组" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DCG-2s-vYO"/>
-                        <viewControllerLayoutGuide type="bottom" id="YKg-n7-tmN"/>
+                        <viewControllerLayoutGuide type="top" id="gd7-sv-CJ4"/>
+                        <viewControllerLayoutGuide type="bottom" id="25H-cB-1tK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UZS-vT-Lex">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -593,8 +612,8 @@
             <objects>
                 <viewController id="HpQ-qc-tG2" userLabel="交友" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="d4o-aT-EaI"/>
-                        <viewControllerLayoutGuide type="bottom" id="csU-Tt-JtV"/>
+                        <viewControllerLayoutGuide type="top" id="6rP-At-20D"/>
+                        <viewControllerLayoutGuide type="bottom" id="CtO-uo-Hf0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Kn7-m0-w6V">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -612,8 +631,8 @@
             <objects>
                 <viewController id="jxX-bO-rrm" userLabel="外卖" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GBi-Zo-MAk"/>
-                        <viewControllerLayoutGuide type="bottom" id="IHx-HK-b8T"/>
+                        <viewControllerLayoutGuide type="top" id="Y1g-39-5aL"/>
+                        <viewControllerLayoutGuide type="bottom" id="4pf-Ck-wSb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="M7D-O7-qE9">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -631,8 +650,8 @@
             <objects>
                 <viewController id="Fkn-uM-ehX" userLabel="拼车" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NYi-YM-wft"/>
-                        <viewControllerLayoutGuide type="bottom" id="1iT-6I-GIv"/>
+                        <viewControllerLayoutGuide type="top" id="zBf-Vz-LBZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="3fO-E5-nhW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VdK-l0-dEA">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -650,8 +669,8 @@
             <objects>
                 <viewController id="wFy-XK-wOa" userLabel="社区黄页" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DG1-mO-BFd"/>
-                        <viewControllerLayoutGuide type="bottom" id="sFp-xQ-VhM"/>
+                        <viewControllerLayoutGuide type="top" id="PJA-4M-emW"/>
+                        <viewControllerLayoutGuide type="bottom" id="DcC-Dc-Khz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="S6J-Iy-88B">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -669,8 +688,8 @@
             <objects>
                 <viewController id="ISp-Gg-Xib" userLabel="绑定房屋" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Qsm-wc-aCo"/>
-                        <viewControllerLayoutGuide type="bottom" id="VRS-Uv-FTs"/>
+                        <viewControllerLayoutGuide type="top" id="FqQ-2h-Ibd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hy5-ZC-3Vt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EgQ-EH-aWe">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -710,8 +729,8 @@
             <objects>
                 <viewController id="maK-IY-ajD" userLabel="投诉报修" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Lg5-nX-tA7"/>
-                        <viewControllerLayoutGuide type="bottom" id="UuA-5Q-jwd"/>
+                        <viewControllerLayoutGuide type="top" id="5T1-xD-C76"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qaz-5s-V9i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AAD-fd-qAj">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -754,8 +773,8 @@
             <objects>
                 <viewController id="ajU-ac-NS9" userLabel="服务充值" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="urK-ce-Lq5"/>
-                        <viewControllerLayoutGuide type="bottom" id="L6a-3i-VwI"/>
+                        <viewControllerLayoutGuide type="top" id="3ec-cz-tdM"/>
+                        <viewControllerLayoutGuide type="bottom" id="vnB-33-2BD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hWJ-AY-mGy">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -787,8 +806,8 @@
             <objects>
                 <viewController id="hhb-Lp-hd1" userLabel="我要缴费" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OHP-FK-CUA"/>
-                        <viewControllerLayoutGuide type="bottom" id="4JS-eu-cbm"/>
+                        <viewControllerLayoutGuide type="top" id="ihR-tX-49N"/>
+                        <viewControllerLayoutGuide type="bottom" id="yBR-wx-9KO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rNw-Lj-co1">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
@@ -823,8 +842,8 @@
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController02" id="o8A-z4-boR" userLabel="注册界面2" customClass="SignUpViewController02" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="K9m-K6-bpb"/>
-                        <viewControllerLayoutGuide type="bottom" id="dvs-Mb-EvN"/>
+                        <viewControllerLayoutGuide type="top" id="dWK-gV-Sj2"/>
+                        <viewControllerLayoutGuide type="bottom" id="fLT-Kn-Dvi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="szI-fl-CcV">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>

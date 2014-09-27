@@ -48,14 +48,24 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
+t1411742720
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Reachability/Reachability.h
+c0000000054257C000000000000000E57
+t1411742720
+s3671
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Reachability/Reachability.m
 c0000000054257C000000000000003737
 t1411742720
 s14135
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-Reachability.a
-t1411742720
-s45760
+t1411768199
+s45824
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-Reachability.build/Objects-normal/i386/Pods-Reachability-dummy.o
 t1411768197
@@ -142,7 +152,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd7fb6dff16d6b941^c7f4c4ff16d6b941^---0#1#1#--18"Check dependencies36"1A3EF673-DD09-464A-9B02-05D12136F04B-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa1d7fb5fefd6b941^3d10fd5fefd6b941^---0#1#1#--18"Check dependencies36"BEF1A675-7B24-4C83-9F13-BD699C8746C5-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-Reachability.build/Objects-normal/i386/Pods-Reachability-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-Reachability-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.734899

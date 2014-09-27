@@ -47,30 +47,65 @@ c00000000531F1FB50000000000000ADC
 t1394548661
 s2780
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHud.h
+c0000000054257C000000000000000B82
+t1411742720
+s2946
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHud.m
 c0000000054257C000000000000001A3E
 t1411742720
 s6718
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHudDelegate.h
+c0000000054257C000000000000000218
+t1411742720
+s536
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHudQueueItem.h
+c0000000054257C0000000000000002EE
+t1411742720
+s750
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHudQueueItem.m
 c0000000054257C00000000000000028C
 t1411742720
 s652
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHudView.h
+c0000000054257C000000000000000897
+t1411742720
+s2199
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHudView.m
 c0000000054257C0000000000000052BF
 t1411742720
 s21183
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMProgressLayer.h
+c0000000054257C0000000000000002CC
+t1411742720
+s716
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMProgressLayer.m
 c0000000054257C0000000000000007F2
 t1411742720
 s2034
 
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMSoundFX.h
+c0000000054257C0000000000000001AE
+t1411742720
+s430
+
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMSoundFX.m
 c0000000054257C0000000000000004B5
 t1411742720
 s1205
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMTextLayer.h
+c0000000054257C000000000000000161
+t1411742720
+s353
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMTextLayer.m
 c0000000054257C00000000000000044D
@@ -87,9 +122,14 @@ c0000000054257C00000000000000004D
 t1411742720
 s77
 
-N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ATMHud.a
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
+c0000000054257C000000000000000FD9
 t1411742720
-s290728
+s4057
+
+N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ATMHud.a
+t1411768200
+s290912
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-ATMHud.build/Objects-normal/i386/ATMHud.o
 t1411768198
@@ -293,7 +333,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies43026eff16d6b941^651ac5ff16d6b941^---0#1#1#--18"Check dependencies36"4F4705D3-1812-4265-8FAB-2EEAD8FBD6C7-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf0e0fb5fefd6b941^6004fd5fefd6b941^---0#1#1#--18"Check dependencies36"89A69156-2958-448C-BC9B-F05F4AE6CF1F-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-ATMHud.build/Objects-normal/i386/ATMHud.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHud.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.628532

@@ -23,6 +23,9 @@
 
 + (SverviceBase *)shareInstance ;
 
+-(void)doRequest:(NSString*)interface paramer:(NSString*)paramer controller:(id)controller ;
 
+//登录
+-(void)clientLogin:(NSString*)name password:(NSString*)pwd callBack:(id)callback ;
 
 @end

@@ -111,6 +111,7 @@
 		F05C4A9319D64D8300A97966 /* UIView+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QM_Category.h"; sourceTree = "<group>"; };
 		F05C4A9419D64D8300A97966 /* UIView+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QM_Category.m"; sourceTree = "<group>"; };
 		F05C4A9D19D6503F00A97966 /* ServiceMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceMacro.h; sourceTree = "<group>"; };
+		F0E7987419D6EE9700BF0980 /* ServiceApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceApi.h; sourceTree = "<group>"; };
 		F0F388C519D616ED00990797 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F0F388C619D616ED00990797 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F0F388C819D6199400990797 /* QMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNavigationController.h; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				F05C4A9D19D6503F00A97966 /* ServiceMacro.h */,
+				F0E7987419D6EE9700BF0980 /* ServiceApi.h */,
 				2ED8A5C419D6345F000F98E8 /* SverviceBase.h */,
 				2ED8A5C519D6345F000F98E8 /* SverviceBase.m */,
 			);

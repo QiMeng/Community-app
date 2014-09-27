@@ -8,6 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+#import <ASIHTTPRequest.h>
+#import <ASINetworkQueue.h>
+#import <ASIFormDataRequest.h>
+#import <JSONKit.h>
+
+#define kASIUrl @"ASIUrl"
+#define kASIName @"ASIName"
+#define kASIData @"ASIData"
+
+#define kSverviceInstance [SverviceBase shareInstance]
+
 @interface SverviceBase : NSObject
+
++ (SverviceBase *)shareInstance ;
+
+
 
 @end

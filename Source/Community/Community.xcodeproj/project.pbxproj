@@ -32,6 +32,13 @@
 		7CD7F49A19D4F426008D9141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CD7F49819D4F426008D9141 /* InfoPlist.strings */; };
 		7CD7F49C19D4F426008D9141 /* CommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7F49B19D4F426008D9141 /* CommunityTests.m */; };
 		A66641B669CF455BAAF2F54A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D951DF1DD041DB8D9D6A11 /* libPods.a */; };
+		F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */; };
+		F05C4A9619D64D8300A97966 /* NSString+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8419D64D8300A97966 /* NSString+QM_Category.m */; };
+		F05C4A9719D64D8300A97966 /* UIButton+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8819D64D8300A97966 /* UIButton+QM_Category.m */; };
+		F05C4A9819D64D8300A97966 /* UIImage+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8B19D64D8300A97966 /* UIImage+QM_Category.m */; };
+		F05C4A9919D64D8300A97966 /* UILabel+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8E19D64D8300A97966 /* UILabel+QM_Category.m */; };
+		F05C4A9A19D64D8300A97966 /* UITextField+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A9119D64D8300A97966 /* UITextField+QM_Category.m */; };
+		F05C4A9B19D64D8300A97966 /* UIView+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A9419D64D8300A97966 /* UIView+QM_Category.m */; };
 		F0F388C719D616ED00990797 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F388C619D616ED00990797 /* HomeViewController.m */; };
 		F0F388CA19D6199400990797 /* QMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F388C919D6199400990797 /* QMNavigationController.m */; };
 /* End PBXBuildFile section */
@@ -88,6 +95,22 @@
 		7CD7F49919D4F426008D9141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CD7F49B19D4F426008D9141 /* CommunityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityTests.m; sourceTree = "<group>"; };
 		B1D951DF1DD041DB8D9D6A11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05C4A8019D64D8300A97966 /* NSDictionary+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A8319D64D8300A97966 /* NSString+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A8419D64D8300A97966 /* NSString+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A8519D64D8300A97966 /* QMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCategory.h; sourceTree = "<group>"; };
+		F05C4A8719D64D8300A97966 /* UIButton+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A8819D64D8300A97966 /* UIButton+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A8A19D64D8300A97966 /* UIImage+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A8B19D64D8300A97966 /* UIImage+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A8D19D64D8300A97966 /* UILabel+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A8E19D64D8300A97966 /* UILabel+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A9019D64D8300A97966 /* UITextField+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A9119D64D8300A97966 /* UITextField+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A9319D64D8300A97966 /* UIView+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QM_Category.h"; sourceTree = "<group>"; };
+		F05C4A9419D64D8300A97966 /* UIView+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QM_Category.m"; sourceTree = "<group>"; };
+		F05C4A9D19D6503F00A97966 /* ServiceMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceMacro.h; sourceTree = "<group>"; };
 		F0F388C519D616ED00990797 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F0F388C619D616ED00990797 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F0F388C819D6199400990797 /* QMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNavigationController.h; sourceTree = "<group>"; };
@@ -122,6 +145,7 @@
 		2ED8A5C319D63433000F98E8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F05C4A9D19D6503F00A97966 /* ServiceMacro.h */,
 				2ED8A5C419D6345F000F98E8 /* SverviceBase.h */,
 				2ED8A5C519D6345F000F98E8 /* SverviceBase.m */,
 			);
@@ -142,6 +166,7 @@
 		7CB6316819D5254E00334193 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				F05C4A7E19D64D8300A97966 /* category */,
 				7CB6316919D5254E00334193 /* Controller */,
 			);
 			path = General;
@@ -314,6 +339,84 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F05C4A7E19D64D8300A97966 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A7F19D64D8300A97966 /* NSDictionary */,
+				F05C4A8219D64D8300A97966 /* NSString */,
+				F05C4A8519D64D8300A97966 /* QMCategory.h */,
+				F05C4A8619D64D8300A97966 /* UIButton */,
+				F05C4A8919D64D8300A97966 /* UIImage */,
+				F05C4A8C19D64D8300A97966 /* UILabel */,
+				F05C4A8F19D64D8300A97966 /* UITextField */,
+				F05C4A9219D64D8300A97966 /* UIView */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F05C4A7F19D64D8300A97966 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A8019D64D8300A97966 /* NSDictionary+QM_Category.h */,
+				F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		F05C4A8219D64D8300A97966 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A8319D64D8300A97966 /* NSString+QM_Category.h */,
+				F05C4A8419D64D8300A97966 /* NSString+QM_Category.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		F05C4A8619D64D8300A97966 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A8719D64D8300A97966 /* UIButton+QM_Category.h */,
+				F05C4A8819D64D8300A97966 /* UIButton+QM_Category.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		F05C4A8919D64D8300A97966 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A8A19D64D8300A97966 /* UIImage+QM_Category.h */,
+				F05C4A8B19D64D8300A97966 /* UIImage+QM_Category.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		F05C4A8C19D64D8300A97966 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A8D19D64D8300A97966 /* UILabel+QM_Category.h */,
+				F05C4A8E19D64D8300A97966 /* UILabel+QM_Category.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		F05C4A8F19D64D8300A97966 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A9019D64D8300A97966 /* UITextField+QM_Category.h */,
+				F05C4A9119D64D8300A97966 /* UITextField+QM_Category.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		F05C4A9219D64D8300A97966 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F05C4A9319D64D8300A97966 /* UIView+QM_Category.h */,
+				F05C4A9419D64D8300A97966 /* UIView+QM_Category.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -448,13 +551,20 @@
 			files = (
 				7CB6318C19D52C9A00334193 /* SecurityMainController.m in Sources */,
 				7CB6316E19D5254E00334193 /* ViewController.m in Sources */,
+				F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */,
 				7CB6318319D52A5600334193 /* PropertyMainController.m in Sources */,
 				7CB6318619D52C5300334193 /* LifeSupportMainController.m in Sources */,
 				7CB6318919D52C7400334193 /* SocialMainController.m in Sources */,
+				F05C4A9B19D64D8300A97966 /* UIView+QM_Category.m in Sources */,
 				7CB6317719D525B900334193 /* SignUpViewController01.m in Sources */,
+				F05C4A9719D64D8300A97966 /* UIButton+QM_Category.m in Sources */,
+				F05C4A9A19D64D8300A97966 /* UITextField+QM_Category.m in Sources */,
+				F05C4A9919D64D8300A97966 /* UILabel+QM_Category.m in Sources */,
 				7CB6317419D5259200334193 /* SignUpViewController.m in Sources */,
+				F05C4A9819D64D8300A97966 /* UIImage+QM_Category.m in Sources */,
 				F0F388CA19D6199400990797 /* QMNavigationController.m in Sources */,
 				7CD7F48119D4F425008D9141 /* AppDelegate.m in Sources */,
+				F05C4A9619D64D8300A97966 /* NSString+QM_Category.m in Sources */,
 				7CB6318F19D52CBE00334193 /* PersonalMainController.m in Sources */,
 				7CB6317A19D5264200334193 /* SignUpViewController02.m in Sources */,
 				2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */,

@@ -10,4 +10,16 @@
 
 @implementation SverviceBase
 
+
++ (SverviceBase *)shareInstance {
+    static SverviceBase *__singletion;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        __singletion=[[self alloc] init];
+        
+    });
+    return __singletion;
+}
+
+
 @end

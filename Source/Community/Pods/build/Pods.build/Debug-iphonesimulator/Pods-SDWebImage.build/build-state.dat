@@ -2,53 +2,53 @@ TPods-SDWebImage
 v6
 r1
 cCheck dependencies
-cProcessPCH /var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SDWebImage-prefix-eedqtxnrodbtclciuhijhlmrjnzc/Pods-SDWebImage-prefix.pch.pch Pods-SDWebImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SDWebImage-prefix-ckzgfzqndwuaxhcyrjkpdduqyxbi/Pods-SDWebImage-prefix.pch.pch Pods-SDWebImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/NSData+ImageContentType.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/Pods-SDWebImage-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-SDWebImage-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDImageCache.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDImageCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageCompat.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDecoder.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDownloader.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDownloaderOperation.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageManager.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImagePrefetcher.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIButton+WebCache.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImage+GIF.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+GIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImage+MultiFormat.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImageView+HighlightedWebCache.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImageView+WebCache.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIView+WebCacheOperation.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386
+cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SDWebImage-prefix-cttrfytamfjqouabsfmnikjtdqao/Pods-SDWebImage-prefix.pch.pch Pods-SDWebImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SDWebImage-prefix-hktscqtycuracgfbawyyqayisbtf/Pods-SDWebImage-prefix.pch.pch Pods-SDWebImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/NSData+ImageContentType.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/Pods-SDWebImage-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SDWebImage-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDImageCache.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDImageCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageCompat.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDecoder.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDownloader.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDownloaderOperation.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageManager.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImageManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImagePrefetcher.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIButton+WebCache.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImage+GIF.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+GIF.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImage+MultiFormat.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImageView+HighlightedWebCache.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImageView+WebCache.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIView+WebCacheOperation.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531F1F830000000000A90C10
-t1394548611
+c00000000531FD5B20000000000A90C10
+t1394595250
 s11078672
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-c00000000531F1F840000000000836810
-t1394548612
+c00000000531FD5B20000000000836810
+t1394595250
 s8611856
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053488F060000000000000198
-t1397264134
+c00000000534CA8C10000000000000198
+t1397532865
 s408
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531F1F9500000000000003B4
-t1394548629
+c00000000531FD5D600000000000003B4
+t1394595286
 s948
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F1F9A000000000000019E
-t1394548634
+c00000000531FD5E3000000000000019E
+t1394595299
 s414
 
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531F1FB50000000000000ADC
-t1394548661
+c00000000531FD64B0000000000000ADC
+t1394595403
 s2780
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-SDWebImage-dummy.m
@@ -441,73 +441,73 @@ t1411697966
 s1905
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a
-t1411705238
-s867224
+t1411864328
+s867688
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/NSData+ImageContentType.o
-t1411705236
-s9772
+t1411864328
+s9804
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/Pods-SDWebImage-dummy.o
-t1411705236
-s3508
+t1411864328
+s3540
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/Pods-SDWebImage.LinkFileList
-c000000005424E9940000000000000A3E
-t1411705236
+c00000000542759FD0000000000000A3E
+t1411865085
 s2622
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDImageCache.o
-t1411705237
-s148148
+t1411864328
+s148180
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageCompat.o
-t1411705237
-s11628
+t1411864328
+s11660
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDecoder.o
-t1411705237
-s12256
+t1411864328
+s12288
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDownloader.o
-t1411705237
-s70068
+t1411864328
+s70084
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageDownloaderOperation.o
-t1411705237
-s83468
+t1411864328
+s83500
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImageManager.o
-t1411705237
-s110888
+t1411864328
+s110920
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/SDWebImagePrefetcher.o
-t1411705237
-s45040
+t1411864328
+s45072
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIButton+WebCache.o
-t1411705238
-s119236
+t1411864328
+s119268
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImage+GIF.o
-t1411705238
-s21452
+t1411864328
+s21484
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImage+MultiFormat.o
-t1411705238
-s13264
+t1411864328
+s13296
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImageView+HighlightedWebCache.o
-t1411705238
-s71692
+t1411864328
+s71724
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIImageView+WebCache.o
-t1411705238
-s94352
+t1411864328
+s94384
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/UIView+WebCacheOperation.o
-t1411705238
-s46276
+t1411864328
+s46308
 
 N/var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SDWebImage-prefix-ckzgfzqndwuaxhcyrjkpdduqyxbi/Pods-SDWebImage-prefix.pch.pch
 t1411768196
@@ -617,7 +617,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5c02fc5fefd6b941^b133fd5fefd6b941^---0#1#1#--18"Check dependencies36"71E6C2DE-95FE-4AD6-998D-CA65D7B200EE-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfd4ce57c91d7b941^fa99127d91d7b941^---0#1#1#--18"Check dependencies36"0809911F-18E0-4663-8F90-1CA927426F84-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/NSData+ImageContentType.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460997.801191
@@ -1205,15 +1205,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Libtool
 b6509509E-F9DF-4CB4-9F8D-1EA3E27F2999
 
 CLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386
-s433398038.696150
-e433398038.747048
+s433557885.064218
+e433557885.147488
 r1
 xLibtool
 x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Libtool build/Debug-iphonesimulator/libPods-SDWebImage.a normal i38668"Libtool build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386a051b21621d5b941^ee3ebf1621d5b941^---0#0#1#--1075"Libtool build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/Pods-SDWebImage.LinkFileList -framework Foundation -framework ImageIO -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPo36"6BA7B722-07FF-42F0-9AF2-3747D2500772-
-b8AA8C84A-7066-4161-81DC-CD03E1B61C08
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Libtool build/Debug-iphonesimulator/libPods-SDWebImage.a normal i38668"Libtool build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386ad86107d91d7b941^74d4257d91d7b941^---0#0#1#--1075"Libtool build/Debug-iphonesimulator/libPods-SDWebImage.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SDWebImage.build/Objects-normal/i386/Pods-SDWebImage.LinkFileList -framework Foundation -framework ImageIO -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPo36"43E5A31D-01E1-4667-A412-381E4AF49C0D-
+b15FE3C74-4714-47CA-8124-3DC6DA5B3E3C
 
 CProcessPCH /Users/QiMengJin/Library/Developer/Xcode/DerivedData/Community-fdtzfhwdgtycrwbfviwullwlptwd/Index/PrecompiledHeaders/Pods-SDWebImage-prefix-dsyhqoihfqvdglgmyugcmaocogmo_ast/Pods-SDWebImage-prefix.pch.pch Pods-SDWebImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0

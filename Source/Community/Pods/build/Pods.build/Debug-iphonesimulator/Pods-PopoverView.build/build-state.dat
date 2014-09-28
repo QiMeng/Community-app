@@ -2,34 +2,34 @@ TPods-PopoverView
 v6
 r1
 cCheck dependencies
-cProcessPCH /var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-PopoverView-prefix-encryfcnlkzujkausxiupjpjqvzv/Pods-PopoverView-prefix.pch.pch Pods-PopoverView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-PopoverView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/PopoverView.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/PopoverView/PopoverView/PopoverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a normal i386
+cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-PopoverView-prefix-hbevvbkhewhojgadnhbainvcztwe/Pods-PopoverView-prefix.pch.pch Pods-PopoverView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-PopoverView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/PopoverView.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/PopoverView/PopoverView/PopoverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531F1F830000000000A90C10
-t1394548611
+c00000000531FD5B20000000000A90C10
+t1394595250
 s11078672
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053488F060000000000000198
-t1397264134
+c00000000534CA8C10000000000000198
+t1397532865
 s408
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531F1F9500000000000003B4
-t1394548629
+c00000000531FD5D600000000000003B4
+t1394595286
 s948
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F1F9A000000000000019E
-t1394548634
+c00000000531FD5E3000000000000019E
+t1394595299
 s414
 
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531F1FB50000000000000ADC
-t1394548661
+c00000000531FD64B0000000000000ADC
+t1394595403
 s2780
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-PopoverView-dummy.m
@@ -120,21 +120,21 @@ t1411697934
 s2873
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a
-t1411705236
-s191728
+t1411864328
+s191792
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView-dummy.o
-t1411705235
-s3516
+t1411864328
+s3548
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView.LinkFileList
-c000000005424E9920000000000000159
-t1411705234
+c00000000542759FC0000000000000159
+t1411865084
 s345
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/PopoverView.o
-t1411705236
-s187180
+t1411864328
+s187212
 
 N/var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-PopoverView-prefix-encryfcnlkzujkausxiupjpjqvzv/Pods-PopoverView-prefix.pch.pch
 t1411768196
@@ -158,7 +158,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfc00fc5fefd6b941^1824fd5fefd6b941^---0#1#1#--18"Check dependencies36"CC4A1C9B-7166-48C9-84C1-DF03A0CBE3DB-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies427ace7c91d7b941^b37adf7c91d7b941^---0#1#1#--18"Check dependencies36"3C6EA9C8-22C2-493B-A0DB-0B987B2CAA19-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-PopoverView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.627177
@@ -238,15 +238,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Libtool
 bB2850F78-6EC6-46E9-AF72-01FA8968F695
 
 CLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a normal i386
-s433398036.347123
-e433398036.357544
+s433557884.879591
+e433557884.893662
 r1
 xLibtool
 x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Libtool build/Debug-iphonesimulator/libPods-PopoverView.a normal i38669"Libtool build/Debug-iphonesimulator/libPods-PopoverView.a normal i386bff2581421d5b941^b7d25b1421d5b941^---0#0#1#--1060"Libtool build/Debug-iphonesimulator/libPods-PopoverView.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView.LinkFileList -framework Foundation -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPod36"7BF2FD8C-E503-4AA2-9BCA-EA95F3AFA1F7-
-b899F8A3B-CA9A-46F8-9CD1-9A1DBDCB26B1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Libtool build/Debug-iphonesimulator/libPods-PopoverView.a normal i38669"Libtool build/Debug-iphonesimulator/libPods-PopoverView.a normal i3867042e17c91d7b941^77d8e47c91d7b941^---0#0#1#--1060"Libtool build/Debug-iphonesimulator/libPods-PopoverView.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-PopoverView.build/Objects-normal/i386/Pods-PopoverView.LinkFileList -framework Foundation -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPod36"5B6E3F78-3EF7-4CD0-8A4E-B31801EF8964-
+b6D5AD4AF-A30C-4513-9AE4-CE7D6B309C2D
 
 CProcessPCH /Users/QiMengJin/Library/Developer/Xcode/DerivedData/Community-fdtzfhwdgtycrwbfviwullwlptwd/Index/PrecompiledHeaders/Pods-PopoverView-prefix-cstidpnhgqceeefhreglqmamvvkm_ast/Pods-PopoverView-prefix.pch.pch Pods-PopoverView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0

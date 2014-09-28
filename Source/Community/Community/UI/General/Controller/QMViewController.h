@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import <SVProgressHUD.h>
+
 @interface QMViewController : UIViewController
+
+//现实错误信息
+- (void)showErrorString:(NSString *)string;
 
 @end

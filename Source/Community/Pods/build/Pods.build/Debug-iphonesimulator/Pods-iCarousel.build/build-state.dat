@@ -2,40 +2,40 @@ TPods-iCarousel
 v6
 r1
 cCheck dependencies
-cProcessPCH /var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-iCarousel-prefix-ctcsihfpqphnxzgfrtwubewmcbao/Pods-iCarousel-prefix.pch.pch Pods-iCarousel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-iCarousel-prefix-btayvbtevejnqqbjigfylqsgvhgz/Pods-iCarousel-prefix.pch.pch Pods-iCarousel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-iCarousel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/iCarousel.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/iCarousel/iCarousel/iCarousel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a normal i386
+cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-iCarousel-prefix-dxoavsxwfroxrobjabjiuyemgord/Pods-iCarousel-prefix.pch.pch Pods-iCarousel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-iCarousel-prefix-gomhavutjwxstegzelvqerdrslvm/Pods-iCarousel-prefix.pch.pch Pods-iCarousel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-iCarousel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/iCarousel.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/iCarousel/iCarousel/iCarousel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531F1F830000000000A90C10
-t1394548611
+c00000000531FD5B20000000000A90C10
+t1394595250
 s11078672
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000531F1F850000000000649DB0
-t1394548613
+c00000000531FD5B40000000000649DB0
+t1394595252
 s6593968
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053488F060000000000000198
-t1397264134
+c00000000534CA8C10000000000000198
+t1397532865
 s408
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531F1F9500000000000003B4
-t1394548629
+c00000000531FD5D600000000000003B4
+t1394595286
 s948
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F1F9A000000000000019E
-t1394548634
+c00000000531FD5E3000000000000019E
+t1394595299
 s414
 
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531F1FB50000000000000ADC
-t1394548661
+c00000000531FD64B0000000000000ADC
+t1394595403
 s2780
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-environment.h
@@ -96,21 +96,21 @@ t1411698013
 s77
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a
-t1411705240
-s242200
+t1411864328
+s242264
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel-dummy.o
-t1411705239
-s3500
+t1411864328
+s3532
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel.LinkFileList
-c000000005424E9970000000000000151
-t1411705239
+c00000000542759FD0000000000000151
+t1411865085
 s337
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/iCarousel.o
-t1411705240
-s236128
+t1411864328
+s236160
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/iCarousel/iCarousel/iCarousel.h
 c000000005424CD5C0000000000001BEC
@@ -152,7 +152,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies31ec0060efd6b941^0c590160efd6b941^---0#1#1#--18"Check dependencies36"F49754F4-901E-4588-9AEF-AA67E22BF1B1-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0a683e7d91d7b941^88117e7d91d7b941^---0#1#1#--18"Check dependencies36"C1DCB28D-16BD-4480-AE01-231E05A8BE8B-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-iCarousel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433461000.542746
@@ -228,15 +228,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Libtool
 b6E83ECBA-B914-4929-A44C-C68915D69637
 
 CLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a normal i386
-s433398040.039599
-e433398040.049672
+s433557885.397052
+e433557885.415440
 r1
 xLibtool
 x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Libtool build/Debug-iphonesimulator/libPods-iCarousel.a normal i38667"Libtool build/Debug-iphonesimulator/libPods-iCarousel.a normal i38682390a1821d5b941^24b90c1821d5b941^---0#0#1#--1074"Libtool build/Debug-iphonesimulator/libPods-iCarousel.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel.LinkFileList -framework Foundation -framework QuartzCore -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libP36"F9680E22-6EC1-4CEA-B15B-61B7B877B264-
-bBEDF0CCF-6916-486C-A4DB-C0F55033642F
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Libtool build/Debug-iphonesimulator/libPods-iCarousel.a normal i38667"Libtool build/Debug-iphonesimulator/libPods-iCarousel.a normal i38666bc657d91d7b941^df187e7d91d7b941^---0#0#1#--1074"Libtool build/Debug-iphonesimulator/libPods-iCarousel.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-iCarousel.build/Objects-normal/i386/Pods-iCarousel.LinkFileList -framework Foundation -framework QuartzCore -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libP36"FB86CE4A-31EC-473E-A00F-FB6E88F8BDD9-
+b8D0B099C-DCEF-4B4A-9F99-429E7AC8A71F
 
 CProcessPCH /Users/QiMengJin/Library/Developer/Xcode/DerivedData/Community-fdtzfhwdgtycrwbfviwullwlptwd/Index/PrecompiledHeaders/Pods-iCarousel-prefix-eydrfikjnzquygeusnbsvapicgoz_ast/Pods-iCarousel-prefix.pch.pch Pods-iCarousel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0

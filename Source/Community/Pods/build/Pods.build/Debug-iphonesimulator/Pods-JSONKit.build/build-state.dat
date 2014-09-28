@@ -2,34 +2,34 @@ TPods-JSONKit
 v6
 r1
 cCheck dependencies
-cProcessPCH /var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-JSONKit-prefix-fxwfznswcbtcbwdnuiwirvspazdd/Pods-JSONKit-prefix.pch.pch Pods-JSONKit-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/JSONKit.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/Pods-JSONKit-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-JSONKit-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a normal i386
+cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-JSONKit-prefix-bslbrislzsbnmdftfazblujaawyj/Pods-JSONKit-prefix.pch.pch Pods-JSONKit-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/JSONKit.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/Pods-JSONKit-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-JSONKit-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531F1F830000000000A90C10
-t1394548611
+c00000000531FD5B20000000000A90C10
+t1394595250
 s11078672
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053488F060000000000000198
-t1397264134
+c00000000534CA8C10000000000000198
+t1397532865
 s408
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531F1F9500000000000003B4
-t1394548629
+c00000000531FD5D600000000000003B4
+t1394595286
 s948
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F1F9A000000000000019E
-t1394548634
+c00000000531FD5E3000000000000019E
+t1394595299
 s414
 
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531F1FB50000000000000ADC
-t1394548661
+c00000000531FD64B0000000000000ADC
+t1394595403
 s2780
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/JSONKit/JSONKit.h
@@ -100,20 +100,20 @@ t1411698013
 s4057
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a
-t1411705234
-s258608
+t1411864328
+s258688
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/JSONKit.o
-t1411705233
-s253548
+t1411864328
+s253596
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/Pods-JSONKit-dummy.o
-t1411705233
-s3484
+t1411864328
+s3516
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/Pods-JSONKit.LinkFileList
-c000000005424E9900000000000000149
-t1411705232
+c00000000542759FC0000000000000149
+t1411865084
 s329
 
 N/var/folders/7w/wm1kqcqj1kx4300_gqz3mq4w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-JSONKit-prefix-fxwfznswcbtcbwdnuiwirvspazdd/Pods-JSONKit-prefix.pch.pch
@@ -138,7 +138,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies45f4fb5fefd6b941^ec16fd5fefd6b941^---0#1#1#--18"Check dependencies36"FC84A452-E294-40B4-B2A7-B18AC2A24814-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies61fccc7c91d7b941^1a31df7c91d7b941^---0#1#1#--18"Check dependencies36"63E71552-CCC5-44D7-A997-3B37F9D21353-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/JSONKit.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.738508
@@ -680,15 +680,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Libtool
 bBB7443EB-B9EA-47BB-923D-46D0F33AA0C1
 
 CLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a normal i386
-s433398034.149205
-e433398034.162762
+s433557884.882239
+e433557884.897850
 r1
 xLibtool
 x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Libtool build/Debug-iphonesimulator/libPods-JSONKit.a normal i38665"Libtool build/Debug-iphonesimulator/libPods-JSONKit.a normal i386a94b261221d5b941^5a2f2a1221d5b941^---0#0#1#--1044"Libtool build/Debug-iphonesimulator/libPods-JSONKit.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/Pods-JSONKit.LinkFileList -framework Foundation -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/li36"FEDC39A3-9824-40E3-938A-8F43234F7C52-
-bD1C10D3B-1016-4A6B-8730-43E213699584
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Libtool build/Debug-iphonesimulator/libPods-JSONKit.a normal i38665"Libtool build/Debug-iphonesimulator/libPods-JSONKit.a normal i386c3f0e17c91d7b941^6ce9e57c91d7b941^---0#0#1#--1044"Libtool build/Debug-iphonesimulator/libPods-JSONKit.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-JSONKit.build/Objects-normal/i386/Pods-JSONKit.LinkFileList -framework Foundation -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/li36"72F0485F-B561-445A-B3FB-77AD0C8C7455-
+bEAB792EF-F6F9-4953-A927-118B7262DB4E
 
 CProcessPCH /Users/QiMengJin/Library/Developer/Xcode/DerivedData/Community-fdtzfhwdgtycrwbfviwullwlptwd/Index/PrecompiledHeaders/Pods-JSONKit-prefix-cwftrjsytmhtoogeetlxjvtxuplw_ast/Pods-JSONKit-prefix.pch.pch Pods-JSONKit-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0

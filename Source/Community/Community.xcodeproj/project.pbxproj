@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8A5C519D6345F000F98E8 /* SverviceBase.m */; };
+		7C4FC30719D79150005E81DA /* QMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4FC30619D79150005E81DA /* QMScrollView.m */; };
 		7CB6316E19D5254E00334193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6316C19D5254E00334193 /* ViewController.m */; };
 		7CB6317119D5256800334193 /* QMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317019D5256800334193 /* QMViewController.m */; };
 		7CB6317419D5259200334193 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317319D5259200334193 /* SignUpViewController.m */; };
@@ -58,6 +59,8 @@
 		2373A47D3A2949EABB6521B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2ED8A5C419D6345F000F98E8 /* SverviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SverviceBase.h; sourceTree = "<group>"; };
 		2ED8A5C519D6345F000F98E8 /* SverviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SverviceBase.m; sourceTree = "<group>"; };
+		7C4FC30519D79150005E81DA /* QMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMScrollView.h; sourceTree = "<group>"; };
+		7C4FC30619D79150005E81DA /* QMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMScrollView.m; sourceTree = "<group>"; };
 		7CB6316B19D5254E00334193 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7CB6316C19D5254E00334193 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CB6316F19D5256800334193 /* QMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMViewController.h; sourceTree = "<group>"; };
@@ -157,6 +160,15 @@
 				F002558819D76AE5000DBF25 /* QMUserInfo.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		7C4FC30419D79150005E81DA /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7C4FC30519D79150005E81DA /* QMScrollView.h */,
+				7C4FC30619D79150005E81DA /* QMScrollView.m */,
+			);
+			path = UIScrollView;
 			sourceTree = "<group>";
 		};
 		7CB6316719D5254E00334193 /* UI */ = {
@@ -349,6 +361,7 @@
 		F05C4A7E19D64D8300A97966 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				7C4FC30419D79150005E81DA /* UIScrollView */,
 				F05C4A7F19D64D8300A97966 /* NSDictionary */,
 				F05C4A8219D64D8300A97966 /* NSString */,
 				F05C4A8519D64D8300A97966 /* QMCategory.h */,
@@ -565,6 +578,7 @@
 				7CB6318919D52C7400334193 /* SocialMainController.m in Sources */,
 				F05C4A9B19D64D8300A97966 /* UIView+QM_Category.m in Sources */,
 				7CB6317719D525B900334193 /* SignUpViewController01.m in Sources */,
+				7C4FC30719D79150005E81DA /* QMScrollView.m in Sources */,
 				F05C4A9719D64D8300A97966 /* UIButton+QM_Category.m in Sources */,
 				F05C4A9A19D64D8300A97966 /* UITextField+QM_Category.m in Sources */,
 				F05C4A9919D64D8300A97966 /* UILabel+QM_Category.m in Sources */,

@@ -30,6 +30,10 @@
     
 }
 
+- (void)showErrorString:(NSString *)string {
+    [SVProgressHUD showErrorWithStatus:string];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

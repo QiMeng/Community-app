@@ -42,17 +42,24 @@
         [kQMUserInfo saveUserName:nameTextField.text Pws:pwsTextField.text];
         
         [self performSegueWithIdentifier:@"HomeViewController" sender:self];
-    }else {
-        
-        
     }
-    
     
 }
 
 - (IBAction)touchLogin:(id)sender {
     
-    [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
+    if (!nameTextField.text.length) {
+        
+        [self showErrorString:@"请输入账号"];
+    }else if (!pwsTextField.text.length) {
+       
+        [self showErrorString:@"请输入密码"];
+    }else {
+        
+        [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
+    }
+    
+    
 }
 
 

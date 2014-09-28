@@ -2,32 +2,32 @@ TPods
 v6
 r1
 cCheck dependencies
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods.a normal i386
+cCompileC build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531F1F830000000000A90C10
-t1394548611
+c00000000531FD5B20000000000A90C10
+t1394595250
 s11078672
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053488F060000000000000198
-t1397264134
+c00000000534CA8C10000000000000198
+t1397532865
 s408
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531F1F9500000000000003B4
-t1394548629
+c00000000531FD5D600000000000003B4
+t1394595286
 s948
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F1F9A000000000000019E
-t1394548634
+c00000000531FD5E3000000000000019E
+t1394595299
 s414
 
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531F1FB50000000000000ADC
-t1394548661
+c00000000531FD64B0000000000000ADC
+t1394595403
 s2780
 
 N/Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-dummy.m
@@ -109,71 +109,71 @@ t1411698014
 s112
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ASIHTTPRequest.a
-c000000005424E9950000000000168408
-t1411705237
-s1475592
+c00000000542759FC0000000000168738
+t1411865084
+s1476408
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ATMHud.a
-c000000005424E98E0000000000046FA8
-t1411705230
-s290728
+c00000000542759FB0000000000047060
+t1411865083
+s290912
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-FMDB.a
-c000000005424E9900000000000045CD8
-t1411705232
-s285912
+c00000000542759FC0000000000045DB0
+t1411865084
+s286128
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-JSONKit.a
-c000000005424E992000000000003F230
-t1411705234
-s258608
+c00000000542759FC000000000003F280
+t1411865084
+s258688
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-PopoverView.a
-c000000005424E994000000000002ECF0
-t1411705236
-s191728
+c00000000542759FC000000000002ED30
+t1411865084
+s191792
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-Reachability.a
-c000000005424E990000000000000B2C0
-t1411705232
-s45760
+c00000000542759FB000000000000B300
+t1411865083
+s45824
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SDWebImage.a
-c000000005424E99600000000000D3B98
-t1411705238
-s867224
+c00000000542759FD00000000000D3D68
+t1411865085
+s867688
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SIAlertView.a
-c000000005424E9960000000000039910
-t1411705238
-s235792
+c00000000542759FD0000000000039950
+t1411865085
+s235856
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SVProgressHUD.a
-c000000005424E99700000000000291F0
-t1411705239
-s168432
+c00000000542759FD0000000000029230
+t1411865085
+s168496
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-UIColor-Utilities.a
-c000000005424E997000000000001B658
-t1411705239
-s112216
+c00000000542759FD000000000001B6C0
+t1411865085
+s112320
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-iCarousel.a
-c000000005424E998000000000003B218
-t1411705240
-s242200
+c00000000542759FD000000000003B258
+t1411865085
+s242264
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods.a
-t1411705241
-s4176528
+t1411864328
+s4178712
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
 t1411705240
 s3180
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
-c000000005424E998000000000000009A
-t1411705240
+c00000000542759FD000000000000009A
+t1411865085
 s154
 
 CBuild AST from /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-dummy.m
@@ -184,7 +184,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7b4c0460efd6b941^016c0460efd6b941^---0#1#1#--18"Check dependencies36"F3591569-6298-48CE-959D-311C89E3DAE9-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9066bc7d91d7b941^ab40bd7d91d7b941^---0#1#1#--18"Check dependencies36"FDDB428B-6C25-410E-B79D-FBA766035D85-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -216,13 +216,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Libtool
 b4A80BDC3-D1C2-47F3-A844-8935DC60B62E
 
 CLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods.a normal i386
-s433398040.870475
-e433398041.217800
+s433557885.743672
+e433557886.195913
 r1
 xLibtool
 x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Libtool build/Debug-iphonesimulator/libPods.a normal i38657"Libtool build/Debug-iphonesimulator/libPods.a normal i386f1f0de1821d5b941^d7c3371921d5b941^---0#0#1#--1214"Libtool build/Debug-iphonesimulator/libPods.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-ASIHTTPRequest -lPods-ATMHud -lPods-FMDB -lPods-JSONKit -lPods-PopoverView -lPods-Reachability -lPods-SDWebImage -lPods-SIAlertView -lPods-SVProgressHUD -lPods-UIColor-Utilities -lPods-iCarousel -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimu36"FF1F4221-7D0F-4FF2-B840-3F8A1C30C6B3-
-b1FC73CF5-A8E1-4B61-87F8-811B4C3AF449
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Libtool build/Debug-iphonesimulator/libPods.a normal i38657"Libtool build/Debug-iphonesimulator/libPods.a normal i3865779be7d91d7b941^774b327e91d7b941^---0#0#1#--1214"Libtool build/Debug-iphonesimulator/libPods.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-ASIHTTPRequest -lPods-ATMHud -lPods-FMDB -lPods-JSONKit -lPods-PopoverView -lPods-Reachability -lPods-SDWebImage -lPods-SIAlertView -lPods-SVProgressHUD -lPods-UIColor-Utilities -lPods-iCarousel -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimu36"644E1BFA-AAE9-4463-9F7E-97E2FA116850-
+b19E4F807-3F43-42E3-82C4-DBBCA052CF97
 

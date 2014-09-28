@@ -33,6 +33,10 @@
 #pragma mark - 登录
 -(void)clientLogin:(NSString*)name password:(NSString*)pwd callBack:(id)callback {
     
+    
+    
+    
+    
     if (callback && [callback respondsToSelector:@selector(requestDidCode:msg:data:)] ) {
         
         if ([pwd isEqualToString:@"123"] && [name isEqualToString:@"123"]) {
@@ -45,6 +49,9 @@
 }
 #pragma mark - 注册
 - (void)clientSignupDic:(NSDictionary *)dic callBack:(id)callback {
+    
+
+    
     
     if (callback && [callback respondsToSelector:@selector(requestDidCode:msg:data:)] ) {
         

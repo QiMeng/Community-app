@@ -10,4 +10,17 @@
 
 @implementation Bulletin
 
++ (id)itemFromDic:(NSDictionary *)dic {
+    
+    Bulletin * item = [[Bulletin alloc]init];
+    
+    item.id = [[dic objectForKeyNotNull:@""] integerValue];
+    item.name = [dic objectForKeyNotNull:@""];
+    item.description = [dic objectForKeyNotNull:@""];
+    item.updateTime = [dic objectForKeyNotNull:@""];
+    
+    return item;
+}
+
+
 @end

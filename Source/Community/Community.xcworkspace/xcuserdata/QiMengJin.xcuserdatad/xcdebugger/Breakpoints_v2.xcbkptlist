@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Community/UI/Login/ViewController.m"
-            timestampString = "433548829.121763"
+            timestampString = "433607767.685257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "-requestDidFinish:"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-requestDidCode:msg:data:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

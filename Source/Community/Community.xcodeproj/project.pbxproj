@@ -35,6 +35,7 @@
 		7CD7F49C19D4F426008D9141 /* CommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7F49B19D4F426008D9141 /* CommunityTests.m */; };
 		A66641B669CF455BAAF2F54A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D951DF1DD041DB8D9D6A11 /* libPods.a */; };
 		F002558919D76AE5000DBF25 /* QMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F002558819D76AE5000DBF25 /* QMUserInfo.m */; };
+		F007166919D8518A00845A05 /* mydatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F007166819D8518A00845A05 /* mydatabase.sqlite */; };
 		F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */; };
 		F05C4A9619D64D8300A97966 /* NSString+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8419D64D8300A97966 /* NSString+QM_Category.m */; };
 		F05C4A9719D64D8300A97966 /* UIButton+QM_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C4A8819D64D8300A97966 /* UIButton+QM_Category.m */; };
@@ -104,6 +105,7 @@
 		B1D951DF1DD041DB8D9D6A11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F002558719D76AE5000DBF25 /* QMUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUserInfo.h; sourceTree = "<group>"; };
 		F002558819D76AE5000DBF25 /* QMUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUserInfo.m; sourceTree = "<group>"; };
+		F007166819D8518A00845A05 /* mydatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydatabase.sqlite; sourceTree = "<group>"; };
 		F05C4A8019D64D8300A97966 /* NSDictionary+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QM_Category.h"; sourceTree = "<group>"; };
 		F05C4A8119D64D8300A97966 /* NSDictionary+QM_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QM_Category.m"; sourceTree = "<group>"; };
 		F05C4A8319D64D8300A97966 /* NSString+QM_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QM_Category.h"; sourceTree = "<group>"; };
@@ -333,6 +335,7 @@
 				7CD7F47F19D4F425008D9141 /* AppDelegate.h */,
 				7CD7F48019D4F425008D9141 /* AppDelegate.m */,
 				7CD7F48219D4F426008D9141 /* Main.storyboard */,
+				F007166719D8518A00845A05 /* Resources */,
 				7C4FC30819D7AE7A005E81DA /* Model */,
 				2ED8A5C319D63433000F98E8 /* Services */,
 				7CB6316719D5254E00334193 /* UI */,
@@ -369,6 +372,14 @@
 				7CD7F49819D4F426008D9141 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F007166719D8518A00845A05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F007166819D8518A00845A05 /* mydatabase.sqlite */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F05C4A7E19D64D8300A97966 /* category */ = {
@@ -528,6 +539,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F007166919D8518A00845A05 /* mydatabase.sqlite in Resources */,
 				7CD7F48919D4F426008D9141 /* Images.xcassets in Resources */,
 				7CD7F47B19D4F425008D9141 /* InfoPlist.strings in Resources */,
 				7CD7F48419D4F426008D9141 /* Main.storyboard in Resources */,

@@ -21,20 +21,20 @@
 
 @interface SverviceBase : NSObject
 
-+ (SverviceBase *)shareInstance ;
++ (SverviceBase *) shareInstance;
 
-- (void)doRequest:(NSString*)interface paramer:(NSString*)paramer controller:(id)controller ;
+- (void) doRequest:(NSString*)interface paramer:(NSString*)paramer controller:(id)controller ;
 
 
 //登录
-- (void)clientLogin:(NSString*)name password:(NSString*)pwd callBack:(id)callback;
+- (void) clientLogin:(NSString*)name password:(NSString*)pwd callBack:(id)callback;
 
 //注册
-- (void)clientSignupDic:(NSDictionary *)dic callBack:(id)callback;
+- (void) clientSignupDic:(NSDictionary *)dic callBack:(id)callback;
 
 
 #pragma mark - 社区公告
-- (void)
+//- (void) 
 
 
 

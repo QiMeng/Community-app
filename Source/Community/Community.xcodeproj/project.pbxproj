@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8A5C519D6345F000F98E8 /* SverviceBase.m */; };
 		7C4FC30719D79150005E81DA /* QMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4FC30619D79150005E81DA /* QMScrollView.m */; };
+		7C4FC30B19D7AEAC005E81DA /* Bulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4FC30A19D7AEAC005E81DA /* Bulletin.m */; };
 		7CB6316E19D5254E00334193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6316C19D5254E00334193 /* ViewController.m */; };
 		7CB6317119D5256800334193 /* QMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317019D5256800334193 /* QMViewController.m */; };
 		7CB6317419D5259200334193 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317319D5259200334193 /* SignUpViewController.m */; };
@@ -61,6 +62,8 @@
 		2ED8A5C519D6345F000F98E8 /* SverviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SverviceBase.m; sourceTree = "<group>"; };
 		7C4FC30519D79150005E81DA /* QMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMScrollView.h; sourceTree = "<group>"; };
 		7C4FC30619D79150005E81DA /* QMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMScrollView.m; sourceTree = "<group>"; };
+		7C4FC30919D7AEAC005E81DA /* Bulletin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bulletin.h; sourceTree = "<group>"; };
+		7C4FC30A19D7AEAC005E81DA /* Bulletin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bulletin.m; sourceTree = "<group>"; };
 		7CB6316B19D5254E00334193 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7CB6316C19D5254E00334193 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CB6316F19D5256800334193 /* QMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMViewController.h; sourceTree = "<group>"; };
@@ -169,6 +172,15 @@
 				7C4FC30619D79150005E81DA /* QMScrollView.m */,
 			);
 			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		7C4FC30819D7AE7A005E81DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C4FC30919D7AEAC005E81DA /* Bulletin.h */,
+				7C4FC30A19D7AEAC005E81DA /* Bulletin.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7CB6316719D5254E00334193 /* UI */ = {
@@ -321,6 +333,7 @@
 				7CD7F47F19D4F425008D9141 /* AppDelegate.h */,
 				7CD7F48019D4F425008D9141 /* AppDelegate.m */,
 				7CD7F48219D4F426008D9141 /* Main.storyboard */,
+				7C4FC30819D7AE7A005E81DA /* Model */,
 				2ED8A5C319D63433000F98E8 /* Services */,
 				7CB6316719D5254E00334193 /* UI */,
 				7CD7F48819D4F426008D9141 /* Images.xcassets */,
@@ -569,6 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4FC30B19D7AEAC005E81DA /* Bulletin.m in Sources */,
 				7CB6318C19D52C9A00334193 /* SecurityMainController.m in Sources */,
 				7CB6316E19D5254E00334193 /* ViewController.m in Sources */,
 				F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */,

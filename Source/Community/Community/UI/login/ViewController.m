@@ -31,17 +31,18 @@
     [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
 }
 
-- (void)requestDidFinish:(id)sender {
+- (void)requestDidCode:(long)code msg:(NSString *)msg data:(id)sender{
     
     DLog(@"%@",sender);
     
-    if (sender) {
+    if (code == 200) {
         
         kQMUserInfo.userName = nameTextField.text;
         kQMUserInfo.userPws = pwsTextField.text;
         [kQMUserInfo saveUserName:nameTextField.text Pws:pwsTextField.text];
-        
         [self performSegueWithIdentifier:@"HomeViewController" sender:self];
+    }else {
+        [self showErrorString:msg];
     }
     
 }

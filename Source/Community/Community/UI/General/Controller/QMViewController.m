@@ -33,6 +33,11 @@
 - (void)showErrorString:(NSString *)string {
     [SVProgressHUD showErrorWithStatus:string];
 }
+- (void)showSuccessString:(NSString *)string {
+    
+    [SVProgressHUD showSuccessWithStatus:string];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

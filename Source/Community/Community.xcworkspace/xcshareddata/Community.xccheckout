@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C02F156-43AD-4514-9285-E452C175C67C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Community</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C1C61F2-961F-4B93-B22B-1AD2CF422488</key>
+		<string>https://github.com/QiMeng/Community-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Source/Community/Community.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C1C61F2-961F-4B93-B22B-1AD2CF422488</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/QiMeng/Community-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C1C61F2-961F-4B93-B22B-1AD2CF422488</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C1C61F2-961F-4B93-B22B-1AD2CF422488</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Community-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

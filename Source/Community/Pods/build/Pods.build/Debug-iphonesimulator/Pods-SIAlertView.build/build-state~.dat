@@ -1,170 +1,0 @@
-TPods-SIAlertView
-v6
-r1
-cCheck dependencies
-cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SIAlertView.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531FD5B20000000000A90C10
-t1394595250
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000531FD5B40000000000649DB0
-t1394595252
-s6593968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c00000000534CA8C10000000000000198
-t1397532865
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531FD5D600000000000003B4
-t1394595286
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531FD5E3000000000000019E
-t1394595299
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000531FD64B0000000000000ADC
-t1394595403
-s2780
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m
-c000000005424CD5D0000000000000088
-t1411698013
-s136
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch
-c000000005424CD5D000000000000004D
-t1411698013
-s77
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m
-c000000005424CD36000000000000962E
-t1411697974
-s38446
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SIAlertView.a
-t2
-s0
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o
-t1411705238
-s3516
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView.LinkFileList
-c000000005424E9950000000000000159
-t1411705237
-s345
-
-N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.o
-t1411705238
-s229680
-
-N/var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.pch
-t1411705238
-s133532
-
-N/var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.pch
-t1411705237
-s132584
-
-CBuild AST from /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m
-r0
-
-CBuild AST from /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0b47641521d5b941^7b6b701521d5b941^---0#1#1#--18"Check dependencies36"EF34EA3D-F189-4A0C-A287-74045F0C70F6-
-
-CCompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s433398038.212350
-e433398038.286763
-r1
-xCompileC
-xbuild/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o
-x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m208"CompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o Pods-SIAlertView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercb81361621d5b941^71ae491621d5b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/strongsoft/Documents/%E5%A4%96%E5%8C%85/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m0000000000000000^5086"CompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o Pods-SIAlertView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/strongsoft/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-generated-files.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-own-target-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-all-target-headers.hmap -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-project-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/include -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ASIHTTPRequest -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ATMHud -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/FMDB -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/JSONKit -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/PopoverView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/Reachability -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SDWebImage -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SVProgressHUD -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/UIColor-Utilities -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/iCarousel -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources/i386 -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources -F/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -include /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch -MMD -MT dependencies -MF /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.d --serialize-diagnostics /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.dia -c /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods36"E561FAD0-3056-472F-A586-934ADA3BBD95-
-bA2C84073-277C-42F9-95B7-02967173081A
-
-CCompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s433398038.287060
-e433398038.626361
-r1
-xCompileC
-xbuild/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.o
-x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m210"CompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.o SIAlertView/SIAlertView/SIAlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1aa3491621d5b941^7559a01621d5b941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/strongsoft/Documents/%E5%A4%96%E5%8C%85/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m0000000000000000^5102"CompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.o SIAlertView/SIAlertView/SIAlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/strongsoft/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-generated-files.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-own-target-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-all-target-headers.hmap -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-project-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/include -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ASIHTTPRequest -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ATMHud -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/FMDB -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/JSONKit -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/PopoverView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/Reachability -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SDWebImage -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SVProgressHUD -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/UIColor-Utilities -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/iCarousel -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources/i386 -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources -F/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch -MMD -MT dependencies -MF /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.d --serialize-diagnostics /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/SIAlertView.dia -c /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/SIAlertView/SIAlertView/SIAlertView.m -o /Users/strongsoft/Documents/外包/Community-app/Source/Com36"59D77B6A-24D4-49CE-9A50-633849EDBCBB-
-bA2C84073-277C-42F9-95B7-02967173081A
-
-CLibtool /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SIAlertView.a normal i386
-s433398038.627274
-e433398038.637258
-r1
-xLibtool
-x/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-SIAlertView.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Libtool build/Debug-iphonesimulator/libPods-SIAlertView.a normal i38669"Libtool build/Debug-iphonesimulator/libPods-SIAlertView.a normal i3862eaba01621d5b941^df36a31621d5b941^---0#0#1#--1082"Libtool build/Debug-iphonesimulator/libPods-SIAlertView.a normal i386    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -filelist /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView.LinkFileList -framework Foundation -framework QuartzCore -o /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPod36"D162A991-8FF1-404E-815D-858F09EFC9C5-
-bA2C84073-277C-42F9-95B7-02967173081A
-
-CProcessPCH /Users/strongsoft/Library/Developer/Xcode/DerivedData/Community-gqzgbzalftunoiffvpifutnysbyb/Index/PrecompiledHeaders/Pods-SIAlertView-prefix-dhqylkfqtcdccodkjyqvraisokoi_ast/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/strongsoft/Library/Developer/Xcode/DerivedData/Community-gqzgbzalftunoiffvpifutnysbyb/Index/PrecompiledHeaders/Pods-SIAlertView-prefix-grcqjetkrpderqbzuntagjgjvfjn_ast/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s433398037.922177
-e433398038.013864
-r1
-xProcessPCH
-x/var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.pch
-xPods-SIAlertView-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-SIAlertView-prefix.pch309"ProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera437ec1521d5b941^768c031621d5b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/strongsoft/Documents/%E5%A4%96%E5%8C%85/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch0000000000000000^5106"ProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/strongsoft/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-generated-files.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-own-target-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-all-target-headers.hmap -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-project-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/include -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ASIHTTPRequest -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ATMHud -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/FMDB -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/JSONKit -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/PopoverView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/Reachability -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SDWebImage -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SVProgressHUD -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/UIColor-Utilities -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/iCarousel -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources/i386 -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources -F/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.dia -MMD -MT dependencies -MF /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-arjvgwyhvgjjxxglmxbekzfdiaju/Pods-SIAlertView-prefix.pch.d -c /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch -o /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompi36"714C3E12-3C46-4762-88D5-F3377F6B756A-
-bA2C84073-277C-42F9-95B7-02967173081A
-
-CProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s433398037.742446
-e433398037.813758
-r1
-xProcessPCH
-x/var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.pch
-xPods-SIAlertView-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch
-d/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-SIAlertView-prefix.pch309"ProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2234be1521d5b941^807dd01521d5b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/strongsoft/Documents/%E5%A4%96%E5%8C%85/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch0000000000000000^5072"ProcessPCH /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.pch Pods-SIAlertView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/strongsoft/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-generated-files.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-own-target-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-all-target-headers.hmap -iquote /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Pods-SIAlertView-project-headers.hmap -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/include -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/BuildHeaders/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ASIHTTPRequest -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/ATMHud -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/FMDB -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/JSONKit -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/PopoverView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/Reachability -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SDWebImage -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SIAlertView -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/SVProgressHUD -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/UIColor-Utilities -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Headers/iCarousel -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources/i386 -I/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/DerivedSources -F/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.dia -MMD -MT dependencies -MF /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Pods-SIAlertView-prefix-bpzhxswqwiaeviaujwrhuiewrbhk/Pods-SIAlertView-prefix.pch.d -c /Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/Pods-SIAlertView-prefix.pch -o /var/folders/fl/3bp6_h6d63b1fjzgmg501jph0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompi36"2DE1CE5E-4ED7-4B5F-A867-5F58AB1AD57A-
-bA2C84073-277C-42F9-95B7-02967173081A
-

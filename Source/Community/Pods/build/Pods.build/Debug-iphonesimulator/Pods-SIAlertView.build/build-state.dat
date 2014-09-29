@@ -152,7 +152,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd68e7eb1e8d8b941^427bb9b1e8d8b941^---0#1#1#--18"Check dependencies36"D01AF382-F04C-45D0-A463-ED485D6BDFC5-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8a032c721dd9b941^ef0370721dd9b941^---0#1#1#--18"Check dependencies36"9A7928B9-E384-4EA0-B8AE-43892A3DF622-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-SIAlertView.build/Objects-normal/i386/Pods-SIAlertView-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-SIAlertView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460998.485642

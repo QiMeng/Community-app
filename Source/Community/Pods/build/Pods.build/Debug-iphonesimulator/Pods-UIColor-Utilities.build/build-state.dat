@@ -173,7 +173,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5472c6b1e8d8b941^1b65f5b1e8d8b941^---0#1#1#--18"Check dependencies36"4F31CC95-563C-4821-930F-1AC873A2FF1F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies15e07b721dd9b941^9be4b3721dd9b941^---0#1#1#--18"Check dependencies36"F6769FC6-1555-4AA4-A82E-BCA16C15B417-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-UIColor-Utilities.build/Objects-normal/i386/Pods-UIColor-Utilities-dummy.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/Pods-UIColor-Utilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433461000.385022

@@ -1063,7 +1063,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesec1221b1e8d8b941^630a3eb1e8d8b941^---0#1#1#--18"Check dependencies36"1D8DF651-2BE6-4985-AA1A-B9BE8C10CFC6-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc233b5711dd9b941^ee98ce711dd9b941^---0#1#1#--18"Check dependencies36"0434A6BE-B18A-4482-85F0-2C70CF9DE6A8-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-ASIHTTPRequest.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ASIHTTPRequest/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433461000.385180

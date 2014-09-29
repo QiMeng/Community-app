@@ -6,8 +6,6 @@
 //  Copyright (c) 2014年 QiMENG_LYS. All rights reserved.
 //
 
-// 社区黄页
-
 #import "PageViewController.h"
 #import "PageCell.h"
 #import "PageTelPhone.h"

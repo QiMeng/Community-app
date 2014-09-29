@@ -245,7 +245,7 @@ t1411698013
 s4057
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Debug-iphonesimulator/libPods-ATMHud.a
-t1411864328
+t1411865083
 s290912
 
 N/Users/strongsoft/Documents/外包/Community-app/Source/Community/Pods/build/Pods.build/Debug-iphonesimulator/Pods-ATMHud.build/Objects-normal/i386/ATMHud.o
@@ -333,7 +333,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies78976f7b91d7b941^6748cd7b91d7b941^---0#1#1#--18"Check dependencies36"3E33FA82-FFC5-4904-B580-A905CD519A5E-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies923ed5b0e8d8b941^f2ce19b1e8d8b941^---0#1#1#--18"Check dependencies36"9A926035-B471-426C-A59E-D2B7F064B2C7-
 
 CCompileC build/Pods.build/Debug-iphonesimulator/Pods-ATMHud.build/Objects-normal/i386/ATMHud.o /Users/QiMengJin/Documents/QiMeng_LYS/GitHub/Community-app/Source/Community/Pods/ATMHud/ATMHud.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s433460996.628532

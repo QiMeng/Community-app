@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8A5C519D6345F000F98E8 /* SverviceBase.m */; };
+		7C16576C19D8EB8400D09B6A /* BulletinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16576819D8EB8400D09B6A /* BulletinViewController.m */; };
+		7C16576D19D8EB8400D09B6A /* PropertyMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16576A19D8EB8400D09B6A /* PropertyMainController.m */; };
+		7C16577019D8EB9D00D09B6A /* BulletinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16576F19D8EB9D00D09B6A /* BulletinCell.m */; };
+		7C16577319D8EEF200D09B6A /* PageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16577219D8EEF200D09B6A /* PageCell.m */; };
+		7C16577619D8EF6C00D09B6A /* PageTelPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16577519D8EF6C00D09B6A /* PageTelPhone.m */; };
+		7C16577919D8F1A000D09B6A /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16577819D8F1A000D09B6A /* PageViewController.m */; };
+		7C16577C19D8F21C00D09B6A /* QMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16577B19D8F21C00D09B6A /* QMTableViewController.m */; };
 		7C4FC30719D79150005E81DA /* QMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4FC30619D79150005E81DA /* QMScrollView.m */; };
 		7C4FC30B19D7AEAC005E81DA /* Bulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4FC30A19D7AEAC005E81DA /* Bulletin.m */; };
 		7CB6316E19D5254E00334193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6316C19D5254E00334193 /* ViewController.m */; };
@@ -15,7 +22,6 @@
 		7CB6317419D5259200334193 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317319D5259200334193 /* SignUpViewController.m */; };
 		7CB6317719D525B900334193 /* SignUpViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317619D525B900334193 /* SignUpViewController01.m */; };
 		7CB6317A19D5264200334193 /* SignUpViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6317919D5264200334193 /* SignUpViewController02.m */; };
-		7CB6318319D52A5600334193 /* PropertyMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6318219D52A5600334193 /* PropertyMainController.m */; };
 		7CB6318619D52C5300334193 /* LifeSupportMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6318519D52C5300334193 /* LifeSupportMainController.m */; };
 		7CB6318919D52C7400334193 /* SocialMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6318819D52C7400334193 /* SocialMainController.m */; };
 		7CB6318C19D52C9A00334193 /* SecurityMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6318B19D52C9A00334193 /* SecurityMainController.m */; };
@@ -61,6 +67,20 @@
 		2373A47D3A2949EABB6521B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2ED8A5C419D6345F000F98E8 /* SverviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SverviceBase.h; sourceTree = "<group>"; };
 		2ED8A5C519D6345F000F98E8 /* SverviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SverviceBase.m; sourceTree = "<group>"; };
+		7C16576719D8EB8400D09B6A /* BulletinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinViewController.h; sourceTree = "<group>"; };
+		7C16576819D8EB8400D09B6A /* BulletinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinViewController.m; sourceTree = "<group>"; };
+		7C16576919D8EB8400D09B6A /* PropertyMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyMainController.h; sourceTree = "<group>"; };
+		7C16576A19D8EB8400D09B6A /* PropertyMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyMainController.m; sourceTree = "<group>"; };
+		7C16576E19D8EB9D00D09B6A /* BulletinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinCell.h; sourceTree = "<group>"; };
+		7C16576F19D8EB9D00D09B6A /* BulletinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinCell.m; sourceTree = "<group>"; };
+		7C16577119D8EEF200D09B6A /* PageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCell.h; sourceTree = "<group>"; };
+		7C16577219D8EEF200D09B6A /* PageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCell.m; sourceTree = "<group>"; };
+		7C16577419D8EF6C00D09B6A /* PageTelPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTelPhone.h; sourceTree = "<group>"; };
+		7C16577519D8EF6C00D09B6A /* PageTelPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTelPhone.m; sourceTree = "<group>"; };
+		7C16577719D8F1A000D09B6A /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		7C16577819D8F1A000D09B6A /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		7C16577A19D8F21C00D09B6A /* QMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMTableViewController.h; sourceTree = "<group>"; };
+		7C16577B19D8F21C00D09B6A /* QMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMTableViewController.m; sourceTree = "<group>"; };
 		7C4FC30519D79150005E81DA /* QMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMScrollView.h; sourceTree = "<group>"; };
 		7C4FC30619D79150005E81DA /* QMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMScrollView.m; sourceTree = "<group>"; };
 		7C4FC30919D7AEAC005E81DA /* Bulletin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bulletin.h; sourceTree = "<group>"; };
@@ -75,8 +95,6 @@
 		7CB6317619D525B900334193 /* SignUpViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController01.m; sourceTree = "<group>"; };
 		7CB6317819D5264200334193 /* SignUpViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController02.h; sourceTree = "<group>"; };
 		7CB6317919D5264200334193 /* SignUpViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController02.m; sourceTree = "<group>"; };
-		7CB6318119D52A5600334193 /* PropertyMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyMainController.h; sourceTree = "<group>"; };
-		7CB6318219D52A5600334193 /* PropertyMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyMainController.m; sourceTree = "<group>"; };
 		7CB6318419D52C5300334193 /* LifeSupportMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeSupportMainController.h; sourceTree = "<group>"; };
 		7CB6318519D52C5300334193 /* LifeSupportMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeSupportMainController.m; sourceTree = "<group>"; };
 		7CB6318719D52C7400334193 /* SocialMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMainController.h; sourceTree = "<group>"; };
@@ -167,6 +185,30 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		7C16576619D8EB8400D09B6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7C16576919D8EB8400D09B6A /* PropertyMainController.h */,
+				7C16576A19D8EB8400D09B6A /* PropertyMainController.m */,
+				7C16576719D8EB8400D09B6A /* BulletinViewController.h */,
+				7C16576819D8EB8400D09B6A /* BulletinViewController.m */,
+				7C16577719D8F1A000D09B6A /* PageViewController.h */,
+				7C16577819D8F1A000D09B6A /* PageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C16576B19D8EB8400D09B6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C16576E19D8EB9D00D09B6A /* BulletinCell.h */,
+				7C16576F19D8EB9D00D09B6A /* BulletinCell.m */,
+				7C16577119D8EEF200D09B6A /* PageCell.h */,
+				7C16577219D8EEF200D09B6A /* PageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7C4FC30419D79150005E81DA /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +223,8 @@
 			children = (
 				7C4FC30919D7AEAC005E81DA /* Bulletin.h */,
 				7C4FC30A19D7AEAC005E81DA /* Bulletin.m */,
+				7C16577419D8EF6C00D09B6A /* PageTelPhone.h */,
+				7C16577519D8EF6C00D09B6A /* PageTelPhone.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,6 +256,8 @@
 				7CB6317019D5256800334193 /* QMViewController.m */,
 				F0F388C819D6199400990797 /* QMNavigationController.h */,
 				F0F388C919D6199400990797 /* QMNavigationController.m */,
+				7C16577A19D8F21C00D09B6A /* QMTableViewController.h */,
+				7C16577B19D8F21C00D09B6A /* QMTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,8 +319,8 @@
 		7CB6317E19D529B300334193 /* Property */ = {
 			isa = PBXGroup;
 			children = (
-				7CB6318119D52A5600334193 /* PropertyMainController.h */,
-				7CB6318219D52A5600334193 /* PropertyMainController.m */,
+				7C16576619D8EB8400D09B6A /* Controller */,
+				7C16576B19D8EB8400D09B6A /* View */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -598,27 +644,33 @@
 				7CB6318C19D52C9A00334193 /* SecurityMainController.m in Sources */,
 				7CB6316E19D5254E00334193 /* ViewController.m in Sources */,
 				F05C4A9519D64D8300A97966 /* NSDictionary+QM_Category.m in Sources */,
-				7CB6318319D52A5600334193 /* PropertyMainController.m in Sources */,
 				7CB6318619D52C5300334193 /* LifeSupportMainController.m in Sources */,
 				F002558919D76AE5000DBF25 /* QMUserInfo.m in Sources */,
 				7CB6318919D52C7400334193 /* SocialMainController.m in Sources */,
+				7C16577C19D8F21C00D09B6A /* QMTableViewController.m in Sources */,
 				F05C4A9B19D64D8300A97966 /* UIView+QM_Category.m in Sources */,
+				7C16577019D8EB9D00D09B6A /* BulletinCell.m in Sources */,
 				7CB6317719D525B900334193 /* SignUpViewController01.m in Sources */,
+				7C16577319D8EEF200D09B6A /* PageCell.m in Sources */,
 				7C4FC30719D79150005E81DA /* QMScrollView.m in Sources */,
 				F05C4A9719D64D8300A97966 /* UIButton+QM_Category.m in Sources */,
 				F05C4A9A19D64D8300A97966 /* UITextField+QM_Category.m in Sources */,
 				F05C4A9919D64D8300A97966 /* UILabel+QM_Category.m in Sources */,
+				7C16576C19D8EB8400D09B6A /* BulletinViewController.m in Sources */,
 				7CB6317419D5259200334193 /* SignUpViewController.m in Sources */,
 				F05C4A9819D64D8300A97966 /* UIImage+QM_Category.m in Sources */,
 				F0F388CA19D6199400990797 /* QMNavigationController.m in Sources */,
 				7CD7F48119D4F425008D9141 /* AppDelegate.m in Sources */,
 				F05C4A9619D64D8300A97966 /* NSString+QM_Category.m in Sources */,
+				7C16577619D8EF6C00D09B6A /* PageTelPhone.m in Sources */,
 				7CB6318F19D52CBE00334193 /* PersonalMainController.m in Sources */,
+				7C16577919D8F1A000D09B6A /* PageViewController.m in Sources */,
 				7CB6317A19D5264200334193 /* SignUpViewController02.m in Sources */,
 				2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */,
 				7CB6317119D5256800334193 /* QMViewController.m in Sources */,
 				7CD7F47D19D4F425008D9141 /* main.m in Sources */,
 				F0F388C719D616ED00990797 /* HomeViewController.m in Sources */,
+				7C16576D19D8EB8400D09B6A /* PropertyMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

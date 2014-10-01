@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5E337419DBED00004FB873 /* RepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E337319DBED00004FB873 /* RepairViewController.m */; };
 		2ED8A5C619D6345F000F98E8 /* SverviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED8A5C519D6345F000F98E8 /* SverviceBase.m */; };
 		7C16576C19D8EB8400D09B6A /* BulletinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16576819D8EB8400D09B6A /* BulletinViewController.m */; };
 		7C16576D19D8EB8400D09B6A /* PropertyMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16576A19D8EB8400D09B6A /* PropertyMainController.m */; };
@@ -65,6 +66,8 @@
 
 /* Begin PBXFileReference section */
 		2373A47D3A2949EABB6521B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2E5E337219DBED00004FB873 /* RepairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairViewController.h; sourceTree = "<group>"; };
+		2E5E337319DBED00004FB873 /* RepairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairViewController.m; sourceTree = "<group>"; };
 		2ED8A5C419D6345F000F98E8 /* SverviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SverviceBase.h; sourceTree = "<group>"; };
 		2ED8A5C519D6345F000F98E8 /* SverviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SverviceBase.m; sourceTree = "<group>"; };
 		7C16576719D8EB8400D09B6A /* BulletinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinViewController.h; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 				7C16576819D8EB8400D09B6A /* BulletinViewController.m */,
 				7C16577719D8F1A000D09B6A /* PageViewController.h */,
 				7C16577819D8F1A000D09B6A /* PageViewController.m */,
+				2E5E337219DBED00004FB873 /* RepairViewController.h */,
+				2E5E337319DBED00004FB873 /* RepairViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -659,6 +664,7 @@
 				7C16576C19D8EB8400D09B6A /* BulletinViewController.m in Sources */,
 				7CB6317419D5259200334193 /* SignUpViewController.m in Sources */,
 				F05C4A9819D64D8300A97966 /* UIImage+QM_Category.m in Sources */,
+				2E5E337419DBED00004FB873 /* RepairViewController.m in Sources */,
 				F0F388CA19D6199400990797 /* QMNavigationController.m in Sources */,
 				7CD7F48119D4F425008D9141 /* AppDelegate.m in Sources */,
 				F05C4A9619D64D8300A97966 /* NSString+QM_Category.m in Sources */,

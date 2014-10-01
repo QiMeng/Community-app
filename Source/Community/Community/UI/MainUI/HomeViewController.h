@@ -18,9 +18,13 @@
     
     __weak IBOutlet UIView *securityView;   //安全
     
-    
     __weak IBOutlet UIButton *centerBtn;    //个人中心
     
+    NSInteger selectBtnNum;
+    
 }
+
+
+
 
 @end

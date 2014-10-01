@@ -60,5 +60,22 @@
                        selector:(SEL)selector
                autoresizingMask:(UIViewAutoresizing)autoresizingMask;
 
+/**
+ *  无字体,背景,选中
+ *
+ *  @param frame           <#frame description#>
+ *  @param normalBgImage   <#normalBgImage description#>
+ *  @param selectedBgImage <#selectedBgImage description#>
+ *  @param target          <#target description#>
+ *  @param selector        <#selector description#>
+ *
+ *  @return <#return value description#>
+ */
++ (UIButton * )allocButtonFrame:(CGRect )frame
+                  normalBgImage:(UIImage *)normalBgImage
+                selectedBgImage:(UIImage *)selectedBgImage
+                         target:(id)target
+                       selector:(SEL)selector;
+
 
 @end

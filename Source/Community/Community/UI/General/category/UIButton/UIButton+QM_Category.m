@@ -105,7 +105,30 @@
     return button;
 }
 
-
++ (UIButton * )allocButtonFrame:(CGRect )frame
+                  normalBgImage:(UIImage *)normalBgImage
+                selectedBgImage:(UIImage *)selectedBgImage
+                         target:(id)target
+                       selector:(SEL)selector {
+    
+    UIButton * btn= [UIButton allocButtonFrame:frame
+                                   normalTitle:@""
+                                 selectedTitle:@""
+                              normalTitleColor:nil
+                            selectedTitleColor:nil
+                               backgroundColor:[UIColor redColor]
+                                     titleFont:nil
+                                   normalImage:nil
+                                 selectedImage:nil
+                                 normalBgImage:normalBgImage
+                               selectedBgImage:selectedBgImage
+                                        target:target
+                                      selector:selector
+                              autoresizingMask:UIViewAutoresizingNone];
+    
+    return btn;
+    
+}
 
 
 

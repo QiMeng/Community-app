@@ -10,6 +10,7 @@
 
 @interface PersonalMainController ()
 
+
 @end
 
 @implementation PersonalMainController
@@ -22,14 +23,25 @@
     }
     return self;
 }
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.parentViewController.title = @"个人中心";
-}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"个人中心";
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
+    
+    
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning

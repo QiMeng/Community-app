@@ -40,7 +40,7 @@
         kQMUserInfo.userName = nameTextField.text;
         kQMUserInfo.userPws = pwsTextField.text;
         [kQMUserInfo saveUserName:nameTextField.text Pws:pwsTextField.text];
-        [self performSegueWithIdentifier:@"HomeViewController" sender:self];
+//        [self performSegueWithIdentifier:@"HomeViewController" sender:self];
     }else {
         [self showErrorString:msg];
     }

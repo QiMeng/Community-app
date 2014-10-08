@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 QiMENG_LYS. All rights reserved.
 //
 
-#import "QMViewController.h"
+#import "QMTableViewController.h"
 
-@interface PersonalMainController : QMViewController
+@interface PersonalMainController : QMTableViewController
 
 @end

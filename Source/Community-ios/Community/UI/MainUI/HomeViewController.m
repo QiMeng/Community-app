@@ -8,7 +8,7 @@
 
 #import "HomeViewController.h"
 
-#define kBottomBtnTag 100
+#define kTabBarTag 1000
 @interface HomeViewController ()
 
 @end
@@ -28,91 +28,60 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    selectBtnNum = -1;
-//    
-//    [self bottomDidLoad];
+    
+    [self hideRealTabBar];
+    
+    [self didTabBarItems:@[@"tab_property",@"tab_complete",@"tab_security",@"tab_sns",@"tab_personal"] backGroundImage:nil];
+}
+#pragma mark - 隐藏UITabBar
+- (void)hideRealTabBar{
+    
+    for(UIView *view in self.view.subviews){
+        NSLog(@"%@",view);
+        if([view isKindOfClass:[UITabBar class]]){
+            view.hidden = YES;
+            break;
+        }
+    }
 }
 
-#pragma mark - 底部选择控件
-- (void)bottomDidLoad {
+- (void)didTabBarItems:(NSArray *)items backGroundImage:(UIImage *)backGroundImage {
     
-    UIImageView * bottomView = [[UIImageView alloc]initWithFrame:CGRectMake(0, self.view.height - 49, self.view.width, 49)];
-    bottomView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleWidth;
-    bottomView.backgroundColor = [UIColor greenColor];
-    bottomView.userInteractionEnabled = YES;
-    [self.view addSubview:bottomView];
+    UIImageView * backGroundImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, self.view.bottom - self.tabBar.frame.size.height, self.tabBar.frame.size.width, self.tabBar.frame.size.height)];
+    [backGroundImageView setImage:backGroundImage];
+    backGroundImageView.backgroundColor = RGBA(255, 255, 255, 1);
+    backGroundImageView.userInteractionEnabled = YES;
+    [self.view addSubview:backGroundImageView];
     
-    NSInteger bottomNum = 5;
-    CGFloat bottomWidth = 1.0*self.view.width/bottomNum;
-    for (int i = 0 ; i < bottomNum ; i++) {
-        UIButton * btn = [UIButton allocButtonFrame:CGRectMake(i * bottomWidth, 0, bottomWidth-10, bottomView.height)
-                                      normalBgImage:nil
-                                    selectedBgImage:nil
-                                             target:self
-                                           selector:@selector(touchBottomBtn:)];
-        btn.tag = kBottomBtnTag + i;
-        [bottomView addSubview:btn];
+    UIImageView * lineView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, backGroundImageView.width, 1)];
+    lineView.backgroundColor = RGBA(155, 155, 155, 1);
+    [backGroundImageView addSubview:lineView];
+    
+    
+    float tabWidth = 1.0 * DEVICE_SCREEN_WIDTH/items.count;
+    for (int i=0; i<items.count; i++) {
+        UIButton * btn=[UIButton allocButtonFrame:CGRectMake(i*tabWidth, 0, tabWidth,  self.tabBar.frame.size.height)
+                                    normalBgImage:[UIImage imageNamed:items[i] ]
+                                  selectedBgImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@_hl",items[i]] ]
+                                           target:self
+                                         selector:@selector(touchTabBar:)];
+        [backGroundImageView addSubview:btn];
+        btn.tag=i+kTabBarTag;
     }
-    
-    
+    self.selectedIndex = 4;
+    ((UIButton*)[self.view viewWithTag:self.selectedIndex+kTabBarTag]).selected=YES;
 }
-#pragma mark - 点击底部按钮方法
-- (void)touchBottomBtn:(UIButton *)btn {
+
+- (void)touchTabBar:(UIButton *)btn {
     
-    NSInteger row = btn.tag - kBottomBtnTag;
-    
-    if (row == selectBtnNum) {
+    int currentSelect = btn.tag-kTabBarTag;
+    if (currentSelect == self.selectedIndex) {
         return;
     }
+    ((UIButton*)[self.view viewWithTag:self.selectedIndex+kTabBarTag]).selected=NO;
+    btn.selected = !btn.selected;
+    self.selectedIndex = currentSelect;
     
-    switch (row) {
-        case 0:
-        {
-            propertyView.hidden = NO;
-            lifeSupportView.hidden = YES;
-            socialView.hidden = YES;
-            securityView.hidden = YES;
-        }
-            break;
-        case 1:
-        {
-            propertyView.hidden = YES;
-            lifeSupportView.hidden = NO;
-            socialView.hidden = YES;
-            securityView.hidden = YES;
-        }
-            break;
-        case 2:
-        {
-            propertyView.hidden = YES;
-            lifeSupportView.hidden = YES;
-            socialView.hidden = NO;
-            securityView.hidden = YES;
-        }
-            break;
-        case 3:
-        {
-            propertyView.hidden = YES;
-            lifeSupportView.hidden = YES;
-            socialView.hidden = YES;
-            securityView.hidden = NO;
-        }
-            break;
-        default:
-            break;
-    }
-    
-    
-    
-    
-//    UIButton * rowBtn = (UIButton *)[self.view viewWithTag:selectBtnNum+kBottomBtnTag];
-//    if (rowBtn) {
-//        rowBtn.selected = NO;
-//    }
-    selectBtnNum = row;
-    btn.selected = YES;
-    
-    DLog(@"%d",selectBtnNum);
     
 }
 

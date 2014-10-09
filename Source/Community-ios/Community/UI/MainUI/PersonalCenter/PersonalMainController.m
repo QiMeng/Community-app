@@ -34,7 +34,7 @@
   
     _dataArray = [NSMutableArray arrayWithArray:@[@{@"icon": @"usercenter_icon_address",@"title":@"地点",@"id":@"address"},
                                                   @{@"icon": @"usercenter_icon_certification",@"title":@"认证",@"id":@""},
-                                                  @{@"icon": @"usercenter_icon_remaining",@"title":@"社区币:100",@"id":@""},
+                                                  @{@"icon": @"usercenter_icon_remaining",@"title":@"社区币:100",@"id":@"currency"},
                                                   @{@"icon": @"usercenter_icon_mall",@"title":@"社区商城",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_coupons",@"title":@"我的优惠劵",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_reply",@"title":@"回复",@"id":@""},
@@ -78,8 +78,8 @@
     cell.imageView.image = [UIImage imageNamed:[item objectForKeyNotNull:@"icon"]];
     
     cell.textLabel.text = [item objectForKeyNotNull:@"title"];
-    cell.textLabel.backgroundColor = [UIColor clearColor];
     
+    cell.textLabel.backgroundColor = [UIColor clearColor];
     
     return cell;
 }
@@ -93,6 +93,10 @@
     //意见反馈
     if ([idStr isEqualToString:@"Feedback"]) {
         [self performSegueWithIdentifier:@"FeedbackViewController" sender:self];
+    }
+    //社区币
+    else if ([idStr isEqualToString:@"currency"]) {
+        [self performSegueWithIdentifier:@"CurrencyViewController" sender:self];
     }
     
 }

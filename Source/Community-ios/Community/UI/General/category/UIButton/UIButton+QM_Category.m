@@ -116,7 +116,7 @@
                                  selectedTitle:@""
                               normalTitleColor:nil
                             selectedTitleColor:nil
-                               backgroundColor:[UIColor redColor]
+                               backgroundColor:nil
                                      titleFont:nil
                                    normalImage:nil
                                  selectedImage:nil

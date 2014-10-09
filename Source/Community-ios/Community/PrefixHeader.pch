@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  Community
+//
+//  Created by 永生刘 on 14/10/9.
+//  Copyright (c) 2014年 QiMENG. All rights reserved.
+//
+
+#ifndef Community_PrefixHeader_pch
+#define Community_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "QMCategory.h"
+#import "ServiceApi.h"
+
+
+#endif

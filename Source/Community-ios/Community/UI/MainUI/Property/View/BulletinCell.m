@@ -28,7 +28,7 @@
     [super layoutSubviews];
     
     nameLabel.text = _bulletin.name;
-    descriptionLabel.text = _bulletin.description;
+    descriptionLabel.text = _bulletin.subTitle;
     
 }
 

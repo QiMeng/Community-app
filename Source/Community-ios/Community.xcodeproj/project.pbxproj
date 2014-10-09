@@ -41,6 +41,8 @@
 		FF5C30C319E6B32B00DD942E /* sns_btn_dating_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C30AC19E6B32B00DD942E /* sns_btn_dating_nor@2x.png */; };
 		FF5C30C419E6B32B00DD942E /* sns_btn_group_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C30AD19E6B32B00DD942E /* sns_btn_group_hl@2x.png */; };
 		FF5C30C519E6B32B00DD942E /* sns_btn_group_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C30AE19E6B32B00DD942E /* sns_btn_group_nor@2x.png */; };
+		FF5C30C819E6BDCE00DD942E /* VerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C30C719E6BDCE00DD942E /* VerticalButton.m */; };
+		FF5C30CB19E6C18300DD942E /* PropertyMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C30CA19E6C18300DD942E /* PropertyMainController.m */; };
 		FF60D67719E69EF7002378A5 /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF60D67619E69EF7002378A5 /* CurrencyViewController.m */; };
 		FFA0644519E66B350021DC0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644319E66B350021DC0B /* Default-568h@2x.png */; };
 		FFA0644619E66B350021DC0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644419E66B350021DC0B /* Default@2x.png */; };
@@ -90,7 +92,6 @@
 		FFAC27CC19E621E700446313 /* PersonalMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC279C19E621E700446313 /* PersonalMainController.m */; };
 		FFAC27CD19E621E700446313 /* BulletinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27A019E621E700446313 /* BulletinViewController.m */; };
 		FFAC27CE19E621E700446313 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27A219E621E700446313 /* PageViewController.m */; };
-		FFAC27CF19E621E700446313 /* PropertyMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27A419E621E700446313 /* PropertyMainController.m */; };
 		FFAC27D019E621E700446313 /* RepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27A619E621E700446313 /* RepairViewController.m */; };
 		FFAC27D119E621E700446313 /* BulletinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27A919E621E700446313 /* BulletinCell.m */; };
 		FFAC27D219E621E700446313 /* PageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27AB19E621E700446313 /* PageCell.m */; };
@@ -148,6 +149,10 @@
 		FF5C30AC19E6B32B00DD942E /* sns_btn_dating_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_btn_dating_nor@2x.png"; sourceTree = "<group>"; };
 		FF5C30AD19E6B32B00DD942E /* sns_btn_group_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_btn_group_hl@2x.png"; sourceTree = "<group>"; };
 		FF5C30AE19E6B32B00DD942E /* sns_btn_group_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_btn_group_nor@2x.png"; sourceTree = "<group>"; };
+		FF5C30C619E6BDCE00DD942E /* VerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalButton.h; sourceTree = "<group>"; };
+		FF5C30C719E6BDCE00DD942E /* VerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalButton.m; sourceTree = "<group>"; };
+		FF5C30C919E6C18300DD942E /* PropertyMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyMainController.h; sourceTree = "<group>"; };
+		FF5C30CA19E6C18300DD942E /* PropertyMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyMainController.m; sourceTree = "<group>"; };
 		FF60D67519E69EF7002378A5 /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
 		FF60D67619E69EF7002378A5 /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
 		FFA0644319E66B350021DC0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -229,8 +234,6 @@
 		FFAC27A019E621E700446313 /* BulletinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinViewController.m; sourceTree = "<group>"; };
 		FFAC27A119E621E700446313 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		FFAC27A219E621E700446313 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		FFAC27A319E621E700446313 /* PropertyMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyMainController.h; sourceTree = "<group>"; };
-		FFAC27A419E621E700446313 /* PropertyMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyMainController.m; sourceTree = "<group>"; };
 		FFAC27A519E621E700446313 /* RepairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairViewController.h; sourceTree = "<group>"; };
 		FFAC27A619E621E700446313 /* RepairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairViewController.m; sourceTree = "<group>"; };
 		FFAC27A819E621E700446313 /* BulletinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinCell.h; sourceTree = "<group>"; };
@@ -552,6 +555,8 @@
 			children = (
 				FFAC277919E621E700446313 /* UIButton+QM_Category.h */,
 				FFAC277A19E621E700446313 /* UIButton+QM_Category.m */,
+				FF5C30C619E6BDCE00DD942E /* VerticalButton.h */,
+				FF5C30C719E6BDCE00DD942E /* VerticalButton.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -660,6 +665,8 @@
 		FFAC279D19E621E700446313 /* Property */ = {
 			isa = PBXGroup;
 			children = (
+				FF5C30C919E6C18300DD942E /* PropertyMainController.h */,
+				FF5C30CA19E6C18300DD942E /* PropertyMainController.m */,
 				FFAC279E19E621E700446313 /* Controller */,
 				FFAC27A719E621E700446313 /* View */,
 			);
@@ -673,8 +680,6 @@
 				FFAC27A019E621E700446313 /* BulletinViewController.m */,
 				FFAC27A119E621E700446313 /* PageViewController.h */,
 				FFAC27A219E621E700446313 /* PageViewController.m */,
-				FFAC27A319E621E700446313 /* PropertyMainController.h */,
-				FFAC27A419E621E700446313 /* PropertyMainController.m */,
 				FFAC27A519E621E700446313 /* RepairViewController.h */,
 				FFAC27A619E621E700446313 /* RepairViewController.m */,
 			);
@@ -925,7 +930,8 @@
 				FFAC27D319E621E700446313 /* SecurityMainController.m in Sources */,
 				FFAC27C619E621E700446313 /* QMNavigationController.m in Sources */,
 				FFAC27D219E621E700446313 /* PageCell.m in Sources */,
-				FFAC27CF19E621E700446313 /* PropertyMainController.m in Sources */,
+				FF5C30CB19E6C18300DD942E /* PropertyMainController.m in Sources */,
+				FF5C30C819E6BDCE00DD942E /* VerticalButton.m in Sources */,
 				FFAC27CC19E621E700446313 /* PersonalMainController.m in Sources */,
 				FFAC27CB19E621E700446313 /* LifeSupportMainController.m in Sources */,
 				FFA0646F19E680910021DC0B /* FeedbackViewController.m in Sources */,

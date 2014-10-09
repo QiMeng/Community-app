@@ -16,8 +16,8 @@
     
     item.id = [[dic objectForKeyNotNull:@""] integerValue];
     item.name = [dic objectForKeyNotNull:@"name"];
-    item.description = [dic objectForKeyNotNull:@"description"];
-    item.updateTime = [dic objectForKeyNotNull:@"updateTime"];
+    item.subTitle = [dic objectForKeyNotNull:@"subtitle"];
+    item.updateTime = [dic objectForKeyNotNull:@"updatetime"];
     
     return item;
 }

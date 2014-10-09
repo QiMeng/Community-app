@@ -59,17 +59,27 @@
 - (void) loadBulletinUserID:(NSString *)userID callBack:(id)callback {
     
     NSArray * list = @[[Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"description": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"789"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}],
-                       [Bulletin itemFromDic:@{@"name":@"456"}]];
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
+                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
+                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}]];
     
     if (callback && [callback respondsToSelector:@selector(loadBulletinListCallBack:msg:bulletinList:)] ) {
         

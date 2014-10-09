@@ -200,7 +200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eu9-np-GXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="466" y="-289"/>
+            <point key="canvasLocation" x="510" y="-965"/>
         </scene>
         <!--注册-->
         <scene sceneID="M4s-ld-1az">
@@ -298,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Xw-we-YVt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="818" y="-289"/>
+            <point key="canvasLocation" x="862" y="-965"/>
         </scene>
         <!--注册-->
         <scene sceneID="d8R-4U-eYb">
@@ -380,7 +380,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZnS-rY-qwE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1186" y="-289"/>
+            <point key="canvasLocation" x="1230" y="-965"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Aes-rs-csx">
@@ -398,7 +398,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdv-nF-P8U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73.599999999999994" y="-288.73333333333335"/>
+            <point key="canvasLocation" x="117" y="-965"/>
         </scene>
         <!--配套-->
         <scene sceneID="bjh-g6-cPN">
@@ -416,31 +416,48 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uvX-QW-Haa">
-                                        <rect key="frame" x="0.0" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="p7C-gi-a7i" customClass="VerticalButton">
+                                        <rect key="frame" x="0.0" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_notice_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="快递代收" image="complete_btn_courier_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="uAY-t2-MvN" kind="push" id="4R2-dP-8Bs"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="agb-Gm-zFr">
-                                        <rect key="frame" x="80" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="S0V-55-ARx" customClass="VerticalButton">
+                                        <rect key="frame" x="80" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_yellowpage_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="外卖" image="complete_btn_takeout_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="wKX-AA-Vdz" kind="push" id="4ab-mV-xLM"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SOa-hX-MpB">
-                                        <rect key="frame" x="160" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Kvq-LB-zIX" customClass="VerticalButton">
+                                        <rect key="frame" x="160" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_Pay_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="拼车" image="complete_btn_carpooling_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="JYx-dI-uyE" kind="push" id="gi6-u0-5cJ"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LOj-7M-Ija">
-                                        <rect key="frame" x="240" y="130" width="80" height="100"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DBI-tH-Lnc" customClass="VerticalButton">
+                                        <rect key="frame" x="240" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_maintenance_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="投诉报修" image="property_btn_maintenance_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -453,12 +470,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duD-RP-8Ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="1755"/>
+            <point key="canvasLocation" x="-248" y="1102"/>
         </scene>
         <!--物业-->
         <scene sceneID="uoh-rB-1Dz">
             <objects>
-                <viewController id="Ehy-Oo-xTg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PropertyMainController" id="Ehy-Oo-xTg" customClass="PropertyMainController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dd0-ge-ljM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -471,33 +488,57 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bjs-2e-QG5">
-                                        <rect key="frame" x="0.0" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bjs-2e-QG5" customClass="VerticalButton">
+                                        <rect key="frame" x="0.0" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_notice_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="社区公告" image="property_btn_notice_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <state key="highlighted" image="property_btn_notice_hl.png"/>
+                                        <connections>
+                                            <segue destination="IWl-4Y-0yM" kind="push" id="KDr-JO-PzE"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HDH-BQ-TYc">
-                                        <rect key="frame" x="80" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HDH-BQ-TYc" customClass="VerticalButton">
+                                        <rect key="frame" x="80" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_yellowpage_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="社区黄页" image="property_btn_yellowpage_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <state key="highlighted" image="property_btn_yellowpage_hl.png"/>
+                                        <connections>
+                                            <segue destination="vGt-IE-HqU" kind="push" id="jzu-so-ByE"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yEB-1P-C0U">
-                                        <rect key="frame" x="160" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yEB-1P-C0U" customClass="VerticalButton">
+                                        <rect key="frame" x="160" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_Pay_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="物业缴费" image="property_btn_Pay_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <state key="highlighted" image="property_btn_Pay_hl.png"/>
+                                        <connections>
+                                            <segue destination="Pbf-pH-4r6" kind="push" id="Nm8-Vq-1VA"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9VG-2k-5Mx">
-                                        <rect key="frame" x="240" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9VG-2k-5Mx" customClass="VerticalButton">
+                                        <rect key="frame" x="240" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_maintenance_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="投诉报修" image="property_btn_maintenance_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <state key="highlighted" image="property_btn_maintenance_hl.png"/>
+                                        <connections>
+                                            <segue destination="gXo-bt-zqY" kind="push" id="gfg-Kq-uFO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -508,7 +549,156 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="miZ-EG-ZAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-329" y="1755"/>
+            <point key="canvasLocation" x="-621" y="1102"/>
+        </scene>
+        <!--社区公告-->
+        <scene sceneID="64R-L8-DQk">
+            <objects>
+                <viewController storyboardIdentifier="BulletinViewController" id="IWl-4Y-0yM" customClass="BulletinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bde-cg-CZT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="VqI-vY-Pla">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BulletinCell" rowHeight="68" id="59N-eN-coh" customClass="BulletinCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="59N-eN-coh" id="aMs-ta-pWZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lq3-Kl-DO7">
+                                                    <rect key="frame" x="20" y="5" width="280" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                    <color key="textColor" red="0.43529411759999997" green="0.43529411759999997" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NBS-vW-Fa1">
+                                                    <rect key="frame" x="20" y="26" width="280" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="NBS-vW-Fa1" id="YhS-fA-gie"/>
+                                            <outlet property="nameLabel" destination="lq3-Kl-DO7" id="goz-UL-HYp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="IWl-4Y-0yM" id="rjo-vw-O3H"/>
+                                    <outlet property="delegate" destination="IWl-4Y-0yM" id="w2w-cO-J19"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="社区公告" id="hIn-mu-Wed"/>
+                    <connections>
+                        <outlet property="myTableView" destination="VqI-vY-Pla" id="YMS-gn-DWo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OT2-uc-0nM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1939" y="1912"/>
+        </scene>
+        <!--社区黄页-->
+        <scene sceneID="WoA-Y6-vln">
+            <objects>
+                <viewController id="vGt-IE-HqU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="suj-sy-6Gf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="社区黄页" id="hHZ-Na-nNa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXY-1U-h0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1442" y="1912"/>
+        </scene>
+        <!--物业缴费-->
+        <scene sceneID="Abf-7I-tXU">
+            <objects>
+                <viewController id="Pbf-pH-4r6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kYU-VW-LDs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="物业缴费" id="V39-HI-k6f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yXq-mR-X4i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1038" y="1912"/>
+        </scene>
+        <!--投诉报修-->
+        <scene sceneID="qay-f3-FUI">
+            <objects>
+                <viewController id="gXo-bt-zqY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fQV-Sa-7XJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="投诉报修" id="J7c-3K-8zG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7W-6B-tsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-646" y="1912"/>
+        </scene>
+        <!--快递代收-->
+        <scene sceneID="jId-jm-423">
+            <objects>
+                <viewController id="uAY-t2-MvN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v1E-6O-K7C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="快递代收" id="VNP-ZH-S7P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kk4-8b-CaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-646" y="2577"/>
+        </scene>
+        <!--外卖-->
+        <scene sceneID="Acl-0k-lFd">
+            <objects>
+                <viewController id="wKX-AA-Vdz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NLC-Li-0h2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="外卖" id="Nqg-N8-or0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6db-e9-Nj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="2577"/>
+        </scene>
+        <!--拼车-->
+        <scene sceneID="sZd-Vy-RWX">
+            <objects>
+                <viewController id="JYx-dI-uyE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C1a-jJ-kFr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="拼车" id="cmn-Mh-bKn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iXe-i7-ChW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150" y="2577"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="EB2-Br-NvK">
@@ -530,7 +720,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bwF-Gp-NJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-142.40000000000001" y="364.46666666666664"/>
+            <point key="canvasLocation" x="137" y="-289"/>
         </scene>
         <!--物业-->
         <scene sceneID="6nW-lr-0ir">
@@ -549,7 +739,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qvv-Si-cU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-329" y="1080"/>
+            <point key="canvasLocation" x="-621" y="427"/>
         </scene>
         <!--安全-->
         <scene sceneID="Chn-Pz-I1k">
@@ -559,7 +749,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pgw-UF-Wt4">
+                            <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pgw-UF-Wt4">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -567,31 +757,39 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aey-zL-UIC">
-                                        <rect key="frame" x="0.0" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y8f-Xs-WUG" customClass="VerticalButton">
+                                        <rect key="frame" x="0.0" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_notice_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="社区公告" image="property_btn_notice_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YtX-SL-VGZ">
-                                        <rect key="frame" x="80" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7K0-wY-Cad" customClass="VerticalButton">
+                                        <rect key="frame" x="80" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_yellowpage_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="社区黄页" image="property_btn_yellowpage_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e39-Nh-aY1">
-                                        <rect key="frame" x="160" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eSO-0y-YAH" customClass="VerticalButton">
+                                        <rect key="frame" x="160" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_Pay_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="物业缴费" image="property_btn_Pay_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VLb-ZR-u3b">
-                                        <rect key="frame" x="240" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JXt-d1-Kci" customClass="VerticalButton">
+                                        <rect key="frame" x="240" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_maintenance_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="投诉报修" image="property_btn_maintenance_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -604,7 +802,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z1U-SX-KRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="430" y="1755"/>
+            <point key="canvasLocation" x="138" y="1102"/>
+        </scene>
+        <!--论坛-->
+        <scene sceneID="onP-PJ-w1s">
+            <objects>
+                <viewController id="om9-6W-xQI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Unb-Yl-vmP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="论坛" id="sct-A9-x03"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIX-cA-e9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="1912"/>
+        </scene>
+        <!--群主-->
+        <scene sceneID="mIu-2l-m0V">
+            <objects>
+                <viewController id="pSW-8V-P18" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mSq-c1-ckJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="群主" id="HEn-Nw-CVr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ORg-Nb-wdK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510" y="1912"/>
+        </scene>
+        <!--交友-->
+        <scene sceneID="uqR-sg-VHw">
+            <objects>
+                <viewController id="C32-pg-FwG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U4x-ub-mqB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="交友" id="7Lp-AS-mm0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KNa-Rz-mD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="1912"/>
         </scene>
         <!--配套-->
         <scene sceneID="KKz-KS-qN2">
@@ -623,7 +866,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rLA-XK-7A2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="1080"/>
+            <point key="canvasLocation" x="-248" y="427"/>
         </scene>
         <!--安全-->
         <scene sceneID="3tf-Qg-bwj">
@@ -642,7 +885,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x1o-mK-Gcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="430" y="1080"/>
+            <point key="canvasLocation" x="138" y="427"/>
         </scene>
         <!--社交-->
         <scene sceneID="bre-rj-xhp">
@@ -660,31 +903,48 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Vgo-Rh-tyx">
-                                        <rect key="frame" x="0.0" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IfZ-Ug-75g" customClass="VerticalButton">
+                                        <rect key="frame" x="0.0" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_notice_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="论坛" image="sns_btn_bbs_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="om9-6W-xQI" kind="push" id="1Om-No-phv"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EcD-46-M2U">
-                                        <rect key="frame" x="80" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cfp-bG-JNm" customClass="VerticalButton">
+                                        <rect key="frame" x="80" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_yellowpage_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="群主" image="sns_btn_group_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="pSW-8V-P18" kind="push" id="osB-lP-zk6"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6YI-Zf-naE">
-                                        <rect key="frame" x="160" y="130" width="80" height="100"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oe0-5v-acr" customClass="VerticalButton">
+                                        <rect key="frame" x="160" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_Pay_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="交友" image="sns_btn_dating_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="C32-pg-FwG" kind="push" id="wxr-uc-jli"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="utD-mC-k0G">
-                                        <rect key="frame" x="240" y="130" width="80" height="100"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JZQ-bF-j9P" customClass="VerticalButton">
+                                        <rect key="frame" x="240" y="138" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="property_btn_maintenance_nor.png">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="投诉报修" image="property_btn_maintenance_nor.png">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -697,7 +957,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rP9-99-52R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="809" y="1699"/>
+            <point key="canvasLocation" x="517" y="1102"/>
         </scene>
         <!--社区-->
         <scene sceneID="hpU-9K-aOw">
@@ -716,7 +976,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPk-D6-m9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="809" y="1080"/>
+            <point key="canvasLocation" x="517" y="427"/>
         </scene>
         <!--个人中心-->
         <scene sceneID="g7r-Ir-RKw">
@@ -808,7 +1068,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5O-Fx-nKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1186" y="1755"/>
+            <point key="canvasLocation" x="894" y="1114"/>
         </scene>
         <!--我的社区币-->
         <scene sceneID="QIT-yN-ynQ">
@@ -843,7 +1103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qp-Fs-NnK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1818" y="1563"/>
+            <point key="canvasLocation" x="1490" y="882"/>
         </scene>
         <!--关于社区币-->
         <scene sceneID="ctr-14-dpp">
@@ -922,7 +1182,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZj-N0-yko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2254" y="1569"/>
+            <point key="canvasLocation" x="1926" y="882"/>
         </scene>
         <!--意见反馈-->
         <scene sceneID="EW7-0j-gT0">
@@ -968,7 +1228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyD-20-fid" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1818" y="2185"/>
+            <point key="canvasLocation" x="1490" y="1504"/>
         </scene>
         <!--个人-->
         <scene sceneID="NA5-I7-eWV">
@@ -987,17 +1247,27 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Nn-1j-oIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1186" y="1080"/>
+            <point key="canvasLocation" x="894" y="427"/>
         </scene>
     </scenes>
     <resources>
         <image name="complete_banner.png" width="320" height="130"/>
+        <image name="complete_btn_carpooling_nor.png" width="53" height="53"/>
+        <image name="complete_btn_courier_nor.png" width="53" height="53"/>
+        <image name="complete_btn_takeout_nor.png" width="53" height="53"/>
         <image name="property_banner.png" width="320" height="130"/>
+        <image name="property_btn_Pay_hl.png" width="53" height="53"/>
         <image name="property_btn_Pay_nor.png" width="53" height="53"/>
+        <image name="property_btn_maintenance_hl.png" width="53" height="53"/>
         <image name="property_btn_maintenance_nor.png" width="53" height="53"/>
+        <image name="property_btn_notice_hl.png" width="53" height="53"/>
         <image name="property_btn_notice_nor.png" width="53" height="53"/>
+        <image name="property_btn_yellowpage_hl.png" width="53" height="53"/>
         <image name="property_btn_yellowpage_nor.png" width="53" height="53"/>
         <image name="sns_banner.png" width="320" height="130"/>
+        <image name="sns_btn_bbs_nor.png" width="53" height="53"/>
+        <image name="sns_btn_dating_nor.png" width="53" height="53"/>
+        <image name="sns_btn_group_nor.png" width="53" height="53"/>
         <image name="usercenter_icon_man.png" width="15" height="15"/>
         <image name="usercenter_img_headportrait.png" width="63" height="63"/>
         <image name="usercenter_img_infobg.png" width="320" height="110"/>

@@ -13,7 +13,7 @@
 
 @property (nonatomic, assign) NSInteger id;          //公告id
 @property (nonatomic, copy) NSString * name;    //标题
-@property (nonatomic, copy) NSString * description;//简介
+@property (nonatomic, copy) NSString * subTitle;//简介
 @property (nonatomic, copy) NSString * updateTime;  //最新时间
 
 + (id)itemFromDic:(NSDictionary *)dic;

@@ -35,10 +35,10 @@
     _dataArray = [NSMutableArray arrayWithArray:@[@{@"icon": @"usercenter_icon_address",@"title":@"地点",@"id":@"address"},
                                                   @{@"icon": @"usercenter_icon_certification",@"title":@"认证",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_remaining",@"title":@"社区币:100",@"id":@"currency"},
-                                                  @{@"icon": @"usercenter_icon_mall",@"title":@"社区商城",@"id":@""},
+                                                  @{@"icon": @"usercenter_icon_mall",@"title":@"社区商城",@"id":@"mall"},
                                                   @{@"icon": @"usercenter_icon_coupons",@"title":@"我的优惠劵",@"id":@""},
-                                                  @{@"icon": @"usercenter_icon_reply",@"title":@"回复",@"id":@""},
-                                                  @{@"icon": @"usercenter_icon_collection",@"title":@"收藏",@"id":@""},
+                                                  @{@"icon": @"usercenter_icon_reply",@"title":@"回复",@"id":@"posts"},
+                                                  @{@"icon": @"usercenter_icon_collection",@"title":@"收藏",@"id":@"favorites"},
                                                   @{@"icon": @"usercenter_icon_post",@"title":@"帖子",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_activity",@"title":@"活动",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_vote",@"title":@"投票",@"id":@""},
@@ -97,6 +97,20 @@
     //社区币
     else if ([idStr isEqualToString:@"currency"]) {
         [self performSegueWithIdentifier:@"CurrencyViewController" sender:self];
+    }
+    //商城
+    else if ([idStr isEqualToString:@"mall"]) {
+        [self performSegueWithIdentifier:@"MallViewController" sender:self];
+    }
+    //收藏
+    else if ([idStr isEqualToString:@"favorites"]) {
+        
+        [self performSegueWithIdentifier:@"FavoritesViewController" sender:self];
+    }
+    //帖子
+    else if ([idStr isEqualToString:@"posts"]) {
+        
+        [self performSegueWithIdentifier:@"PostsViewController" sender:self];
     }
     
 }

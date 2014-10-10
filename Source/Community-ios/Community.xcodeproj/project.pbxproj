@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63FCEE471F19FA799E374DC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9612C62F88E1CEBDBD8D45A /* libPods.a */; };
+		FF4D716419E75F0A009CC122 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */; };
 		FF5C308B19E6A42100DD942E /* tab_complete_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308119E6A42100DD942E /* tab_complete_hl@2x.png */; };
 		FF5C308C19E6A42100DD942E /* tab_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308219E6A42100DD942E /* tab_complete@2x.png */; };
 		FF5C308D19E6A42100DD942E /* tab_personal_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308319E6A42100DD942E /* tab_personal_hl@2x.png */; };
@@ -44,6 +45,9 @@
 		FF5C30C819E6BDCE00DD942E /* VerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C30C719E6BDCE00DD942E /* VerticalButton.m */; };
 		FF5C30CB19E6C18300DD942E /* PropertyMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C30CA19E6C18300DD942E /* PropertyMainController.m */; };
 		FF60D67719E69EF7002378A5 /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF60D67619E69EF7002378A5 /* CurrencyViewController.m */; };
+		FF75EBE219E77BE60028FD9B /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE119E77BE60028FD9B /* MallViewController.m */; };
+		FF75EBE519E77CBE0028FD9B /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */; };
+		FF75EBE819E77F360028FD9B /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE719E77F360028FD9B /* PostsViewController.m */; };
 		FFA0644519E66B350021DC0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644319E66B350021DC0B /* Default-568h@2x.png */; };
 		FFA0644619E66B350021DC0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644419E66B350021DC0B /* Default@2x.png */; };
 		FFA0644A19E676550021DC0B /* usercenter_img_headportrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */; };
@@ -100,6 +104,9 @@
 		FFAC27D519E621E700446313 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B419E621E700446313 /* SignUpViewController.m */; };
 		FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B619E621E700446313 /* SignUpViewController01.m */; };
 		FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B819E621E700446313 /* SignUpViewController02.m */; };
+		FFFF840A19E7ADF0007ACA2B /* MallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840919E7ADF0007ACA2B /* MallCell.m */; };
+		FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */; };
+		FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840F19E7B84D007ACA2B /* PaymentCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +123,8 @@
 		C9612C62F88E1CEBDBD8D45A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0402F693E2B78ED9B6341F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E76C98CEC9F33672B6AFE3D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FF4D716219E75F0A009CC122 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
 		FF5C308119E6A42100DD942E /* tab_complete_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_complete_hl@2x.png"; sourceTree = "<group>"; };
 		FF5C308219E6A42100DD942E /* tab_complete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_complete@2x.png"; sourceTree = "<group>"; };
 		FF5C308319E6A42100DD942E /* tab_personal_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_personal_hl@2x.png"; sourceTree = "<group>"; };
@@ -155,6 +164,12 @@
 		FF5C30CA19E6C18300DD942E /* PropertyMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyMainController.m; sourceTree = "<group>"; };
 		FF60D67519E69EF7002378A5 /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
 		FF60D67619E69EF7002378A5 /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
+		FF75EBE019E77BE60028FD9B /* MallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallViewController.h; sourceTree = "<group>"; };
+		FF75EBE119E77BE60028FD9B /* MallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallViewController.m; sourceTree = "<group>"; };
+		FF75EBE319E77CBE0028FD9B /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		FF75EBE619E77F360028FD9B /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
+		FF75EBE719E77F360028FD9B /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
 		FFA0644319E66B350021DC0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FFA0644419E66B350021DC0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usercenter_img_headportrait@2x.png"; sourceTree = "<group>"; };
@@ -251,6 +266,12 @@
 		FFAC27B719E621E700446313 /* SignUpViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController02.h; sourceTree = "<group>"; };
 		FFAC27B819E621E700446313 /* SignUpViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController02.m; sourceTree = "<group>"; };
 		FFAC27D819E625F600446313 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FFFF840819E7ADF0007ACA2B /* MallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallCell.h; sourceTree = "<group>"; };
+		FFFF840919E7ADF0007ACA2B /* MallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallCell.m; sourceTree = "<group>"; };
+		FFFF840B19E7B7F1007ACA2B /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		FFFF840E19E7B84D007ACA2B /* PaymentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentCell.h; sourceTree = "<group>"; };
+		FFFF840F19E7B84D007ACA2B /* PaymentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +399,8 @@
 			children = (
 				FFA0645119E6798D0021DC0B /* PersonalHeaderCell.h */,
 				FFA0645219E6798D0021DC0B /* PersonalHeaderCell.m */,
+				FFFF840819E7ADF0007ACA2B /* MallCell.h */,
+				FFFF840919E7ADF0007ACA2B /* MallCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -389,6 +412,14 @@
 				FFA0646E19E680910021DC0B /* FeedbackViewController.m */,
 				FF60D67519E69EF7002378A5 /* CurrencyViewController.h */,
 				FF60D67619E69EF7002378A5 /* CurrencyViewController.m */,
+				FF4D716219E75F0A009CC122 /* PersonalInfoViewController.h */,
+				FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */,
+				FF75EBE019E77BE60028FD9B /* MallViewController.h */,
+				FF75EBE119E77BE60028FD9B /* MallViewController.m */,
+				FF75EBE319E77CBE0028FD9B /* FavoritesViewController.h */,
+				FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */,
+				FF75EBE619E77F360028FD9B /* PostsViewController.h */,
+				FF75EBE719E77F360028FD9B /* PostsViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -682,6 +713,8 @@
 				FFAC27A219E621E700446313 /* PageViewController.m */,
 				FFAC27A519E621E700446313 /* RepairViewController.h */,
 				FFAC27A619E621E700446313 /* RepairViewController.m */,
+				FFFF840B19E7B7F1007ACA2B /* PaymentViewController.h */,
+				FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -693,6 +726,8 @@
 				FFAC27A919E621E700446313 /* BulletinCell.m */,
 				FFAC27AA19E621E700446313 /* PageCell.h */,
 				FFAC27AB19E621E700446313 /* PageCell.m */,
+				FFFF840E19E7B84D007ACA2B /* PaymentCell.h */,
+				FFFF840F19E7B84D007ACA2B /* PaymentCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -915,6 +950,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF75EBE219E77BE60028FD9B /* MallViewController.m in Sources */,
 				FFAC27C219E621E700446313 /* UILabel+QM_Category.m in Sources */,
 				FF60D67719E69EF7002378A5 /* CurrencyViewController.m in Sources */,
 				FFAC27C419E621E700446313 /* UITextField+QM_Category.m in Sources */,
@@ -927,12 +963,15 @@
 				FFAC27D519E621E700446313 /* SignUpViewController.m in Sources */,
 				FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */,
 				FFAC27D119E621E700446313 /* BulletinCell.m in Sources */,
+				FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */,
 				FFAC27D319E621E700446313 /* SecurityMainController.m in Sources */,
 				FFAC27C619E621E700446313 /* QMNavigationController.m in Sources */,
 				FFAC27D219E621E700446313 /* PageCell.m in Sources */,
 				FF5C30CB19E6C18300DD942E /* PropertyMainController.m in Sources */,
 				FF5C30C819E6BDCE00DD942E /* VerticalButton.m in Sources */,
 				FFAC27CC19E621E700446313 /* PersonalMainController.m in Sources */,
+				FFFF840A19E7ADF0007ACA2B /* MallCell.m in Sources */,
+				FF4D716419E75F0A009CC122 /* PersonalInfoViewController.m in Sources */,
 				FFAC27CB19E621E700446313 /* LifeSupportMainController.m in Sources */,
 				FFA0646F19E680910021DC0B /* FeedbackViewController.m in Sources */,
 				FFAC27CE19E621E700446313 /* PageViewController.m in Sources */,
@@ -943,12 +982,15 @@
 				FFAC27C119E621E700446313 /* UIImage+QM_Category.m in Sources */,
 				FFAC27BC19E621E700446313 /* QMUserInfo.m in Sources */,
 				FFA0645319E6798D0021DC0B /* PersonalHeaderCell.m in Sources */,
+				FF75EBE519E77CBE0028FD9B /* FavoritesViewController.m in Sources */,
 				FFAC273D19E61BEE00446313 /* AppDelegate.m in Sources */,
 				FFAC27C819E621E700446313 /* QMViewController.m in Sources */,
 				FFAC27D419E621E700446313 /* SocialMainController.m in Sources */,
 				FFAC27C319E621E700446313 /* QMScrollView.m in Sources */,
 				FFAC273A19E61BEE00446313 /* main.m in Sources */,
+				FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */,
 				FFAC27BD19E621E700446313 /* SverviceBase.m in Sources */,
+				FF75EBE819E77F360028FD9B /* PostsViewController.m in Sources */,
 				FFAC27C519E621E700446313 /* UIView+QM_Category.m in Sources */,
 				FFAC274019E61BEE00446313 /* Community.xcdatamodeld in Sources */,
 				FFAC27D019E621E700446313 /* RepairViewController.m in Sources */,

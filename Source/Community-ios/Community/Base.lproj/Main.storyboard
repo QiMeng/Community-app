@@ -773,7 +773,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="8CE0A7CF-7F7B-40AC-AC05-FCD2B4CF1C94"/>
+                                        <state key="highlighted" image="41CB1F67-6485-43AE-94E6-401D4F40F2A2"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="y5C-f7-A1S"/>
                                         </connections>
@@ -786,7 +786,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="EDF48B1D-5BF0-48AD-88BF-48548EDBA701"/>
+                                        <state key="highlighted" image="EF3F534E-C3E4-483E-B39A-05E356B92294"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="Til-LE-8El"/>
                                         </connections>
@@ -799,7 +799,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="8644C816-EC4F-436D-8840-DB0F7DB34E6D"/>
+                                        <state key="highlighted" image="363F1444-44FC-477B-9D66-7AB7AE9BC029"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="Lx5-lh-PjD"/>
                                         </connections>
@@ -812,7 +812,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="CE8A6ADF-3DBD-4B51-89BC-5D86B06BA427"/>
+                                        <state key="highlighted" image="DE6D43AC-3959-4597-8FF3-606663CC9A83"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="wCR-ke-zkf"/>
                                         </connections>
@@ -825,7 +825,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="8CE0A7CF-7F7B-40AC-AC05-FCD2B4CF1C94"/>
+                                        <state key="highlighted" image="41CB1F67-6485-43AE-94E6-401D4F40F2A2"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="0NG-yh-Zoj"/>
                                         </connections>
@@ -838,7 +838,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="EDF48B1D-5BF0-48AD-88BF-48548EDBA701"/>
+                                        <state key="highlighted" image="EF3F534E-C3E4-483E-B39A-05E356B92294"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="WK9-N1-Kmg"/>
                                         </connections>
@@ -851,7 +851,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="8644C816-EC4F-436D-8840-DB0F7DB34E6D"/>
+                                        <state key="highlighted" image="363F1444-44FC-477B-9D66-7AB7AE9BC029"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="Bbd-We-WSs"/>
                                         </connections>
@@ -864,7 +864,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="CE8A6ADF-3DBD-4B51-89BC-5D86B06BA427"/>
+                                        <state key="highlighted" image="DE6D43AC-3959-4597-8FF3-606663CC9A83"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="ukc-IL-blK"/>
                                         </connections>
@@ -877,7 +877,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="8CE0A7CF-7F7B-40AC-AC05-FCD2B4CF1C94"/>
+                                        <state key="highlighted" image="41CB1F67-6485-43AE-94E6-401D4F40F2A2"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="at6-BG-KxH"/>
                                         </connections>
@@ -890,7 +890,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="EDF48B1D-5BF0-48AD-88BF-48548EDBA701"/>
+                                        <state key="highlighted" image="EF3F534E-C3E4-483E-B39A-05E356B92294"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="h7i-bO-SxE"/>
                                         </connections>
@@ -903,7 +903,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="8644C816-EC4F-436D-8840-DB0F7DB34E6D"/>
+                                        <state key="highlighted" image="363F1444-44FC-477B-9D66-7AB7AE9BC029"/>
                                         <connections>
                                             <action selector="touchButton:" destination="vGt-IE-HqU" eventType="touchUpInside" id="Boo-FH-c4P"/>
                                         </connections>
@@ -2329,7 +2329,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="8644C816-EC4F-436D-8840-DB0F7DB34E6D" width="53" height="53">
+        <image name="363F1444-44FC-477B-9D66-7AB7AE9BC029" width="53" height="53">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2567,7 +2567,7 @@ QzVMNV81YzV2NYE1ijWPNZc1mjWfNa41sjW5NcE1zjXTNdU11zXcNeQ15zXsNfQ19zYJNgw2EQAAAAAA
 AAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAADYTA
 </mutableData>
         </image>
-        <image name="8CE0A7CF-7F7B-40AC-AC05-FCD2B4CF1C94" width="53" height="53">
+        <image name="41CB1F67-6485-43AE-94E6-401D4F40F2A2" width="53" height="53">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2805,7 +2805,7 @@ QzVMNV81YzV2NYE1ijWPNZc1mjWfNa41sjW5NcE1zjXTNdU11zXcNeQ15zXsNfQ19zYJNgw2EQAAAAAA
 AAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAADYTA
 </mutableData>
         </image>
-        <image name="CE8A6ADF-3DBD-4B51-89BC-5D86B06BA427" width="53" height="53">
+        <image name="DE6D43AC-3959-4597-8FF3-606663CC9A83" width="53" height="53">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -3043,7 +3043,7 @@ QzVMNV81YzV2NYE1ijWPNZc1mjWfNa41sjW5NcE1zjXTNdU11zXcNeQ15zXsNfQ19zYJNgw2EQAAAAAA
 AAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAADYTA
 </mutableData>
         </image>
-        <image name="EDF48B1D-5BF0-48AD-88BF-48548EDBA701" width="53" height="53">
+        <image name="EF3F534E-C3E4-483E-B39A-05E356B92294" width="53" height="53">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

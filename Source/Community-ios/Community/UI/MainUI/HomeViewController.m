@@ -29,7 +29,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self hideRealTabBar];
+//    [self hideRealTabBar];
     
     [self didTabBarItems:@[@"tab_property",@"tab_complete",@"tab_security",@"tab_sns",@"tab_personal"] backGroundImage:nil];
 }
@@ -47,16 +47,12 @@
 
 - (void)didTabBarItems:(NSArray *)items backGroundImage:(UIImage *)backGroundImage {
     
-    UIImageView * backGroundImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, self.view.bottom - self.tabBar.frame.size.height, self.tabBar.frame.size.width, self.tabBar.frame.size.height)];
+    UIImageView * backGroundImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.tabBar.frame.size.width, self.tabBar.frame.size.height)];
     [backGroundImageView setImage:backGroundImage];
     backGroundImageView.backgroundColor = RGBA(255, 255, 255, 1);
     backGroundImageView.userInteractionEnabled = YES;
-    [self.view addSubview:backGroundImageView];
-    
-    UIImageView * lineView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, backGroundImageView.width, 1)];
-    lineView.backgroundColor = RGBA(155, 155, 155, 1);
-    [backGroundImageView addSubview:lineView];
-    
+    [self.tabBar.viewForBaselineLayout addSubview:backGroundImageView];
+
     
     float tabWidth = 1.0 * DEVICE_SCREEN_WIDTH/items.count;
     for (int i=0; i<items.count; i++) {
@@ -65,9 +61,15 @@
                                   selectedBgImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@_hl",items[i]] ]
                                            target:self
                                          selector:@selector(touchTabBar:)];
+        btn.backgroundColor = [UIColor greenColor];
         [backGroundImageView addSubview:btn];
         btn.tag=i+kTabBarTag;
     }
+    
+    UIImageView * lineView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, backGroundImageView.width, 1)];
+    lineView.backgroundColor = RGBA(155, 155, 155, 1);
+    [backGroundImageView addSubview:lineView];
+    
     self.selectedIndex = 4;
     ((UIButton*)[self.view viewWithTag:self.selectedIndex+kTabBarTag]).selected=YES;
 }

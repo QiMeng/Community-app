@@ -61,7 +61,6 @@
                                   selectedBgImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@_hl",items[i]] ]
                                            target:self
                                          selector:@selector(touchTabBar:)];
-        btn.backgroundColor = [UIColor greenColor];
         [backGroundImageView addSubview:btn];
         btn.tag=i+kTabBarTag;
     }
@@ -70,7 +69,7 @@
     lineView.backgroundColor = RGBA(155, 155, 155, 1);
     [backGroundImageView addSubview:lineView];
     
-    self.selectedIndex = 4;
+    self.selectedIndex = 2;
     ((UIButton*)[self.view viewWithTag:self.selectedIndex+kTabBarTag]).selected=YES;
 }
 

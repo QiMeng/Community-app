@@ -115,6 +115,7 @@
 		FFFF842819E8139B007ACA2B /* ExpressViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF842719E8139B007ACA2B /* ExpressViewController01.m */; };
 		FFFF842D19E820DA007ACA2B /* TakeoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF842C19E820DA007ACA2B /* TakeoutViewController.m */; };
 		FFFF843019E82120007ACA2B /* TakeoutViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF842F19E82120007ACA2B /* TakeoutViewController01.m */; };
+		FFFF843419E82C7A007ACA2B /* CarpoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF843319E82C7A007ACA2B /* CarpoolViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,6 +296,8 @@
 		FFFF842C19E820DA007ACA2B /* TakeoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeoutViewController.m; sourceTree = "<group>"; };
 		FFFF842E19E82120007ACA2B /* TakeoutViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeoutViewController01.h; sourceTree = "<group>"; };
 		FFFF842F19E82120007ACA2B /* TakeoutViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeoutViewController01.m; sourceTree = "<group>"; };
+		FFFF843219E82C7A007ACA2B /* CarpoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolViewController.h; sourceTree = "<group>"; };
+		FFFF843319E82C7A007ACA2B /* CarpoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -838,6 +841,7 @@
 		FFFF842119E81171007ACA2B /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				FFFF843119E82C5C007ACA2B /* 拼车 */,
 				FFFF842A19E820AE007ACA2B /* 外卖 */,
 				FFFF842919E8209F007ACA2B /* 快递代收 */,
 			);
@@ -871,6 +875,15 @@
 				FFFF842F19E82120007ACA2B /* TakeoutViewController01.m */,
 			);
 			name = "外卖";
+			sourceTree = "<group>";
+		};
+		FFFF843119E82C5C007ACA2B /* 拼车 */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF843219E82C7A007ACA2B /* CarpoolViewController.h */,
+				FFFF843319E82C7A007ACA2B /* CarpoolViewController.m */,
+			);
+			name = "拼车";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1110,6 +1123,7 @@
 				FFAC27BD19E621E700446313 /* SverviceBase.m in Sources */,
 				FF75EBE819E77F360028FD9B /* PostsViewController.m in Sources */,
 				FFAC27C519E621E700446313 /* UIView+QM_Category.m in Sources */,
+				FFFF843419E82C7A007ACA2B /* CarpoolViewController.m in Sources */,
 				FFAC274019E61BEE00446313 /* Community.xcdatamodeld in Sources */,
 				FFAC27D019E621E700446313 /* RepairViewController.m in Sources */,
 			);

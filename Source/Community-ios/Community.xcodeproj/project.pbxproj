@@ -107,6 +107,8 @@
 		FFFF840A19E7ADF0007ACA2B /* MallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840919E7ADF0007ACA2B /* MallCell.m */; };
 		FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */; };
 		FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840F19E7B84D007ACA2B /* PaymentCell.m */; };
+		FFFF841319E7CA43007ACA2B /* BulletinDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */; };
+		FFFF841619E7CB95007ACA2B /* icon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF841519E7CB95007ACA2B /* icon_left@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -272,6 +274,9 @@
 		FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
 		FFFF840E19E7B84D007ACA2B /* PaymentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentCell.h; sourceTree = "<group>"; };
 		FFFF840F19E7B84D007ACA2B /* PaymentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentCell.m; sourceTree = "<group>"; };
+		FFFF841119E7CA43007ACA2B /* BulletinDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinDetailViewController.h; sourceTree = "<group>"; };
+		FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinDetailViewController.m; sourceTree = "<group>"; };
+		FFFF841519E7CB95007ACA2B /* icon_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_left@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +510,7 @@
 			children = (
 				FFA0644319E66B350021DC0B /* Default-568h@2x.png */,
 				FFA0644419E66B350021DC0B /* Default@2x.png */,
+				FFFF841419E7CB95007ACA2B /* nav */,
 				FF5C309519E6B32B00DD942E /* lifesupport */,
 				FF5C309D19E6B32B00DD942E /* property */,
 				FF5C30A719E6B32B00DD942E /* security */,
@@ -709,6 +715,8 @@
 			children = (
 				FFAC279F19E621E700446313 /* BulletinViewController.h */,
 				FFAC27A019E621E700446313 /* BulletinViewController.m */,
+				FFFF841119E7CA43007ACA2B /* BulletinDetailViewController.h */,
+				FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */,
 				FFAC27A119E621E700446313 /* PageViewController.h */,
 				FFAC27A219E621E700446313 /* PageViewController.m */,
 				FFAC27A519E621E700446313 /* RepairViewController.h */,
@@ -761,6 +769,14 @@
 				FFAC27B819E621E700446313 /* SignUpViewController02.m */,
 			);
 			path = Signup;
+			sourceTree = "<group>";
+		};
+		FFFF841419E7CB95007ACA2B /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF841519E7CB95007ACA2B /* icon_left@2x.png */,
+			);
+			path = nav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -856,6 +872,7 @@
 				FF5C30C119E6B32B00DD942E /* sns_btn_bbs_nor@2x.png in Resources */,
 				FFA0646519E67B870021DC0B /* usercenter_icon_coupons@2x.png in Resources */,
 				FFA0646419E67B870021DC0B /* usercenter_icon_collection@2x.png in Resources */,
+				FFFF841619E7CB95007ACA2B /* icon_left@2x.png in Resources */,
 				FF5C30B619E6B32B00DD942E /* property_banner@2x.png in Resources */,
 				FF5C30B919E6B32B00DD942E /* property_btn_notice_hl@2x.png in Resources */,
 				FFA0644619E66B350021DC0B /* Default@2x.png in Resources */,
@@ -953,6 +970,7 @@
 				FF75EBE219E77BE60028FD9B /* MallViewController.m in Sources */,
 				FFAC27C219E621E700446313 /* UILabel+QM_Category.m in Sources */,
 				FF60D67719E69EF7002378A5 /* CurrencyViewController.m in Sources */,
+				FFFF841319E7CA43007ACA2B /* BulletinDetailViewController.m in Sources */,
 				FFAC27C419E621E700446313 /* UITextField+QM_Category.m in Sources */,
 				FFAC27C719E621E700446313 /* QMTableViewController.m in Sources */,
 				FFAC27CA19E621E700446313 /* HomeViewController.m in Sources */,

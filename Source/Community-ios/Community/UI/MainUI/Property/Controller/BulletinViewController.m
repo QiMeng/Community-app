@@ -5,10 +5,9 @@
 //  Created by QiMENG on 14-9-29.
 //  Copyright (c) 2014年 QiMENG_LYS. All rights reserved.
 
-//  社区公告
-
 #import "BulletinViewController.h"
 #import "BulletinCell.h"
+#import "BulletinDetailViewController.h"
 @interface BulletinViewController ()
 
 @property (nonatomic, strong) NSMutableArray * list;
@@ -57,6 +56,11 @@
     cell.bulletin = _list[indexPath.row];
     
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [self performSegueWithIdentifier:@"BulletinDetailViewController" sender:self];
+    
 }
 
 

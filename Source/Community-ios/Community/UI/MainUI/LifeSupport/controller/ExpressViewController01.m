@@ -1,30 +1,22 @@
 //
-//  BulletinDetailViewController.m
+//  ExpressViewController01.m
 //  Community
 //
 //  Created by 永生刘 on 14/10/10.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "BulletinDetailViewController.h"
+#import "ExpressViewController01.h"
 
-@interface BulletinDetailViewController ()
+@interface ExpressViewController01 ()
 
 @end
 
-@implementation BulletinDetailViewController
+@implementation ExpressViewController01
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    if (_bulletin) {
-        self.title = _bulletin.name;
-        
-        subLabel.text = _bulletin.subTitle;
-        
-//        [subLabel ]
-    }
 }
 
 - (void)didReceiveMemoryWarning {

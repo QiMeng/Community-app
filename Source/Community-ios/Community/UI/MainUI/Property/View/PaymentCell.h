@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol PaymentCellDelegate <NSObject>
+- (void)paymentCall:(id)sender;
+@end
+
+
 @interface PaymentCell : UITableViewCell
+
+@property (assign) id<PaymentCellDelegate> delegate;
 
 @end

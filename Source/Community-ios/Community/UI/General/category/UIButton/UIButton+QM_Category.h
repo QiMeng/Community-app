@@ -77,5 +77,18 @@
                          target:(id)target
                        selector:(SEL)selector;
 
+/**
+ *  有文字,image , 选中
+ */
++ (UIButton * )allocButtonFrame:(CGRect )frame
+                    normalTitle:(NSString *)normalTitle
+                  selectedTitle:(NSString *)selectedTitle
+               normalTitleColor:(UIColor *)normalTitleColor
+             selectedTitleColor:(UIColor *)selectedTitleColor
+                    normalImage:(UIImage *)normalImage
+                  selectedImage:(UIImage *)selectedImage
+                         target:(id)target
+                       selector:(SEL)selector;
+
 
 @end

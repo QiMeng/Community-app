@@ -6,9 +6,14 @@
 //  Copyright (c) 2014年 QiMENG_LYS. All rights reserved.
 //
 // 社区黄页
-#import "QMTableViewController.h"
+#import "QMViewController.h"
 
-@interface PageViewController : QMTableViewController
-@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+@interface PageViewController : QMViewController {
+    
+    __weak IBOutlet UIScrollView *myScrollView;
+    
+    
+    
+}
 
 @end

@@ -109,6 +109,10 @@
 		FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840F19E7B84D007ACA2B /* PaymentCell.m */; };
 		FFFF841319E7CA43007ACA2B /* BulletinDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */; };
 		FFFF841619E7CB95007ACA2B /* icon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF841519E7CB95007ACA2B /* icon_left@2x.png */; };
+		FFFF841D19E800B9007ACA2B /* PageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF841C19E800B9007ACA2B /* PageDetailViewController.m */; };
+		FFFF842019E80F45007ACA2B /* PaymentViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF841F19E80F45007ACA2B /* PaymentViewController01.m */; };
+		FFFF842519E81198007ACA2B /* ExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF842419E81198007ACA2B /* ExpressViewController.m */; };
+		FFFF842819E8139B007ACA2B /* ExpressViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF842719E8139B007ACA2B /* ExpressViewController01.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +281,14 @@
 		FFFF841119E7CA43007ACA2B /* BulletinDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinDetailViewController.h; sourceTree = "<group>"; };
 		FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinDetailViewController.m; sourceTree = "<group>"; };
 		FFFF841519E7CB95007ACA2B /* icon_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_left@2x.png"; sourceTree = "<group>"; };
+		FFFF841B19E800B9007ACA2B /* PageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageDetailViewController.h; sourceTree = "<group>"; };
+		FFFF841C19E800B9007ACA2B /* PageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageDetailViewController.m; sourceTree = "<group>"; };
+		FFFF841E19E80F45007ACA2B /* PaymentViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController01.h; sourceTree = "<group>"; };
+		FFFF841F19E80F45007ACA2B /* PaymentViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController01.m; sourceTree = "<group>"; };
+		FFFF842319E81198007ACA2B /* ExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressViewController.h; sourceTree = "<group>"; };
+		FFFF842419E81198007ACA2B /* ExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressViewController.m; sourceTree = "<group>"; };
+		FFFF842619E8139B007ACA2B /* ExpressViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressViewController01.h; sourceTree = "<group>"; };
+		FFFF842719E8139B007ACA2B /* ExpressViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressViewController01.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -684,6 +696,8 @@
 			children = (
 				FFAC279819E621E700446313 /* LifeSupportMainController.h */,
 				FFAC279919E621E700446313 /* LifeSupportMainController.m */,
+				FFFF842119E81171007ACA2B /* controller */,
+				FFFF842219E81171007ACA2B /* view */,
 			);
 			path = LifeSupport;
 			sourceTree = "<group>";
@@ -713,16 +727,10 @@
 		FFAC279E19E621E700446313 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FFAC279F19E621E700446313 /* BulletinViewController.h */,
-				FFAC27A019E621E700446313 /* BulletinViewController.m */,
-				FFFF841119E7CA43007ACA2B /* BulletinDetailViewController.h */,
-				FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */,
-				FFAC27A119E621E700446313 /* PageViewController.h */,
-				FFAC27A219E621E700446313 /* PageViewController.m */,
-				FFAC27A519E621E700446313 /* RepairViewController.h */,
-				FFAC27A619E621E700446313 /* RepairViewController.m */,
-				FFFF840B19E7B7F1007ACA2B /* PaymentViewController.h */,
-				FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */,
+				FFFF841719E7F6A0007ACA2B /* 社区公告 */,
+				FFFF841819E7F6B5007ACA2B /* 社区黄页 */,
+				FFFF841919E7F6CC007ACA2B /* 我的缴费 */,
+				FFFF841A19E7F6E3007ACA2B /* 投诉报修 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -777,6 +785,66 @@
 				FFFF841519E7CB95007ACA2B /* icon_left@2x.png */,
 			);
 			path = nav;
+			sourceTree = "<group>";
+		};
+		FFFF841719E7F6A0007ACA2B /* 社区公告 */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC279F19E621E700446313 /* BulletinViewController.h */,
+				FFAC27A019E621E700446313 /* BulletinViewController.m */,
+				FFFF841119E7CA43007ACA2B /* BulletinDetailViewController.h */,
+				FFFF841219E7CA43007ACA2B /* BulletinDetailViewController.m */,
+			);
+			name = "社区公告";
+			sourceTree = "<group>";
+		};
+		FFFF841819E7F6B5007ACA2B /* 社区黄页 */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC27A119E621E700446313 /* PageViewController.h */,
+				FFAC27A219E621E700446313 /* PageViewController.m */,
+				FFFF841B19E800B9007ACA2B /* PageDetailViewController.h */,
+				FFFF841C19E800B9007ACA2B /* PageDetailViewController.m */,
+			);
+			name = "社区黄页";
+			sourceTree = "<group>";
+		};
+		FFFF841919E7F6CC007ACA2B /* 我的缴费 */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF840B19E7B7F1007ACA2B /* PaymentViewController.h */,
+				FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */,
+				FFFF841E19E80F45007ACA2B /* PaymentViewController01.h */,
+				FFFF841F19E80F45007ACA2B /* PaymentViewController01.m */,
+			);
+			name = "我的缴费";
+			sourceTree = "<group>";
+		};
+		FFFF841A19E7F6E3007ACA2B /* 投诉报修 */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC27A519E621E700446313 /* RepairViewController.h */,
+				FFAC27A619E621E700446313 /* RepairViewController.m */,
+			);
+			name = "投诉报修";
+			sourceTree = "<group>";
+		};
+		FFFF842119E81171007ACA2B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF842319E81198007ACA2B /* ExpressViewController.h */,
+				FFFF842419E81198007ACA2B /* ExpressViewController.m */,
+				FFFF842619E8139B007ACA2B /* ExpressViewController01.h */,
+				FFFF842719E8139B007ACA2B /* ExpressViewController01.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FFFF842219E81171007ACA2B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -978,7 +1046,9 @@
 				FFAC27BA19E621E700446313 /* PageTelPhone.m in Sources */,
 				FFAC27BF19E621E700446313 /* NSString+QM_Category.m in Sources */,
 				FFAC27B919E621E700446313 /* Bulletin.m in Sources */,
+				FFFF842519E81198007ACA2B /* ExpressViewController.m in Sources */,
 				FFAC27D519E621E700446313 /* SignUpViewController.m in Sources */,
+				FFFF841D19E800B9007ACA2B /* PageDetailViewController.m in Sources */,
 				FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */,
 				FFAC27D119E621E700446313 /* BulletinCell.m in Sources */,
 				FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */,
@@ -988,9 +1058,11 @@
 				FF5C30CB19E6C18300DD942E /* PropertyMainController.m in Sources */,
 				FF5C30C819E6BDCE00DD942E /* VerticalButton.m in Sources */,
 				FFAC27CC19E621E700446313 /* PersonalMainController.m in Sources */,
+				FFFF842019E80F45007ACA2B /* PaymentViewController01.m in Sources */,
 				FFFF840A19E7ADF0007ACA2B /* MallCell.m in Sources */,
 				FF4D716419E75F0A009CC122 /* PersonalInfoViewController.m in Sources */,
 				FFAC27CB19E621E700446313 /* LifeSupportMainController.m in Sources */,
+				FFFF842819E8139B007ACA2B /* ExpressViewController01.m in Sources */,
 				FFA0646F19E680910021DC0B /* FeedbackViewController.m in Sources */,
 				FFAC27CE19E621E700446313 /* PageViewController.m in Sources */,
 				FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */,

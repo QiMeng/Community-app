@@ -15,6 +15,7 @@
 @property (nonatomic, copy) NSString * name;    //标题
 @property (nonatomic, copy) NSString * subTitle;//简介
 @property (nonatomic, copy) NSString * updateTime;  //最新时间
+@property (nonatomic, strong) NSArray * images;
 
 + (id)itemFromDic:(NSDictionary *)dic;
 

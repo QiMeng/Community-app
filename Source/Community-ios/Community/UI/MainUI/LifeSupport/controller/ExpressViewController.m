@@ -1,19 +1,18 @@
 //
-//  PaymentViewController.m
+//  ExpressViewController.m
 //  Community
 //
 //  Created by 永生刘 on 14/10/10.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "PaymentViewController.h"
-#import "PaymentCell.h"
+#import "ExpressViewController.h"
 
-@interface PaymentViewController () <PaymentCellDelegate>
+@interface ExpressViewController ()
 
 @end
 
-@implementation PaymentViewController
+@implementation ExpressViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,16 +24,24 @@
     return 10;
     
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    PaymentCell * cell = [tableView dequeueReusableCellWithIdentifier:@"PaymentCell" forIndexPath:indexPath];
-    cell.delegate = self;
+    return 50;
     
-    return cell;
 }
 
-- (void)paymentCall:(id)sender {
-    [self performSegueWithIdentifier:@"PaymentViewController01" sender:self];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
+//    cell.textLabel.text = _lists[indexPath.row];
+    return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [self performSegueWithIdentifier:@"ExpressViewController01" sender:self];
+    
 }
 
 

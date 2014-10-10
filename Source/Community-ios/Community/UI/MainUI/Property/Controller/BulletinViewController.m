@@ -59,10 +59,9 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    [self performSegueWithIdentifier:@"BulletinDetailViewController" sender:self];
+    [self performSegueWithIdentifier:@"BulletinDetailViewController" sender:_list[indexPath.row]];
     
 }
-
 
 - (void)didReceiveMemoryWarning
 {
@@ -70,7 +69,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -78,7 +77,14 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    BulletinDetailViewController* view = segue.destinationViewController;
+
+    if ([view isKindOfClass:[BulletinDetailViewController class]] && [sender isKindOfClass:[Bulletin class]]) {
+        view.bulletin = sender;
+    }
+    
 }
-*/
+
 
 @end

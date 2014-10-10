@@ -7,7 +7,15 @@
 //  公告详情
 
 #import "QMViewController.h"
+#import "Bulletin.h"
+@interface BulletinDetailViewController : QMViewController {
+    
+    __weak IBOutlet UILabel *subLabel;
+    
+    
+    
+}
 
-@interface BulletinDetailViewController : QMViewController
+@property (nonatomic, strong) Bulletin * bulletin;
 
 @end

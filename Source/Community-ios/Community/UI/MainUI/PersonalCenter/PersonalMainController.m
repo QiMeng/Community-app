@@ -47,22 +47,26 @@
     
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 110;
-}
-
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    
-    PersonalHeaderCell * cell = [tableView dequeueReusableCellWithIdentifier:@"PersonalHeaderCell"];
-    return cell;
-    
-}
-
+//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+//    return 110;
+//}
+//
+//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+//    
+//    PersonalHeaderCell * cell = [tableView dequeueReusableCellWithIdentifier:@"PersonalHeaderCell"];
+//    return cell;
+//    
+//}
+//
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _dataArray.count;
+    return _dataArray.count+1;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.row == 0) {
+        return 110;
+    }
     
     return 48;
     
@@ -70,7 +74,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSDictionary * item = _dataArray[indexPath.row];
+    if (indexPath.row == 0) {
+        PersonalHeaderCell * cell = [tableView dequeueReusableCellWithIdentifier:@"PersonalHeaderCell"];
+        return cell;
+    }
+    
+    
+    NSDictionary * item = _dataArray[indexPath.row-1];
     
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
@@ -85,7 +95,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSDictionary * item = _dataArray[indexPath.row];
+    if (indexPath.row == 0) {
+        return;
+    }
+    
+    NSDictionary * item = _dataArray[indexPath.row-1];
     
     NSString * idStr = [item objectForKeyNotNull:@"id"];
     

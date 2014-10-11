@@ -105,6 +105,7 @@
 		FFAC27D519E621E700446313 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B419E621E700446313 /* SignUpViewController.m */; };
 		FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B619E621E700446313 /* SignUpViewController01.m */; };
 		FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B819E621E700446313 /* SignUpViewController02.m */; };
+		FFB7A66019E9612700BB909F /* titleBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFB7A65F19E9612700BB909F /* titleBar@2x.png */; };
 		FFFF840A19E7ADF0007ACA2B /* MallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840919E7ADF0007ACA2B /* MallCell.m */; };
 		FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */; };
 		FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840F19E7B84D007ACA2B /* PaymentCell.m */; };
@@ -278,6 +279,7 @@
 		FFAC27B719E621E700446313 /* SignUpViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController02.h; sourceTree = "<group>"; };
 		FFAC27B819E621E700446313 /* SignUpViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController02.m; sourceTree = "<group>"; };
 		FFAC27D819E625F600446313 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FFB7A65F19E9612700BB909F /* titleBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "titleBar@2x.png"; sourceTree = "<group>"; };
 		FFFF840819E7ADF0007ACA2B /* MallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallCell.h; sourceTree = "<group>"; };
 		FFFF840919E7ADF0007ACA2B /* MallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallCell.m; sourceTree = "<group>"; };
 		FFFF840B19E7B7F1007ACA2B /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
@@ -485,8 +487,9 @@
 				FFAC276519E621E700446313 /* Resources */,
 				FFAC276719E621E700446313 /* Services */,
 				FFAC276E19E621E700446313 /* UI */,
-				FFAC274719E61BEE00446313 /* Images.xcassets */,
+				FFB7A5FD19E9606500BB909F /* Vendors */,
 				FFAC274919E61BEE00446313 /* LaunchScreen.xib */,
+				FFAC274719E61BEE00446313 /* Images.xcassets */,
 				FFAC273E19E61BEE00446313 /* Community.xcdatamodeld */,
 				FFAC273719E61BEE00446313 /* Supporting Files */,
 			);
@@ -793,9 +796,17 @@
 			path = Signup;
 			sourceTree = "<group>";
 		};
+		FFB7A5FD19E9606500BB909F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
 		FFFF841419E7CB95007ACA2B /* nav */ = {
 			isa = PBXGroup;
 			children = (
+				FFB7A65F19E9612700BB909F /* titleBar@2x.png */,
 				FFFF841519E7CB95007ACA2B /* icon_left@2x.png */,
 			);
 			path = nav;
@@ -1025,6 +1036,7 @@
 				FFA0646019E67B870021DC0B /* usercenter_icon_activity@2x.png in Resources */,
 				FFAC274819E61BEE00446313 /* Images.xcassets in Resources */,
 				FF5C30BE19E6B32B00DD942E /* property_btn_yellowpage_nor@2x.png in Resources */,
+				FFB7A66019E9612700BB909F /* titleBar@2x.png in Resources */,
 				FFA0646919E67B870021DC0B /* usercenter_icon_remaining@2x.png in Resources */,
 				FF5C30C519E6B32B00DD942E /* sns_btn_group_nor@2x.png in Resources */,
 				FFA0646319E67B870021DC0B /* usercenter_icon_certification@2x.png in Resources */,
@@ -1266,7 +1278,7 @@
 				INFOPLIST_FILE = Community/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Community/Vendors/EaseMobSDK/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1284,7 +1296,7 @@
 				INFOPLIST_FILE = Community/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Community/Vendors/EaseMobSDK/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

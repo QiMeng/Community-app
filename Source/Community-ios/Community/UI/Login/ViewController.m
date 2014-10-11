@@ -48,7 +48,23 @@
         kQMUserInfo.userName = nameTextField.text;
         kQMUserInfo.userPws = pwsTextField.text;
         [kQMUserInfo saveUserName:nameTextField.text Pws:pwsTextField.text];
-        [self performSegueWithIdentifier:@"HomeViewController" sender:self];
+        
+        [[EaseMob sharedInstance].chatManager asyncLoginWithUsername:nameTextField.text
+                                                            password:pwsTextField.text
+                                                          completion:^(NSDictionary *loginInfo,
+                                                                       EMError *error) {
+                                                              [self hideHud];
+                                                              DLog(@"loginInfo--%@",loginInfo);
+                                                              
+                                                              if (!error) {
+                                                                  [self performSegueWithIdentifier:@"HomeViewController" sender:self];
+                                                              }
+                                                              
+                                                              
+                                                          } onQueue:nil];
+        
+        
+        
     }else {
         [self showErrorString:msg];
     }
@@ -64,7 +80,8 @@
        
         [self showErrorString:@"请输入密码"];
     }else {
-        
+
+        [self showHudInView:self.view hint:@"正在登录..."];
         [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
     }
     

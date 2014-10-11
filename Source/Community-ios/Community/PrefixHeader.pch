@@ -16,4 +16,10 @@
 #import "ServiceApi.h"
 #import <SIAlertView.h>
 
+#import "EaseMob.h"
+#import "ChatDemoUIDefine.h"
+#import "UIViewController+HUD.h"
+#define MR_SHORTHAND
+#import "CoreData+MagicalRecord.h"
+
 #endif

@@ -26,10 +26,12 @@
 
 //    [contentText resignFirstResponder];
     
-    if (contentText.text.length)
+    if (contentText.text.length){
         [self showSuccessString:@"提交成功"];
-    else
+    }
+    else{
         [self showErrorString:@"内容不能为空"];
+    }
 }
 
 

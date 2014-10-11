@@ -31,12 +31,18 @@
     
 }
 
+- (void)showWithStatus:(NSString *)string {
+    [SVProgressHUD showWithStatus:string maskType:SVProgressHUDMaskTypeBlack];
+}
 - (void)showErrorString:(NSString *)string {
-    [SVProgressHUD showErrorWithStatus:string];
+    [SVProgressHUD showErrorWithStatus:string ];
 }
 - (void)showSuccessString:(NSString *)string {
     
     [SVProgressHUD showSuccessWithStatus:string];
+}
+- (void)dismiss {
+    [SVProgressHUD dismiss];
 }
 
 

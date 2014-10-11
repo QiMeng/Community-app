@@ -53,7 +53,7 @@
                                                             password:pwsTextField.text
                                                           completion:^(NSDictionary *loginInfo,
                                                                        EMError *error) {
-                                                              [self hideHud];
+                                                              [self dismiss];
                                                               DLog(@"loginInfo--%@",loginInfo);
                                                               
                                                               if (!error) {
@@ -81,7 +81,8 @@
         [self showErrorString:@"请输入密码"];
     }else {
 
-        [self showHudInView:self.view hint:@"正在登录..."];
+        [self showWithStatus:@"正在登录..."];
+//        [self showHudInView:self.view hint:@"正在登录..."];
         [kSverviceInstance clientLogin:nameTextField.text password:pwsTextField.text callBack:self];
     }
     

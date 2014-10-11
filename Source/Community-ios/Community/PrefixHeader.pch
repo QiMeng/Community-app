@@ -19,7 +19,9 @@
 #import "EaseMob.h"
 #import "ChatDemoUIDefine.h"
 #import "UIViewController+HUD.h"
+#import "UIViewController+DismissKeyboard.h"
 #define MR_SHORTHAND
 #import "CoreData+MagicalRecord.h"
+
 
 #endif

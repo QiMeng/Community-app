@@ -49,6 +49,7 @@
 		FF75EBE519E77CBE0028FD9B /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */; };
 		FF75EBE819E77F360028FD9B /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE719E77F360028FD9B /* PostsViewController.m */; };
 		FF7B103419E8E16A003867FC /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B103319E8E16A003867FC /* AddressViewController.m */; };
+		FF9673EF19E9F1D20052B23A /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9673EE19E9F1D20052B23A /* SettingTableViewController.m */; };
 		FFA0644519E66B350021DC0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644319E66B350021DC0B /* Default-568h@2x.png */; };
 		FFA0644619E66B350021DC0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644419E66B350021DC0B /* Default@2x.png */; };
 		FFA0644A19E676550021DC0B /* usercenter_img_headportrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */; };
@@ -465,6 +466,8 @@
 		FF75EBE719E77F360028FD9B /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
 		FF7B103219E8E16A003867FC /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
 		FF7B103319E8E16A003867FC /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		FF9673ED19E9F1D20052B23A /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		FF9673EE19E9F1D20052B23A /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
 		FFA0644319E66B350021DC0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FFA0644419E66B350021DC0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usercenter_img_headportrait@2x.png"; sourceTree = "<group>"; };
@@ -1248,6 +1251,8 @@
 				FF75EBE719E77F360028FD9B /* PostsViewController.m */,
 				FF7B103219E8E16A003867FC /* AddressViewController.h */,
 				FF7B103319E8E16A003867FC /* AddressViewController.m */,
+				FF9673ED19E9F1D20052B23A /* SettingTableViewController.h */,
+				FF9673EE19E9F1D20052B23A /* SettingTableViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -3106,6 +3111,7 @@
 				FFDE38C219E97A31004C526C /* NSManagedObject+MagicalRequests.m in Sources */,
 				FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */,
 				FFDE372F19E973FC004C526C /* ChatGroupDetailViewController.m in Sources */,
+				FF9673EF19E9F1D20052B23A /* SettingTableViewController.m in Sources */,
 				FFAC27D119E621E700446313 /* BulletinCell.m in Sources */,
 				FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */,
 				FFDE381419E978A9004C526C /* AddFriendCell.m in Sources */,
@@ -3346,6 +3352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0402F693E2B78ED9B6341F5 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -3362,8 +3369,10 @@
 					"$(PROJECT_DIR)/Community/Vendors/EaseMobSDK/lib",
 					"$(PROJECT_DIR)/Community/UI/MainUI/Social/EaseIM/3rdparty/UMeng",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -3371,6 +3380,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E76C98CEC9F33672B6AFE3D3 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -3387,8 +3397,10 @@
 					"$(PROJECT_DIR)/Community/Vendors/EaseMobSDK/lib",
 					"$(PROJECT_DIR)/Community/UI/MainUI/Social/EaseIM/3rdparty/UMeng",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

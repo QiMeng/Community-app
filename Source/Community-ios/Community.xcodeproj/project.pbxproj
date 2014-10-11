@@ -48,6 +48,7 @@
 		FF75EBE219E77BE60028FD9B /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE119E77BE60028FD9B /* MallViewController.m */; };
 		FF75EBE519E77CBE0028FD9B /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */; };
 		FF75EBE819E77F360028FD9B /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75EBE719E77F360028FD9B /* PostsViewController.m */; };
+		FF7B103419E8E16A003867FC /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B103319E8E16A003867FC /* AddressViewController.m */; };
 		FFA0644519E66B350021DC0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644319E66B350021DC0B /* Default-568h@2x.png */; };
 		FFA0644619E66B350021DC0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644419E66B350021DC0B /* Default@2x.png */; };
 		FFA0644A19E676550021DC0B /* usercenter_img_headportrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */; };
@@ -179,6 +180,8 @@
 		FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		FF75EBE619E77F360028FD9B /* PostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
 		FF75EBE719E77F360028FD9B /* PostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		FF7B103219E8E16A003867FC /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		FF7B103319E8E16A003867FC /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
 		FFA0644319E66B350021DC0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FFA0644419E66B350021DC0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usercenter_img_headportrait@2x.png"; sourceTree = "<group>"; };
@@ -446,6 +449,8 @@
 				FF75EBE419E77CBE0028FD9B /* FavoritesViewController.m */,
 				FF75EBE619E77F360028FD9B /* PostsViewController.h */,
 				FF75EBE719E77F360028FD9B /* PostsViewController.m */,
+				FF7B103219E8E16A003867FC /* AddressViewController.h */,
+				FF7B103319E8E16A003867FC /* AddressViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -941,6 +946,7 @@
 					};
 					FFAC274F19E61BEE00446313 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = K6D5KQ7QKW;
 						TestTargetID = FFAC273319E61BEE00446313;
 					};
 				};
@@ -1108,6 +1114,7 @@
 				FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */,
 				FFAC27C019E621E700446313 /* UIButton+QM_Category.m in Sources */,
 				FFAC27C919E621E700446313 /* ViewController.m in Sources */,
+				FF7B103419E8E16A003867FC /* AddressViewController.m in Sources */,
 				FFAC27BE19E621E700446313 /* NSDictionary+QM_Category.m in Sources */,
 				FFAC27C119E621E700446313 /* UIImage+QM_Category.m in Sources */,
 				FFAC27BC19E621E700446313 /* QMUserInfo.m in Sources */,
@@ -1184,6 +1191,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1204,6 +1212,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1225,6 +1234,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1238,6 +1248,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1283,6 +1294,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1294,6 +1307,7 @@
 				INFOPLIST_FILE = CommunityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Community.app/Community";
 			};
 			name = Debug;
@@ -1302,6 +1316,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1309,6 +1325,7 @@
 				INFOPLIST_FILE = CommunityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Community.app/Community";
 			};
 			name = Release;

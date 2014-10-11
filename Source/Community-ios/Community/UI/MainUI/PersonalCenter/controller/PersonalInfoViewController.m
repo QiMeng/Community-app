@@ -19,6 +19,41 @@
     // Do any additional setup after loading the view.
 }
 
+#pragma mark - 修改头像
+- (IBAction)touchHeaderImage:(id)sender {
+    
+    SIAlertView * alert = [[SIAlertView alloc]initWithTitle:@"" andMessage:@"选择"];
+    [alert addButtonWithTitle:@"拍照" type:SIAlertViewButtonTypeDefault handler:^(SIAlertView *alertView) {
+        
+    }];
+    
+    [alert addButtonWithTitle:@"照片库" type:SIAlertViewButtonTypeDefault handler:^(SIAlertView *alertView) {
+        
+    }];
+    
+    [alert addButtonWithTitle:@"取消" type:SIAlertViewButtonTypeCancel handler:^(SIAlertView *alertView) {
+        
+    }];
+    
+    [alert show];
+}
+
+#pragma mark - 保存
+- (IBAction)touchSave:(id)sender {
+    
+    if (nickNameTF.text.length) {
+        
+        [self showSuccessString:@"保存成功"];
+        
+    }else {
+        
+        [self showErrorString:@"昵称不能为空"];
+    }
+}
+
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

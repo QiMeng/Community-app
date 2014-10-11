@@ -1,40 +1,36 @@
 //
-//  PostsViewController.m
+//  AddressViewController.m
 //  Community
 //
-//  Created by 永生刘 on 14/10/10.
+//  Created by 永生刘 on 14/10/11.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "PostsViewController.h"
+#import "AddressViewController.h"
 
-@interface PostsViewController ()
+@interface AddressViewController ()
 
 @end
 
-@implementation PostsViewController
+@implementation AddressViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-
+- (IBAction)touchSave:(id)sender {
     
-    return 80;
+    if (communityTF.text.length) {
+        
+        [self showSuccessString:@"保存成功"];
+        
+    }else {
+        
+        [self showErrorString:@"小区不能为空"];
+    }
     
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    return cell;
 }
 
 

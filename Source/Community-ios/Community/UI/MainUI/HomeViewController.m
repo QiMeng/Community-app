@@ -66,7 +66,7 @@
     }
     
     UIImageView * lineView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, backGroundImageView.width, 1)];
-    lineView.backgroundColor = RGBA(155, 155, 155, 1);
+    lineView.backgroundColor = RGBA(230, 230, 230, 1);
     [backGroundImageView addSubview:lineView];
     
     self.selectedIndex = 2;

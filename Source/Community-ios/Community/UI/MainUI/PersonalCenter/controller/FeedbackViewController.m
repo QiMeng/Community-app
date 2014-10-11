@@ -17,7 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    contentText.placeholder = @"我要啰嗦两句.";
+    
 }
+
+- (IBAction)touchSubmit:(id)sender {
+
+//    [contentText resignFirstResponder];
+    
+    if (contentText.text.length)
+        [self showSuccessString:@"提交成功"];
+    else
+        [self showErrorString:@"内容不能为空"];
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

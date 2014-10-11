@@ -7,8 +7,8 @@
 //
 //  帖子
 
-#import "QMViewController.h"
+#import "QMTableViewController.h"
 
-@interface PostsViewController : QMViewController
+@interface PostsViewController : QMTableViewController
 
 @end

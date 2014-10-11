@@ -8,6 +8,14 @@
 
 #import "QMViewController.h"
 
-@interface FeedbackViewController : QMViewController
+#import <SZTextView.h>
+
+@interface FeedbackViewController : QMViewController {
+    
+    
+    __weak IBOutlet SZTextView *contentText;
+    
+    
+}
 
 @end

@@ -14,6 +14,6 @@
 
 #import "QMCategory.h"
 #import "ServiceApi.h"
-
+#import <SIAlertView.h>
 
 #endif

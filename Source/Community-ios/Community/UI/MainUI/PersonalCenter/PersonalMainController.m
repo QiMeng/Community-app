@@ -38,7 +38,7 @@
                                                   @{@"icon": @"usercenter_icon_coupons",@"title":@"我的优惠劵",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_reply",@"title":@"回复",@"id":@"posts"},
                                                   @{@"icon": @"usercenter_icon_collection",@"title":@"收藏",@"id":@"favorites"},
-                                                  @{@"icon": @"usercenter_icon_post",@"title":@"帖子",@"id":@""},
+                                                  @{@"icon": @"usercenter_icon_post",@"title":@"帖子",@"id":@"posts"},
                                                   @{@"icon": @"usercenter_icon_activity",@"title":@"活动",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_vote",@"title":@"投票",@"id":@""},
                                                   @{@"icon": @"usercenter_icon_around",@"title":@"小区周边",@"id":@""},
@@ -110,6 +110,11 @@
     else if ([idStr isEqualToString:@"posts"]) {
         
         [self performSegueWithIdentifier:@"PostsViewController" sender:self];
+    }
+    //地址
+    else if ([idStr isEqualToString:@"address"]) {
+        
+        [self performSegueWithIdentifier:@"AddressViewController" sender:self];
     }
     
 }

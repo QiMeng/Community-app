@@ -13,8 +13,14 @@
     
     __weak IBOutlet UIButton *headerImageBtn;
     
+    __weak IBOutlet UITextField *nickNameTF;    //昵称
     
-    __weak IBOutlet UITextField *nickNameTF;
+    __weak IBOutlet UISegmentedControl *sexSegment; //性别
+    __weak IBOutlet UITextField *careerTF;  //职业
+    
+    __weak IBOutlet UITextField *hobbiesTF; //爱好
+    
+    __weak IBOutlet UITextField *newPwd;    //新密码
     
     
     

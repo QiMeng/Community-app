@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "ApplyViewController.h"
 #import "SverviceBase.h"
 
 @interface ViewController () <UITextFieldDelegate>
@@ -57,6 +58,9 @@
                                                               DLog(@"loginInfo--%@",loginInfo);
                                                               
                                                               if (!error) {
+                                                                  
+                                                                  [[ApplyViewController shareController] loadDataSourceFromLocalDB];
+                                                                  
                                                                   [self performSegueWithIdentifier:@"HomeViewController" sender:self];
                                                               }
                                                               

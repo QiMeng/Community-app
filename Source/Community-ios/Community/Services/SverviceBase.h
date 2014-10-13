@@ -27,6 +27,8 @@
 - (void)doRequest:(NSString*)interface paramer:(NSString*)paramer controller:(id)controller ;
 
 
+- (void)loadListCallBack:(long)retCode msg:(NSString*)msg list:(NSArray *)list;
+
 //登录
 - (void)clientLogin:(NSString*)name password:(NSString*)pwd callBack:(id)callback;
 
@@ -43,12 +45,15 @@
 
 #pragma mark - 社区黄页
 //获取社区黄页
-- (void)loadPagesUserID:(NSString *)userID callBack:(id)callback;
+- (void)loadPagesUserID:(NSString *)userID typeID:(NSString *)type callBack:(id)callback;
 - (void)loadPagesListCallBack:(long)retCode msg:(NSString*)msg pagesList:(NSArray *)pagesList;
 
+#pragma mark - 缴费
+- (void)loadPaymentUserID:(NSString *)userID callBack:(id)callback;
+- (void)loadPaymentListCallBack:(long)retCode msg:(NSString*)msg list:(NSArray *)list;
 
-
-
+#pragma mark - 快递代收
+- (void)loadExpressUserID:(NSString *)userID callBack:(id)callback;
 
 
 

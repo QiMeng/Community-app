@@ -1,18 +1,18 @@
 //
-//  ExpressViewController01.m
+//  PaymentRecordViewController01.m
 //  Community
 //
-//  Created by 永生刘 on 14/10/10.
+//  Created by 永生刘 on 14/10/13.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "ExpressViewController01.h"
+#import "PaymentRecordViewController01.h"
 
-@interface ExpressViewController01 ()
+@interface PaymentRecordViewController01 ()
 
 @end
 
-@implementation ExpressViewController01
+@implementation PaymentRecordViewController01
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -20,29 +20,17 @@
     
     [self leftDefaultNavBar];
     
-    titleLabel.text = _express.name;
+    fromTimeLabel.text = [_infoDic objectForKeyNotNull:@"fromtime"];
     
-    acceptLabel.text = _express.accepter;
-    totimeLabel.text = _express.totime;
-    fromtimeLabel.text = _express.fromtime;
-    posterLabel.text = _express.poster;
-    jobnumLabel.text = _express.jobnum;
-    phoneLabel.text = _express.phone;
+    toTimeLabel.text = [_infoDic objectForKeyNotNull:@"totime"];
     
-    pwdLabel.text = [NSString stringWithFormat:@"取件密钥:%@",_express.pwd];
+    nameLabel.text = [_infoDic objectForKeyNotNull:@"name"];
     
-}
-
-- (IBAction)touchSumbit:(id)sender {
+    priceLabel.text = [NSString stringWithFormat:@"%@元",[_infoDic objectForKeyNotNull:@"price"]];
     
-    
-    [self showSuccessString:@"取件成功"];
+    businessLabel.text = [_infoDic objectForKeyNotNull:@"id"];
     
 }
-
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

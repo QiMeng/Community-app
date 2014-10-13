@@ -14,13 +14,30 @@
     // Initialization code
 }
 
-
-- (IBAction)touchPayment:(id)sender {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(paymentCall:)]) {
-        [self.delegate paymentCall:sender];
-    }
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    titleLabel.text = _payment.name;
+    
+    
 }
 
+
+
+//缴费
+- (IBAction)touchPayment:(id)sender {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(paymentCall:)]) {
+        [self.delegate paymentCall:_payment];
+    }
+}
+//记录
+- (IBAction)touchRecord:(id)sender {
+
+    if (self.delegate && [self.delegate respondsToSelector:@selector(recordCall:)]) {
+        [self.delegate recordCall:_payment];
+    }
+    
+}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

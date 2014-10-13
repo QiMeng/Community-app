@@ -37,5 +37,35 @@
 }
 
 
+//uilabel 多颜色
+- (NSMutableAttributedString *)labelText:(NSString *)text goalText:(NSString *)goal color:(UIColor *)color {
+    
+    NSMutableAttributedString *attrTitle = [[NSMutableAttributedString alloc] initWithString:text];
+    
+    int length = 0;
+    for (int i= 0; i<text.length; i++) {
+        
+        DLog(@"%@",[text substringFromIndex:i]);
+        
+        NSRange rang1 = [[text substringFromIndex:i] rangeOfString:goal];
+        
+        if (rang1.location != NSNotFound) {
+            
+            length = rang1.location+rang1.length;
+            
+            if (length<text.length) {
+                i += length-1;
+                
+                [attrTitle addAttribute:NSForegroundColorAttributeName value:color range:NSMakeRange(i, rang1.length)];
+            }
+        }else {
+            break;
+        }
+    }
+    
+    
+    return attrTitle;
+}
+
 
 @end

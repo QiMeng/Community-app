@@ -7,14 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Payment.h"
 @protocol PaymentCellDelegate <NSObject>
 - (void)paymentCall:(id)sender;
+- (void)recordCall:(id)sender;
 @end
 
 
-@interface PaymentCell : UITableViewCell
+@interface PaymentCell : UITableViewCell {
+    
+    
+    __weak IBOutlet UILabel *titleLabel;
+    
+    
+    
+    
+}
 
 @property (assign) id<PaymentCellDelegate> delegate;
+@property (nonatomic, strong) Payment * payment;
 
 @end

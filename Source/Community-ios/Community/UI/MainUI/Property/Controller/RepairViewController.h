@@ -7,8 +7,8 @@
 //
 // 投诉报修
 
-#import "QMTableViewController.h"
+#import "QMViewController.h"
 
-@interface RepairViewController : QMTableViewController
+@interface RepairViewController : QMViewController
 
 @end

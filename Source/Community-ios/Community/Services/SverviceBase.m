@@ -8,7 +8,9 @@
 
 #import "SverviceBase.h"
 #import "Bulletin.h"
-#import "PageTelPhone.h"
+#import "Page.h"
+#import "Payment.h"
+#import "Express.h"
 @implementation SverviceBase
 
 
@@ -98,20 +100,19 @@
 
 
 #pragma mark - 社区黄页
-- (void)loadPagesUserID:(NSString *)userID callBack:(id)callback {
+- (void)loadPagesUserID:(NSString *)userID typeID:(NSString *)type callBack:(id)callback {
     
-    NSArray * list = @[[PageContainer itemFromDic:@{@"name":@"物业",
-                                                    @"telphones":@[@{@"name": @"长城物业报修电话",
-                                                                     @"telphone": @"123456789"},
-                                                                   @{@"name": @"长城物业投诉",
-                                                                     @"telphone": @"123456789"},
-                                                                   @{@"name": @"长城物业监督",
-                                                                     @"telphone": @"123456789"}]}],
-                       [PageContainer itemFromDic:@{@"name":@"居委会",
-                                                    @"telphones":@[@{@"name": @"中山社区",
-                                                                     @"telphone": @"123456789"},
-                                                                   @{@"name": @"社区养老",
-                                                                     @"telphone": @"123456789"}]}]];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"page" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:type];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Page itemFromDic:dic]];
+    }
+    
+
     
     if (callback && [callback respondsToSelector:@selector(loadPagesListCallBack:msg:pagesList:)] ) {
         
@@ -120,6 +121,49 @@
     }
     
 }
+
+
+
+#pragma mark - 缴费列表
+- (void)loadPaymentUserID:(NSString *)userID callBack:(id)callback {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"payment" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:@"payment"];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Payment itemFromDic:dic]];
+    }
+
+    if (callback && [callback respondsToSelector:@selector(loadPaymentListCallBack:msg:list:)] ) {
+        [callback loadPaymentListCallBack:200 msg:@"加载数据成功" list:list];
+        
+    }
+    
+}
+
+#pragma mark - 快递代收
+- (void)loadExpressUserID:(NSString *)userID callBack:(id)callback {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"express" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:@"express"];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Express itemFromDic:dic]];
+    }
+    
+    if (callback && [callback respondsToSelector:@selector(loadListCallBack:msg:list:)] ) {
+        [callback loadListCallBack:200 msg:@"加载数据成功" list:list];
+        
+    }
+    
+}
+
 
 //- (void)
 

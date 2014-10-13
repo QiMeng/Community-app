@@ -1,45 +1,35 @@
 //
-//  ExpressViewController01.m
+//  ComplaintsViewController.m
 //  Community
 //
-//  Created by 永生刘 on 14/10/10.
+//  Created by 永生刘 on 14/10/13.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "ExpressViewController01.h"
+#import "ComplaintsViewController.h"
 
-@interface ExpressViewController01 ()
+@interface ComplaintsViewController ()
 
 @end
 
-@implementation ExpressViewController01
+@implementation ComplaintsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [self leftDefaultNavBar];
-    
-    titleLabel.text = _express.name;
-    
-    acceptLabel.text = _express.accepter;
-    totimeLabel.text = _express.totime;
-    fromtimeLabel.text = _express.fromtime;
-    posterLabel.text = _express.poster;
-    jobnumLabel.text = _express.jobnum;
-    phoneLabel.text = _express.phone;
-    
-    pwdLabel.text = [NSString stringWithFormat:@"取件密钥:%@",_express.pwd];
-    
+    contentText.placeholder = @"投诉内容";
 }
 
-- (IBAction)touchSumbit:(id)sender {
-    
-    
-    [self showSuccessString:@"取件成功"];
-    
-}
 
+- (IBAction)touchSubmit:(id)sender {
+    
+    if (!contentText.text.length) {
+        [self showErrorString:@"请填写内容."];
+        return;
+    }
+    [self showSuccessString:@"提交成功"];
+}
 
 
 

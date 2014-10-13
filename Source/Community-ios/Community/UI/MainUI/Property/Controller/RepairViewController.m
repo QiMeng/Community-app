@@ -9,7 +9,15 @@
 
 #import "RepairViewController.h"
 
-@interface RepairViewController ()
+@interface RepairViewController () {
+    
+    __weak IBOutlet UITextField *contentTF;
+    __weak IBOutlet UITextField *roomTF;
+    __weak IBOutlet UITextField *phoneTF;
+    __weak IBOutlet UITextField *contactTF;
+    __weak IBOutlet UITextField *timeTF;
+    
+}
 
 @end
 
@@ -28,7 +36,39 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self leftDefaultNavBar];
 }
+
+
+- (IBAction)touchSubmit:(id)sender {
+    
+    NSString * error = nil;
+    
+    if (!timeTF.text.length) {
+        error = @"请输入预约时间";
+    }
+    if (!contactTF.text.length) {
+        error = @"请输入联系人";
+    }
+    if (!phoneTF.text.length) {
+        error = @"请输入电话";
+    }
+    if (!roomTF.text.length) {
+        error = @"请输入房间号";
+    }
+    if (!contentTF.text.length) {
+        error = @"请输入内容";
+    }
+    
+    if (error) {
+        [self showErrorString:error];
+    }else {
+        [self showSuccessString:@"提交成功"];
+    }
+}
+
+
+
 
 - (void)didReceiveMemoryWarning
 {

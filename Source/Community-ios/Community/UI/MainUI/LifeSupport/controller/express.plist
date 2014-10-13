@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>express</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>顺丰快递</string>
+			<key>accepter</key>
+			<string>番二</string>
+			<key>totime</key>
+			<string>2014-09-25</string>
+			<key>fromtime</key>
+			<string>2014-09-22</string>
+			<key>poster</key>
+			<string>张三</string>
+			<key>jobnum</key>
+			<string>10533555</string>
+			<key>phone</key>
+			<string>13656504522</string>
+			<key>pwd</key>
+			<string>562364</string>
+		</dict>
+	</array>
+</dict>
+</plist>

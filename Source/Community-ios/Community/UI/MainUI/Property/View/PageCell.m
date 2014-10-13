@@ -27,14 +27,21 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    nameLabel.text = _telphone.name;
+    titleLabel.text = _pagePhone.title;
+    commentLabel.text = [NSString stringWithFormat:@"%d",_pagePhone.comments];
+    phoneLabel.text = [NSString stringWithFormat:@"%d",_pagePhone.phonenum];
+    
+    [callBtn setBackgroundImage:[UIImage imageAliquotsTensile:@"property_btn_tel_nor"] forState:UIControlStateNormal];
+        [callBtn setBackgroundImage:[UIImage imageAliquotsTensile:@"property_btn_tel_hl"] forState:UIControlStateHighlighted];
+    
+    [callBtn setTitle:_pagePhone.phone forState:UIControlStateNormal];
     
 }
 
 #pragma mark - 拨打电话
 - (IBAction)touchCall:(id)sender {
     if (self.delegate && [self.delegate respondsToSelector:@selector(callTelPhone:)]) {
-        [self.delegate callTelPhone:_telphone.telphone];
+        [self.delegate callTelPhone:_pagePhone.phone];
     }
 }
 

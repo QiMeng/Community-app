@@ -8,7 +8,7 @@
 
 #import "PageDetailViewController.h"
 #import "PageCell.h"
-@interface PageDetailViewController ()
+@interface PageDetailViewController () <PageCellDelegate>
 
 @end
 
@@ -17,17 +17,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self leftDefaultNavBar];
+    
+    [kSverviceInstance loadPagesUserID:@"" typeID:self.title callBack:self];
+    
 }
+
+- (void)loadPagesListCallBack:(long)retCode msg:(NSString*)msg pagesList:(NSArray *)pagesList {
+    
+    _list = [NSMutableArray arrayWithArray:pagesList];
+    [myTableView reloadData];
+    
+}
+
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
-    return 10;
+    return _list.count;
     
 }
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 10;
-}
-
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -44,6 +53,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     PageCell * cell = [tableView dequeueReusableCellWithIdentifier:@"PageCell" forIndexPath:indexPath];
+    cell.delegate = self;
+    cell.pagePhone = _list[indexPath.section];
+    
     return cell;
 }
 
@@ -51,9 +63,23 @@
 
     
     
+    
+    
+    
 }
-
-
+#pragma mark - 拨打电话
+- (void)callTelPhone:(NSString *)phone {
+    
+    DLog(@"%@",phone);
+    //不返回应用
+    NSMutableString * str=[[NSMutableString alloc] initWithFormat:@"tel:%@",phone];
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+    
+    //返回应用
+    UIWebView * callWebview = [[UIWebView alloc] init];
+    [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
+    [self.view addSubview:callWebview];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

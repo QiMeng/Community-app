@@ -1,25 +1,30 @@
 //
-//  PaymentViewController01.m
+//  PaymentRecordViewController.m
 //  Community
 //
-//  Created by 永生刘 on 14/10/10.
+//  Created by 永生刘 on 14/10/13.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "PaymentViewController01.h"
-#import "Payment.h"
-#import "PaymentViewController02.h"
-@interface PaymentViewController01 ()
+#import "PaymentRecordViewController.h"
+
+#import "PaymentCell02.h"
+
+#import "PaymentRecordViewController01.h"
+
+@interface PaymentRecordViewController ()
 
 @end
 
-@implementation PaymentViewController01
+@implementation PaymentRecordViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self leftDefaultNavBar];
-
+    
+    [myTableView reloadData];
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -29,20 +34,18 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    PaymentCell02 * cell = [tableView dequeueReusableCellWithIdentifier:@"PaymentCell02" forIndexPath:indexPath];
     
-    NSDictionary * dic = _list[indexPath.row];
+    cell.infoDic = _list[indexPath.row];
     
-    cell.textLabel.text = [dic objectForKeyNotNull:@"name"];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSDictionary * dic = _list[indexPath.row];
     
     
-    [self performSegueWithIdentifier:@"PaymentViewController02" sender:[dic objectForKeyNotNull:@"list"]];
+    [self performSegueWithIdentifier:@"PaymentRecordViewController01" sender:_list[indexPath.row]];
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -56,12 +59,12 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    
-    PaymentViewController02* ctrl = segue.destinationViewController;
-    if ([ctrl isKindOfClass:[PaymentViewController02 class]] ) {
+    PaymentRecordViewController01* ctrl = segue.destinationViewController;
+    if ([ctrl isKindOfClass:[PaymentRecordViewController01 class]] ) {
         //        view.bulletin = sender;
-        ctrl.list = sender;
+        ctrl.infoDic = sender;
     }
+    
     
 }
 

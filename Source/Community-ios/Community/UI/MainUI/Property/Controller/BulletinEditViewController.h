@@ -8,6 +8,7 @@
 
 #import "QMViewController.h"
 #import <SZTextView.h>
+#import "QMPhotoScrollView.h"
 @interface BulletinEditViewController : QMViewController {
     
     __weak IBOutlet UITextField *titleTF;
@@ -15,9 +16,10 @@
     __weak IBOutlet SZTextView *contentTF;
     
     __weak IBOutlet UILabel *updateTime;
-    
+
     
     
 }
+@property (weak, nonatomic) IBOutlet QMPhotoScrollView *photoScrollView;
 
 @end

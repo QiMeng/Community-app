@@ -8,6 +8,13 @@
 
 #import "QMViewController.h"
 
-@interface PageDetailViewController : QMViewController
+@interface PageDetailViewController : QMViewController {
+    
+    
+    __weak IBOutlet UITableView *myTableView;
+    
+}
+
+@property (nonatomic, strong) NSArray * list;
 
 @end

@@ -9,5 +9,5 @@
 #import "QMTableViewController.h"
 
 @interface PaymentViewController01 : QMTableViewController
-
+@property (nonatomic, strong) NSArray * list;
 @end

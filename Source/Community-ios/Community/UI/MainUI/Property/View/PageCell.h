@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "PageTelPhone.h"
+#import "Page.h"
 
 @protocol PageCellDelegate <NSObject>
 - (void)callTelPhone:(NSString *)phone;
@@ -18,14 +18,20 @@
 @interface PageCell : UITableViewCell {
     
     
-    __weak IBOutlet UILabel *nameLabel;
+    __weak IBOutlet UILabel *titleLabel;
     
     __weak IBOutlet UIButton *callBtn;
+    
+    __weak IBOutlet UILabel *commentLabel;
+    
+    __weak IBOutlet UILabel *phoneLabel;
+    
+    __weak IBOutlet UIImageView *iconImageView;
     
 }
 @property (assign) id<PageCellDelegate> delegate;
 
-@property (nonatomic,strong) TelPhone * telphone;
+@property (nonatomic,strong) Page * pagePhone;
 
 
 @end

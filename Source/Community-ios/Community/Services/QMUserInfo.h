@@ -12,8 +12,22 @@
 
 @interface QMUserInfo : NSObject
 
-@property (nonatomic, strong) NSString * userName;
-@property (nonatomic, strong) NSString * userPws;
+@property (nonatomic, copy) NSString * userName;
+@property (nonatomic, copy) NSString * userPws;
+
+@property (nonatomic, copy) NSString * area;
+@property (nonatomic, copy) NSString * community;
+@property (nonatomic, copy) NSString * floor;
+@property (nonatomic, copy) NSString * unit;
+@property (nonatomic, copy) NSString * phone;
+
+
+@property (nonatomic, copy) NSString * signarea;
+@property (nonatomic, copy) NSString * signcommunity;
+@property (nonatomic, copy) NSString * signfloor;
+@property (nonatomic, copy) NSString * signunit;
+@property (nonatomic, copy) NSString * signphone;
+
 
 + (QMUserInfo *)shareInstance ;
 
@@ -23,5 +37,8 @@
 - (NSString *)getUserName;
 //获取密码
 - (NSString *)getPassword;
+
+
+- (void)clearSign;
 
 @end

@@ -12,11 +12,13 @@
 
 @interface BulletinCell : UITableViewCell {
     
-    
 
     __weak IBOutlet UILabel *nameLabel;
     
     __weak IBOutlet UILabel *descriptionLabel;
+    
+    
+    __weak IBOutlet UILabel *replyLabel;
     
 }
 

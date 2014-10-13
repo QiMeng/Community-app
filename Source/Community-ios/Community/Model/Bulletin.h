@@ -12,9 +12,10 @@
 @interface Bulletin : NSObject
 
 @property (nonatomic, assign) NSInteger id;          //公告id
-@property (nonatomic, copy) NSString * name;    //标题
+@property (nonatomic, copy) NSString * title;    //标题
 @property (nonatomic, copy) NSString * subTitle;//简介
 @property (nonatomic, copy) NSString * updateTime;  //最新时间
+@property (nonatomic, assign) NSInteger reply;
 @property (nonatomic, strong) NSArray * images;
 
 + (id)itemFromDic:(NSDictionary *)dic;

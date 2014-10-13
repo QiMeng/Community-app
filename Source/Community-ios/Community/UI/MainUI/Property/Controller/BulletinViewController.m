@@ -28,16 +28,51 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    [self leftDefaultNavBar];
     [kSverviceInstance loadBulletinUserID:@"" callBack:self];
     
 }
+
+- (IBAction)touchSegmented:(UISegmentedControl *)sender {
+    
+    
+    NSInteger Index = sender.selectedSegmentIndex;
+
+    switch (Index) {
+            
+        case 0:
+            [kSverviceInstance loadBulletinUserID:@"" callBack:self];
+            break;
+            
+        case 1:
+            
+            [kSverviceInstance loadBulletinNewUserID:@"" callBack:self];
+            break;
+        default:
+            
+            break;
+            
+    }
+}
+
+//公告
 - (void)loadBulletinListCallBack:(long)retCode msg:(NSString*)msg bulletinList:(NSArray *)bulletinList {
     
     _list = [NSMutableArray arrayWithArray:bulletinList];
     [_myTableView reloadData];
     
 }
+
+//新闻
+- (void)loadBulletinNewListCallBack:(long)retCode msg:(NSString*)msg bulletinList:(NSArray *)bulletinList {
+    
+    _list = [NSMutableArray arrayWithArray:bulletinList];
+    [_myTableView reloadData];
+    
+}
+
+
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return _list.count;
@@ -46,7 +81,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    return 68;
+    return 50;
     
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

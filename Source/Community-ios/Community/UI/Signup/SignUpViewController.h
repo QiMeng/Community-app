@@ -11,8 +11,13 @@
 @interface SignUpViewController : QMViewController {
     
 
+    __weak IBOutlet UITextField *phoneTF;
     __weak IBOutlet UIButton *getCodeBtn;
     
+    
+    
+    __weak IBOutlet UITextField *codeTF;
+    __weak IBOutlet UIImageView *lineView;
     
     __weak IBOutlet UIButton *agreeBtn;
     

@@ -28,10 +28,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"public_img_topbg"] forBarMetrics:UIBarMetricsDefault];
+    self.navigationBar.shadowImage = [UIImage createImageWithColor:[UIColor clearColor]];
 
-//    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"titleBar"] forBarMetrics:UIBarMetricsDefault];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning

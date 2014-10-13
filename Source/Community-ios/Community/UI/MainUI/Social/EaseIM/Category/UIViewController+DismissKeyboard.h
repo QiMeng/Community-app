@@ -14,4 +14,7 @@
 
 @interface UIViewController (DismissKeyboard)
 -(void)setupForDismissKeyboard;
+
+- (void)leftDefaultNavBar;
+
 @end

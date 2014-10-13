@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "QMNavigationController.h"
 #import <SVProgressHUD.h>
 
 @interface QMViewController : UIViewController
+
 
 - (void)showWithStatus:(NSString *)string;
 

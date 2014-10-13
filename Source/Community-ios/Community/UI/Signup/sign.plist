@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>signlist</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>福州</string>
+			<key>id</key>
+			<string>area</string>
+			<key>list</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>峰湖新城</string>
+					<key>id</key>
+					<string>community</string>
+					<key>list</key>
+					<array>
+						<dict>
+							<key>title</key>
+							<string>1号楼</string>
+							<key>id</key>
+							<string>floor</string>
+							<key>list</key>
+							<array>
+								<dict>
+									<key>title</key>
+									<string>2401</string>
+									<key>id</key>
+									<string>unit</string>
+									<key>phone</key>
+									<string>1234567890</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

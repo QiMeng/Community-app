@@ -18,6 +18,7 @@ static const void *HttpRequestHUDKey = &HttpRequestHUDKey;
 
 @implementation UIViewController (HUD)
 
+
 - (MBProgressHUD *)HUD{
     return objc_getAssociatedObject(self, HttpRequestHUDKey);
 }

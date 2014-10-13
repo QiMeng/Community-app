@@ -36,6 +36,15 @@
     return [[NSUserDefaults standardUserDefaults] stringForKey:@"Password"];
 }
 
+- (void)clearSign {
+    
+    _signarea = @"";
+    _signcommunity = @"";
+    _signfloor = @"";
+    _signphone = @"";
+    _signunit = @"";
+    
+}
 
 
 @end

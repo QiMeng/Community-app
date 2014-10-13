@@ -37,6 +37,9 @@
 //获取社区公告
 - (void)loadBulletinUserID:(NSString *)userID callBack:(id)callback;
 - (void)loadBulletinListCallBack:(long)retCode msg:(NSString*)msg bulletinList:(NSArray *)bulletinList;
+//社区新闻
+- (void) loadBulletinNewUserID:(NSString *)userID callBack:(id)callback;
+- (void)loadBulletinNewListCallBack:(long)retCode msg:(NSString*)msg bulletinList:(NSArray *)bulletinList;
 
 #pragma mark - 社区黄页
 //获取社区黄页

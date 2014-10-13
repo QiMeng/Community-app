@@ -15,9 +15,11 @@
     Bulletin * item = [[Bulletin alloc]init];
     
     item.id = [[dic objectForKeyNotNull:@""] integerValue];
-    item.name = [dic objectForKeyNotNull:@"name"];
+    item.title = [dic objectForKeyNotNull:@"title"];
     item.subTitle = [dic objectForKeyNotNull:@"subtitle"];
     item.updateTime = [dic objectForKeyNotNull:@"updatetime"];
+    
+    item.reply = [[dic objectForKeyNotNull:@"reply"] integerValue];
     
     return item;
 }

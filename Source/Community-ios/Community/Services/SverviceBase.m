@@ -58,28 +58,16 @@
 #pragma mark - 获取社区公告
 - (void) loadBulletinUserID:(NSString *)userID callBack:(id)callback {
     
-    NSArray * list = @[[Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}],
-                       [Bulletin itemFromDic:@{@"name":@"社区贴黑榜曝无证门店提醒居民谨慎消费",
-                                               @"subtitle": @"新京报讯(记者吴振鹏)近日,在海淀区甘家口小区公告栏上贴出了“黑榜”,公布社区范围内未取得《营业执照》等相关许可证的餐饮、美容等店铺。甘家口街道办事处副主任"}]];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bulletin" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:@"bulletin"];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Bulletin itemFromDic:dic]];
+    }
+
     
     if (callback && [callback respondsToSelector:@selector(loadBulletinListCallBack:msg:bulletinList:)] ) {
         
@@ -87,6 +75,27 @@
         
     }
 }
+#pragma mark - 获取社区新闻
+- (void) loadBulletinNewUserID:(NSString *)userID callBack:(id)callback {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bulletin" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:@"news"];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Bulletin itemFromDic:dic]];
+    }
+    
+    
+    if (callback && [callback respondsToSelector:@selector(loadBulletinNewListCallBack:msg:bulletinList:)] ) {
+        
+        [callback loadBulletinNewListCallBack:200 msg:@"加载数据成功" bulletinList:list];
+        
+    }
+}
+
 
 #pragma mark - 社区黄页
 - (void)loadPagesUserID:(NSString *)userID callBack:(id)callback {

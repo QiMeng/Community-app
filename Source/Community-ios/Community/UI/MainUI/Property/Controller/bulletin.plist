@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bulletin</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>10月1日国庆业务办理时间有变</string>
+			<key>subtitle</key>
+			<string>10月1日国庆业务办理时间有变</string>
+			<key>updatetime</key>
+			<string>2014-10-01 15:15</string>
+			<key>reply</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>news</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>福州花海公园的波斯菊百日草盛开啦</string>
+			<key>subtitle</key>
+			<string>福州南江滨大道花海公园中的波斯菊与百日草花开正盛，花期将持续至本月底。公园中还有超过13000万平方米的向日葵花田和翠芦莉、鸡蛋花、琴叶珊瑚等花卉开放</string>
+			<key>updatetime</key>
+			<string>2014-10-01 15:15</string>
+			<key>reply</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>阿打算发斯蒂芬</string>
+			<key>subtitle</key>
+			<string>10月1日国庆业务办理时间有变</string>
+			<key>updatetime</key>
+			<string>2014-10-01 15:15</string>
+			<key>reply</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>10月1日国庆业务办理时间有变</string>
+			<key>subtitle</key>
+			<string>10月1日国庆业务办理时间有变</string>
+			<key>updatetime</key>
+			<string>2014-10-01 15:15</string>
+			<key>reply</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

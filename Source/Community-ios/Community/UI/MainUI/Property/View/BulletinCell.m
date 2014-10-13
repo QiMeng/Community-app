@@ -27,8 +27,10 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    nameLabel.text = _bulletin.name;
-    descriptionLabel.text = _bulletin.subTitle;
+    nameLabel.text = _bulletin.title;
+    descriptionLabel.text = _bulletin.updateTime;
+    
+    replyLabel.text = [NSString stringWithFormat:@"%d回复",_bulletin.reply];
     
 }
 

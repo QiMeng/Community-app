@@ -8,6 +8,6 @@
 
 #import "QMViewController.h"
 
-@interface SignUpViewController01 : QMViewController
+@interface SignUpViewController01 : QMViewController 
 
 @end

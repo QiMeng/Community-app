@@ -17,13 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self leftDefaultNavBar];
+    
+    
     
     if (_bulletin) {
-        self.title = _bulletin.name;
+        self.title = _bulletin.title;
         
         subLabel.text = _bulletin.subTitle;
         
-//        [subLabel ]
+        [subLabel sizeToFit];
     }
 }
 

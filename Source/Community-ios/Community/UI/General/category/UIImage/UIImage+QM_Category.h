@@ -14,6 +14,8 @@
 - (CGFloat)height;
 
 
++ (UIImage*) createImageWithColor: (UIColor*) color;
+
 /**
  *  返回拉伸好的图片
  *

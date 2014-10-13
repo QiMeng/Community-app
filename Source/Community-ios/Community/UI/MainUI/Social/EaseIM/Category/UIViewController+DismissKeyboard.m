@@ -42,4 +42,44 @@
 }
 
 
+- (void)leftDefaultNavBar{
+    [self leftNavBarImage:@"public_btn_back_nor" withText:@""];
+}
+- (void)leftNavBarImage:(NSString *)imageStr withText:(NSString *)text{
+    
+    UIImage *img = [UIImage imageNamed:imageStr];
+    UIButton *button = nil;
+    CGSize size = CGSizeMake(0, 0);
+    if (text.length ) {
+        size = [text sizeFromString:text andFontSize:15];
+    }
+    
+    button = [UIButton allocButtonFrame:CGRectMake(0, 0, img.width + size.width + 5, self.navigationController.navigationBar.height)
+                            normalTitle:text
+                          selectedTitle:nil
+                       normalTitleColor:[UIColor blackColor]
+                     selectedTitleColor:nil
+                        backgroundColor:nil
+                              titleFont:[UIFont fontWithName:kBaseFont size:15]//[UIFont boldSystemFontOfSize:15]
+                            normalImage:img
+                          selectedImage:nil
+                          normalBgImage:nil
+                        selectedBgImage:nil
+                                 target:self
+                               selector:@selector(leftNavBar:)
+                       autoresizingMask:UIViewAutoresizingNone];
+    
+    UIBarButtonItem *barBtn = [[UIBarButtonItem alloc]initWithCustomView:button];
+    
+    self.navigationItem.leftBarButtonItem = barBtn;
+    
+    SAFE_RELEASE(barBtn);
+    
+    
+}
+- (void)leftNavBar:(id)sender{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
 @end

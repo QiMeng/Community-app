@@ -31,6 +31,9 @@
     
 }
 
+
+
+
 - (void)showWithStatus:(NSString *)string {
     [SVProgressHUD showWithStatus:string maskType:SVProgressHUDMaskTypeBlack];
 }

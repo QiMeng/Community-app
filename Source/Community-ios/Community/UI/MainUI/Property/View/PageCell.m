@@ -7,7 +7,7 @@
 //  社区黄页
 
 #import "PageCell.h"
-
+#import <SDWebImage/UIImageView+WebCache.h>
 @implementation PageCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
@@ -28,6 +28,8 @@
     [super layoutSubviews];
     
     titleLabel.text = _pagePhone.title;
+    
+    [iconImageView setImageWithURL:nil placeholderImage:[UIImage imageNamed:_pagePhone.icon]];
     commentLabel.text = [NSString stringWithFormat:@"%d",_pagePhone.comments];
     phoneLabel.text = [NSString stringWithFormat:@"%d",_pagePhone.phonenum];
     

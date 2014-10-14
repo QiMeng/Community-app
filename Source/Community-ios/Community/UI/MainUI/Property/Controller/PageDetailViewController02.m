@@ -1,55 +1,51 @@
 //
-//  BulletinEditViewController.m
+//  PageDetailViewController02.m
 //  Community
 //
-//  Created by 永生刘 on 14/10/13.
+//  Created by 永生刘 on 14/10/14.
 //  Copyright (c) 2014年 QiMENG. All rights reserved.
 //
 
-#import "BulletinEditViewController.h"
+#import "PageDetailViewController02.h"
 
-@interface BulletinEditViewController () <UITextFieldDelegate>
+@interface PageDetailViewController02 ()
 
 @end
 
-@implementation BulletinEditViewController
+@implementation PageDetailViewController02
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self leftDefaultNavBar];
+    contentTF.placeholder = @"我要啰嗦两句";
     
-    contentTF.placeholder = @"这里可以输入公告详情";
+    [btn01 viewLineColor:RGBA(97, 191, 253, 1)
+             borderWidth:1
+            cornerRadius:0];
+    [btn02 viewLineColor:RGBA(97, 191, 253, 1)
+             borderWidth:1
+            cornerRadius:0];
+    [btn03 viewLineColor:RGBA(97, 191, 253, 1)
+             borderWidth:1
+            cornerRadius:0];
+    [btn04 viewLineColor:RGBA(97, 191, 253, 1)
+             borderWidth:1
+            cornerRadius:0];
     
-    updateTime.text = [NSString currentDefaultTime];
     
-    
-    photoScrollView = [[QMPhotoScrollView alloc]initWithFrame:CGRectMake(8, contentTF.bottom+5, 304, 50)];
-//    photoScrollView.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
-    photoScrollView.parentViewController = self;
-    [myScrollView addSubview:photoScrollView];
     
 }
-
-- (IBAction)touchComplete:(id)sender {
+- (IBAction)touchSubmit:(id)sender {
     
-    if (!titleTF.text.length) {
-        [self showErrorString:@"请输入标题"];
+    if (!contentTF.text.length) {
+        [self showErrorString:@"请输入内容"];
         return;
     }
     
-    [self showSuccessString:@"上传成功"];
-    [self.navigationController popViewControllerAnimated:YES];
+    [self showSuccessString:@"评论成功"];
+    return;
 }
-
-
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    return YES;
-}
-
-
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
     if ([text isEqualToString:@"\n"]) {
@@ -58,7 +54,6 @@
     }
     return YES;
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

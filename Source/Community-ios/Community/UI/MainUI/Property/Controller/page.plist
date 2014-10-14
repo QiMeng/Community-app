@@ -14,7 +14,22 @@
 			<key>phonenum</key>
 			<integer>75</integer>
 			<key>icon</key>
-			<string></string>
+			<string>property_icon_test</string>
+			<key>description</key>
+			<string>须知\n1,不同地区有差异</string>
+			<key>assess</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>你二大爷</string>
+					<key>icon</key>
+					<string>usercenter_img_headportrait</string>
+					<key>desc</key>
+					<string>不愧是顺丰</string>
+					<key>time</key>
+					<string>09-15</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -26,7 +41,22 @@
 			<key>phonenum</key>
 			<integer>20</integer>
 			<key>icon</key>
-			<string></string>
+			<string>property_icon_test</string>
+			<key>description</key>
+			<string>须知\n1,不同地区有差异</string>
+			<key>assess</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>你二大爷</string>
+					<key>icon</key>
+					<string></string>
+					<key>desc</key>
+					<string>不愧是顺丰</string>
+					<key>time</key>
+					<string>09-15</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -38,7 +68,22 @@
 			<key>phonenum</key>
 			<integer>50</integer>
 			<key>icon</key>
-			<string></string>
+			<string>property_icon_test</string>
+			<key>description</key>
+			<string>须知\n1,不同地区有差异</string>
+			<key>assess</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>你二大爷</string>
+					<key>icon</key>
+					<string></string>
+					<key>desc</key>
+					<string>不愧是顺丰</string>
+					<key>time</key>
+					<string>09-15</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>生活配送</key>

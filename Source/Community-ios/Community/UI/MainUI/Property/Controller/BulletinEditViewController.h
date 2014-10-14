@@ -11,15 +11,19 @@
 #import "QMPhotoScrollView.h"
 @interface BulletinEditViewController : QMViewController {
     
+    
+    __weak IBOutlet UIScrollView *myScrollView;
+    
+    
     __weak IBOutlet UITextField *titleTF;
     
     __weak IBOutlet SZTextView *contentTF;
     
     __weak IBOutlet UILabel *updateTime;
 
-    
+    QMPhotoScrollView * photoScrollView;
     
 }
-@property (weak, nonatomic) IBOutlet QMPhotoScrollView *photoScrollView;
+//@property (weak, nonatomic) IBOutlet QMPhotoScrollView *photoScrollView;
 
 @end

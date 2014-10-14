@@ -12,36 +12,43 @@
 
 @implementation QMPhotoScrollView
 
-
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        if (!self.images) {
+            self.images = [NSMutableArray array];
+        }
+        
+        if (!plusBtn) {
+            plusBtn = [UIButton allocButtonFrame:CGRectMake(0, 0, self.height, self.height)
+                                     normalTitle:@""
+                                   selectedTitle:@""
+                                normalTitleColor:nil
+                              selectedTitleColor:nil
+                                     normalImage:[UIImage imageNamed:@"property_btn_add_nor"]
+                                   selectedImage:nil
+                                          target:self
+                                        selector:@selector(addPic:)];
+            plusBtn.backgroundColor  = [UIColor blueColor];
+            [self addSubview:plusBtn];
+        }
+        
+        
+        
+        [self refreshScrollView];
+    }
+    return self;
+}
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    if (!self.images) {
-        self.images = [NSMutableArray array];
-    }
-    
-    if (!plusBtn) {
-        plusBtn = [UIButton allocButtonFrame:CGRectMake(0, 0, self.height, self.height)
-                                 normalTitle:@""
-                               selectedTitle:@""
-                            normalTitleColor:nil
-                          selectedTitleColor:nil
-                                 normalImage:[UIImage imageNamed:@"property_btn_add_nor"]
-                               selectedImage:nil
-                                      target:self
-                                    selector:@selector(addPic:)];
-        
-        [self addSubview:plusBtn];
-    }
-    
 
-    
-    [self refreshScrollView];
 }
 
 - (void)refreshScrollView
 {
-    CGFloat width=(self.height+10)*(self.images.count)<(self.width-20)?self.width:self.height+self.images.count*self.height;
+    CGFloat width=(self.height+20)*(self.images.count)<(self.width)?self.width:self.height+self.images.count*(self.height+10);
     
     CGSize contentSize=CGSizeMake(width, self.height);
     [self setContentSize:contentSize];
@@ -70,6 +77,63 @@
 }
 - (IBAction)addPic:(id)sender {
     
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"" message:@"选择" delegate:self
+                                          cancelButtonTitle:@"取消"
+                                          otherButtonTitles:@"相册",@"拍照", nil];
+    
+    [alert show];
+    
+
+}
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"clickButtonAtIndex:%d",buttonIndex);
+    switch (buttonIndex) {
+        case 1:
+            [self touchAlbumBtn];
+            break;
+        case 2:
+            [self touchPicturesBtn];
+            break;
+        default:
+            break;
+    }
+    
+    
+}
+- (void) touchAlbumBtn {
+    DLog(@"调用相册");
+
+    self.picker = [[UIImagePickerController alloc]init];
+    self.picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    self.picker.delegate = self;
+    [_parentViewController presentViewController:self.picker animated:YES completion:nil];
+}
+- (void) touchPicturesBtn {
+    DLog(@"调用拍照");
+    
+    if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+
+//        [self show]
+        return;
+    }
+    
+    
+    self.picker = [[UIImagePickerController alloc]init];
+    self.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    self.picker.delegate = self;
+    
+    [_parentViewController presentViewController:self.picker animated:YES completion:nil];
+
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
+    
+    DLog(@"============================info:%@",info);
+    
+    UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+    
     //移动添加按钮
     CABasicAnimation *positionAnim=[CABasicAnimation animationWithKeyPath:@"position"];
     [positionAnim setFromValue:[NSValue valueWithCGPoint:CGPointMake(plusBtn.center.x, plusBtn.center.y)]];
@@ -81,8 +145,10 @@
     [plusBtn setCenter:CGPointMake(plusBtn.center.x+INSETS+self.height, plusBtn.center.y)];
     
     //添加图片
-    UIImageView *aImageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"property_icon_right"]];
-    [aImageView setFrame:CGRectMake(INSETS-90, 0, self.height, self.height)];
+    UIImageView *aImageView=[[UIImageView alloc]initWithImage:image];
+    aImageView.contentMode = UIViewContentModeScaleAspectFill;
+    aImageView.backgroundColor = [UIColor greenColor];
+    [aImageView setFrame:CGRectMake(INSETS-self.height-20, 0, self.height, self.height)];
     [self.images addObject:aImageView];
     [self addSubview:aImageView];
     
@@ -99,10 +165,20 @@
         [img setCenter:CGPointMake(img.center.x+INSETS+self.height, img.center.y)];
     }
     
-    
-    
     [self refreshScrollView];
+    
+    
+    
+    [_parentViewController dismissViewControllerAnimated:YES completion:nil];
+
+    
 }
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+    [self.picker dismissViewControllerAnimated:YES completion:nil];
+
+}
+
 
 
 /*

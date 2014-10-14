@@ -8,8 +8,12 @@
 // 投诉报修
 
 #import "RepairViewController.h"
-
+#import "QMScrollView.h"
+#import "QMPhotoScrollView.h"
 @interface RepairViewController () {
+    
+    
+    __weak IBOutlet QMScrollView *myScroller;
     
     __weak IBOutlet UITextField *contentTF;
     __weak IBOutlet UITextField *roomTF;
@@ -17,6 +21,7 @@
     __weak IBOutlet UITextField *contactTF;
     __weak IBOutlet UITextField *timeTF;
     
+    QMPhotoScrollView * photoScrollView;
 }
 
 @end
@@ -37,6 +42,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self leftDefaultNavBar];
+    
+    photoScrollView = [[QMPhotoScrollView alloc]initWithFrame:CGRectMake(timeTF.left, timeTF.bottom+20, timeTF.width, 50)];
+    //    photoScrollView.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
+    photoScrollView.parentViewController = self;
+    [myScroller addSubview:photoScrollView];
+    
 }
 
 

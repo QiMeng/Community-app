@@ -8,6 +8,7 @@
 
 #import "PaymentViewController02.h"
 #import "PaymentCell02.h"
+#import "PaymentViewController03.h"
 @interface PaymentViewController02 ()
 
 @end
@@ -37,6 +38,7 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    [self performSegueWithIdentifier:@"PaymentViewController03" sender:_list[indexPath.row]];
     
 }
 - (void)didReceiveMemoryWarning {
@@ -44,14 +46,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    PaymentViewController03* ctrl = segue.destinationViewController;
+    if ([ctrl isKindOfClass:[PaymentViewController03 class]] ) {
+        //        view.bulletin = sender;
+        ctrl.infoDic = sender;
+    }
+    
 }
-*/
+
 
 @end

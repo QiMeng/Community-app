@@ -16,6 +16,9 @@
 @property (nonatomic, assign) NSInteger comments;   //评论数
 @property (nonatomic, assign) NSInteger phonenum;   //电话数
 @property (nonatomic, copy) NSString * icon;        //图标
+@property (nonatomic, copy) NSString * desc;    //须知
+
+@property (nonatomic, strong) NSArray * assess; //评论
 
 + (id)itemFromDic:(NSDictionary *)dic;
 

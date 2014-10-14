@@ -21,6 +21,9 @@
     
     item.phonenum = [[dic objectForKeyNotNull:@"phonenum"] integerValue];
     item.icon = [dic objectForKeyNotNull:@"icon"];
+    item.desc = [dic objectForKeyNotNull:@"description"];
+    
+    item.assess = [NSArray arrayWithArray:[dic objectForKeyNotNull:@"assess"]];
     
     return item;
 }

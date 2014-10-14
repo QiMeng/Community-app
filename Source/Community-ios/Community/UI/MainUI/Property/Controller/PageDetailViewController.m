@@ -8,6 +8,7 @@
 
 #import "PageDetailViewController.h"
 #import "PageCell.h"
+#import "PageDetailViewController01.h"
 @interface PageDetailViewController () <PageCellDelegate>
 
 @end
@@ -46,7 +47,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    return 100;
+    return 110;
     
 }
 
@@ -62,7 +63,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
     
-    
+    [self performSegueWithIdentifier:@"PageDetailViewController01" sender:_list[indexPath.section]];
     
     
     
@@ -86,14 +87,22 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    PageDetailViewController01* ctrl = segue.destinationViewController;
+    if ([ctrl isKindOfClass:[PageDetailViewController01 class]] ) {
+        //        view.bulletin = sender;
+        ctrl.pagePhone = sender;
+    }
+    
+    
 }
-*/
+
 
 @end

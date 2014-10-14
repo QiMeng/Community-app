@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    [self leftDefaultNavBar];
     contentText.placeholder = @"我要啰嗦两句.";
     
 }
@@ -34,7 +34,14 @@
     }
 }
 
-
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    if ([text isEqualToString:@"\n"]) {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    return YES;
+}
 
 
 - (void)didReceiveMemoryWarning {

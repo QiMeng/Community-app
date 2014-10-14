@@ -14,9 +14,24 @@
     // Initialization code
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    
+    
+    
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
+    if (selected) {
+        tyepImageView.image = [UIImage imageNamed:@"property_btn_choose_hl"];
+    }else {
+        tyepImageView.image = [UIImage imageNamed:@"property_btn_choose_nor"];
+    }
+    
+    
     // Configure the view for the selected state
 }
 

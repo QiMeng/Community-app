@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>carpool</key>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>usercenter_img_headportrait</string>
+			<key>type</key>
+			<string>0</string>
+			<key>name</key>
+			<string>你二大爷</string>
+			<key>address</key>
+			<string>何琳新城</string>
+			<key>fromAddress</key>
+			<string>拉卡拉</string>
+			<key>toAddress</key>
+			<string>五四北</string>
+			<key>fromTime</key>
+			<string>08:00</string>
+			<key>updateTime</key>
+			<string>2014-09-15 15:06</string>
+			<key>replys</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>

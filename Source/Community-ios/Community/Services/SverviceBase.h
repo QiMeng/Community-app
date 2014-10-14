@@ -55,7 +55,8 @@
 #pragma mark - 快递代收
 - (void)loadExpressUserID:(NSString *)userID callBack:(id)callback;
 
-
+#pragma mark - 拼车
+- (void)loadCarpoolUserID:(NSString *)userID callBack:(id)callback;
 
 
 

@@ -7,7 +7,7 @@
 //
 
 #import "TakeoutViewController.h"
-
+#import "TakeoutViewController01.h"
 @interface TakeoutViewController ()
 
 @end
@@ -44,8 +44,41 @@
     // Pass the selected object to the new view controller.
     
     if ([sender isKindOfClass:[UIButton class]]) {
-        UIViewController* ctrl = segue.destinationViewController;
-        ctrl.title = ((UIButton*)sender).titleLabel.text;
+        TakeoutViewController01* ctrl = segue.destinationViewController;
+        
+        switch (((UIButton*)sender).tag) {
+            case 100:
+                ctrl.title = @"可乐";
+                break;
+            case 101:
+                ctrl.title = @"啤酒";
+                break;
+            case 102:
+                ctrl.title = @"王老吉";
+                break;
+            case 103:
+                ctrl.title = @"菊花茶";
+                break;
+            case 104:
+                ctrl.title = @"泡面";
+                break;
+            case 105:
+                ctrl.title = @"馒头";
+                break;
+            case 106:
+                ctrl.title = @"泡椒凤爪";
+                break;
+            case 107:
+                ctrl.title = @"花生";
+                break;
+            case 108:
+                ctrl.title = @"豆腐干";
+                break;
+                
+            default:
+                break;
+        }
+
     }
     
     

@@ -11,6 +11,7 @@
 #import "Page.h"
 #import "Payment.h"
 #import "Express.h"
+#import "Carpool.h"
 @implementation SverviceBase
 
 
@@ -155,6 +156,26 @@
     NSMutableArray * list = [NSMutableArray array];
     for (NSDictionary * dic in pArray) {
         [list addObject:[Express itemFromDic:dic]];
+    }
+    
+    if (callback && [callback respondsToSelector:@selector(loadListCallBack:msg:list:)] ) {
+        [callback loadListCallBack:200 msg:@"加载数据成功" list:list];
+        
+    }
+    
+}
+
+#pragma mark - 拼车
+- (void)loadCarpoolUserID:(NSString *)userID callBack:(id)callback {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"carpool" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:@"carpool"];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Carpool itemFromDic:dic]];
     }
     
     if (callback && [callback respondsToSelector:@selector(loadListCallBack:msg:list:)] ) {

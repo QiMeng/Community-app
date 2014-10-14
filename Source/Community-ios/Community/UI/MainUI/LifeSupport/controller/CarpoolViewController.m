@@ -7,7 +7,7 @@
 //
 
 #import "CarpoolViewController.h"
-
+#import "CarpoolCell.h"
 @interface CarpoolViewController ()
 
 @end
@@ -17,11 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self leftDefaultNavBar];
+    
+    [kSverviceInstance  loadCarpoolUserID:@"" callBack:self];
 }
+- (void)loadListCallBack:(long)retCode msg:(NSString*)msg list:(NSArray *)list {
+    _list = [NSMutableArray arrayWithArray:list];
+    
+    [myTableView reloadData];
+    
+}
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 10;
+    return _list.count;
     
 }
 
@@ -33,8 +43,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    
+    CarpoolCell * cell = [tableView dequeueReusableCellWithIdentifier:@"CarpoolCell" forIndexPath:indexPath];
+    cell.carpool = _list[indexPath.row];
     //    cell.textLabel.text = _lists[indexPath.row];
     return cell;
 }

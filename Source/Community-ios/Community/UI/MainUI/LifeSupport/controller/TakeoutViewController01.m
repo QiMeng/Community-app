@@ -7,8 +7,9 @@
 //
 
 #import "TakeoutViewController01.h"
-
-@interface TakeoutViewController01 ()
+#import "TakeoutCell.h"
+#import "Takeout.h"
+@interface TakeoutViewController01 () <TakeoutCellDelegate>
 
 @end
 
@@ -19,11 +20,20 @@
     // Do any additional setup after loading the view.
     
     [self leftDefaultNavBar];
+    
+    _list = [NSMutableArray arrayWithArray:@[[Takeout itemFromDic:@{@"name": @"香瓜子",
+                                                                    @"price": @"3.5",
+                                                                    @"amount": @"0"}]]];
+    
+    
+    [okBtn viewLineColor:RGBA(97, 191, 253, 1) borderWidth:1 cornerRadius:0];
+    [okBtn setTitleColor:RGBA(97, 191, 253, 1) forState:UIControlStateNormal];
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 10;
+    return _list.count;
     
 }
 
@@ -35,12 +45,31 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    
-    //    cell.textLabel.text = _lists[indexPath.row];
+    TakeoutCell * cell = [tableView dequeueReusableCellWithIdentifier:@"TakeoutCell" forIndexPath:indexPath];
+    cell.delegate = self;
+    cell.takout = _list[indexPath.row];
     return cell;
 }
 
+- (void)changeTotalprice:(id)sender {
+    
+    int totalInt = 0;
+    float totalPrice = 0;
+    for (Takeout * tak in _list) {
+        totalInt += tak.amount;
+        
+        totalPrice += tak.amount*tak.price;
+    }
+    
+    infoLabel.text = [NSString stringWithFormat:@"共%d件 累计价格 %g",totalInt,totalPrice];
+    
+}
+- (IBAction)touchOK:(id)sender {
+    
+    
+    
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

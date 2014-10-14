@@ -8,6 +8,13 @@
 
 #import "QMTableViewController.h"
 
-@interface CarpoolViewController : QMTableViewController
+@interface CarpoolViewController : QMTableViewController {
+    
+    
+    __weak IBOutlet UITableView *myTableView;
+    
+}
+
+@property (nonatomic, strong) NSMutableArray * list;
 
 @end

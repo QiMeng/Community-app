@@ -8,6 +8,16 @@
 
 #import "QMTableViewController.h"
 
-@interface TakeoutViewController01 : QMTableViewController
+@interface TakeoutViewController01 : QMTableViewController {
+    
+    
+    
+    __weak IBOutlet UILabel *infoLabel;
+    
+    __weak IBOutlet UIButton *okBtn;
+}
+
+
+@property (nonatomic, strong) NSMutableArray * list;
 
 @end

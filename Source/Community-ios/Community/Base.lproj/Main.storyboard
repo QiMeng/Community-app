@@ -2864,7 +2864,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oIk-cC-oyK">
-                                                    <rect key="frame" x="2495" y="8" width="40" height="40"/>
+                                                    <rect key="frame" x="2815" y="8" width="40" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2014-12-12 12:12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FrD-pB-Rq8">
@@ -2958,6 +2958,9 @@
                                 <segment title="找乘客"/>
                             </segments>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="touchChange:" destination="JYx-dI-uyE" eventType="valueChanged" id="ELW-nf-3Zw"/>
+                            </connections>
                         </segmentedControl>
                     </navigationItem>
                     <connections>

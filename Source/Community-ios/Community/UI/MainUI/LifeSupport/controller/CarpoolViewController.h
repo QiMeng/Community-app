@@ -13,6 +13,10 @@
     
     __weak IBOutlet UITableView *myTableView;
     
+    NSMutableArray * selectList;
+    
+    NSInteger selectInt;
+    
 }
 
 @property (nonatomic, strong) NSMutableArray * list;

@@ -8,6 +8,7 @@
 
 #import "CarpoolViewController.h"
 #import "CarpoolCell.h"
+#import "Carpool.h"
 @interface CarpoolViewController ()
 
 @end
@@ -19,19 +20,49 @@
     // Do any additional setup after loading the view.
     [self leftDefaultNavBar];
     
+    if (!selectList) {
+        selectList = [[NSMutableArray alloc]init];
+        selectInt = 0;
+    }
+    
     [kSverviceInstance  loadCarpoolUserID:@"" callBack:self];
 }
 - (void)loadListCallBack:(long)retCode msg:(NSString*)msg list:(NSArray *)list {
     _list = [NSMutableArray arrayWithArray:list];
     
+    [selectList removeAllObjects];
+    
+    for (Carpool * car in _list) {
+        
+        if (car.type == selectInt) {
+            [selectList addObject:car];
+        }
+        
+    }
+    
     [myTableView reloadData];
     
+}
+- (IBAction)touchChange:(UISegmentedControl *)sender {
+    
+    selectInt = sender.selectedSegmentIndex;
+    
+    [selectList removeAllObjects];
+    
+    for (Carpool * car in _list) {
+        
+        if (car.type == selectInt) {
+            [selectList addObject:car];
+        }
+    }
+
+    [myTableView reloadData];
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return _list.count;
+    return selectList.count;
     
 }
 
@@ -44,7 +75,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     CarpoolCell * cell = [tableView dequeueReusableCellWithIdentifier:@"CarpoolCell" forIndexPath:indexPath];
-    cell.carpool = _list[indexPath.row];
+    cell.carpool = selectList[indexPath.row];
     //    cell.textLabel.text = _lists[indexPath.row];
     return cell;
 }

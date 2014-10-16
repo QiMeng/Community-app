@@ -222,6 +222,17 @@
 		FFAC27D519E621E700446313 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B419E621E700446313 /* SignUpViewController.m */; };
 		FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B619E621E700446313 /* SignUpViewController01.m */; };
 		FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC27B819E621E700446313 /* SignUpViewController02.m */; };
+		FFC432DF19EFC43000DAA9BC /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432DE19EFC43000DAA9BC /* FilterViewController.m */; };
+		FFC432E219EFD63900DAA9BC /* ReleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432E119EFD63900DAA9BC /* ReleaseViewController.m */; };
+		FFC432E519F0022F00DAA9BC /* ActorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432E419F0022F00DAA9BC /* ActorViewController.m */; };
+		FFC432E819F002BE00DAA9BC /* ActorViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432E719F002BE00DAA9BC /* ActorViewController01.m */; };
+		FFC432EB19F00A5F00DAA9BC /* VoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432EA19F00A5F00DAA9BC /* VoteViewController.m */; };
+		FFC432EE19F00ADC00DAA9BC /* VoteViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432ED19F00ADC00DAA9BC /* VoteViewController01.m */; };
+		FFC432F219F01C2A00DAA9BC /* bbs_icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC432EF19F01C2A00DAA9BC /* bbs_icon_add@2x.png */; };
+		FFC432F319F01C2A00DAA9BC /* bbs_icon_many@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC432F019F01C2A00DAA9BC /* bbs_icon_many@2x.png */; };
+		FFC432F419F01C2A00DAA9BC /* bbs_icon_signle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC432F119F01C2A00DAA9BC /* bbs_icon_signle@2x.png */; };
+		FFC432F719F01CF500DAA9BC /* VoteViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432F619F01CF500DAA9BC /* VoteViewController02.m */; };
+		FFC432FA19F01F2D00DAA9BC /* VoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432F919F01F2D00DAA9BC /* VoteCell.m */; };
 		FFDE337F19E96E15004C526C /* libEaseMobClientSDKLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDE337C19E96E15004C526C /* libEaseMobClientSDKLite.a */; };
 		FFDE338019E96E15004C526C /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFDE337E19E96E15004C526C /* EaseMob.bundle */; };
 		FFDE338219E96E43004C526C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDE338119E96E43004C526C /* ImageIO.framework */; };
@@ -822,6 +833,25 @@
 		FFAC27B719E621E700446313 /* SignUpViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController02.h; sourceTree = "<group>"; };
 		FFAC27B819E621E700446313 /* SignUpViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController02.m; sourceTree = "<group>"; };
 		FFAC27D819E625F600446313 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FFC432DD19EFC43000DAA9BC /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		FFC432DE19EFC43000DAA9BC /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		FFC432E019EFD63900DAA9BC /* ReleaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseViewController.h; sourceTree = "<group>"; };
+		FFC432E119EFD63900DAA9BC /* ReleaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseViewController.m; sourceTree = "<group>"; };
+		FFC432E319F0022F00DAA9BC /* ActorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorViewController.h; sourceTree = "<group>"; };
+		FFC432E419F0022F00DAA9BC /* ActorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorViewController.m; sourceTree = "<group>"; };
+		FFC432E619F002BE00DAA9BC /* ActorViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorViewController01.h; sourceTree = "<group>"; };
+		FFC432E719F002BE00DAA9BC /* ActorViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorViewController01.m; sourceTree = "<group>"; };
+		FFC432E919F00A5F00DAA9BC /* VoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteViewController.h; sourceTree = "<group>"; };
+		FFC432EA19F00A5F00DAA9BC /* VoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteViewController.m; sourceTree = "<group>"; };
+		FFC432EC19F00ADC00DAA9BC /* VoteViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteViewController01.h; sourceTree = "<group>"; };
+		FFC432ED19F00ADC00DAA9BC /* VoteViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteViewController01.m; sourceTree = "<group>"; };
+		FFC432EF19F01C2A00DAA9BC /* bbs_icon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bbs_icon_add@2x.png"; sourceTree = "<group>"; };
+		FFC432F019F01C2A00DAA9BC /* bbs_icon_many@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bbs_icon_many@2x.png"; sourceTree = "<group>"; };
+		FFC432F119F01C2A00DAA9BC /* bbs_icon_signle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bbs_icon_signle@2x.png"; sourceTree = "<group>"; };
+		FFC432F519F01CF500DAA9BC /* VoteViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteViewController02.h; sourceTree = "<group>"; };
+		FFC432F619F01CF500DAA9BC /* VoteViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteViewController02.m; sourceTree = "<group>"; };
+		FFC432F819F01F2D00DAA9BC /* VoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteCell.h; sourceTree = "<group>"; };
+		FFC432F919F01F2D00DAA9BC /* VoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteCell.m; sourceTree = "<group>"; };
 		FFDE332519E96E15004C526C /* IChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerDelegate.h; sourceTree = "<group>"; };
 		FFDE332719E96E15004C526C /* EMChatManagerBuddyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerBuddyDelegate.h; sourceTree = "<group>"; };
 		FFDE332819E96E15004C526C /* EMChatManagerChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerChatDelegate.h; sourceTree = "<group>"; };
@@ -1505,6 +1535,9 @@
 		FF74820D19EB5387001A303F /* common */ = {
 			isa = PBXGroup;
 			children = (
+				FFC432EF19F01C2A00DAA9BC /* bbs_icon_add@2x.png */,
+				FFC432F019F01C2A00DAA9BC /* bbs_icon_many@2x.png */,
+				FFC432F119F01C2A00DAA9BC /* bbs_icon_signle@2x.png */,
 				FF8E81A919EDEC6500937E7B /* complete_icon_car_1@2x.png */,
 				FF8E81AA19EDEC6500937E7B /* complete_icon_car_2@2x.png */,
 				FF8E81AB19EDEC6500937E7B /* complete_icon_passenger_1@2x.png */,
@@ -1553,6 +1586,20 @@
 			children = (
 				FF9E985F19EF4E8A0050A426 /* ForumViewController.h */,
 				FF9E986019EF4E8A0050A426 /* ForumViewController.m */,
+				FFC432DD19EFC43000DAA9BC /* FilterViewController.h */,
+				FFC432DE19EFC43000DAA9BC /* FilterViewController.m */,
+				FFC432E019EFD63900DAA9BC /* ReleaseViewController.h */,
+				FFC432E119EFD63900DAA9BC /* ReleaseViewController.m */,
+				FFC432E319F0022F00DAA9BC /* ActorViewController.h */,
+				FFC432E419F0022F00DAA9BC /* ActorViewController.m */,
+				FFC432E619F002BE00DAA9BC /* ActorViewController01.h */,
+				FFC432E719F002BE00DAA9BC /* ActorViewController01.m */,
+				FFC432E919F00A5F00DAA9BC /* VoteViewController.h */,
+				FFC432EA19F00A5F00DAA9BC /* VoteViewController.m */,
+				FFC432EC19F00ADC00DAA9BC /* VoteViewController01.h */,
+				FFC432ED19F00ADC00DAA9BC /* VoteViewController01.m */,
+				FFC432F519F01CF500DAA9BC /* VoteViewController02.h */,
+				FFC432F619F01CF500DAA9BC /* VoteViewController02.m */,
 				FF9E986819EF50720050A426 /* forum.plist */,
 			);
 			path = controller;
@@ -1563,6 +1610,8 @@
 			children = (
 				FF9E986219EF4F610050A426 /* ForumCell.h */,
 				FF9E986319EF4F610050A426 /* ForumCell.m */,
+				FFC432F819F01F2D00DAA9BC /* VoteCell.h */,
+				FFC432F919F01F2D00DAA9BC /* VoteCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -3249,6 +3298,7 @@
 				FF74821119EB5387001A303F /* property_icon_tel@2x.png in Resources */,
 				FF7481EC19EB46E3001A303F /* complete_img_goods_Cola@2x.png in Resources */,
 				FFDE37B519E977CF004C526C /* VoiceSearchFeedback005@2x.png in Resources */,
+				FFC432F319F01C2A00DAA9BC /* bbs_icon_many@2x.png in Resources */,
 				FFDE37B319E977CF004C526C /* VoiceSearchFeedback004@2x.png in Resources */,
 				FF5C30AF19E6B32B00DD942E /* complete_banner@2x.png in Resources */,
 				FF8E81AE19EDEC6500937E7B /* complete_icon_car_2@2x.png in Resources */,
@@ -3360,6 +3410,7 @@
 				FFDE36A719E97249004C526C /* chatBar_keyboard.png in Resources */,
 				FFDE37D719E977CF004C526C /* chatBar_more_cardSelected.png in Resources */,
 				FFDE37AC19E977CF004C526C /* VoiceSearchFeedback001.png in Resources */,
+				FFC432F219F01C2A00DAA9BC /* bbs_icon_add@2x.png in Resources */,
 				FF5C30B819E6B32B00DD942E /* property_btn_maintenance_nor@2x.png in Resources */,
 				FFDE36A819E97249004C526C /* chatBar_keyboard@2x.png in Resources */,
 				FF79191A19ECAECF0086C8B0 /* property_btn_choose_nor@2x.png in Resources */,
@@ -3396,6 +3447,7 @@
 				FFDE36B719E97249004C526C /* chatBar_colorMore_camera@2x.png in Resources */,
 				FF5C309419E6A42100DD942E /* tab_sns@2x.png in Resources */,
 				FFDE36C419E97249004C526C /* chatBar_more_location@2x.png in Resources */,
+				FFC432F419F01C2A00DAA9BC /* bbs_icon_signle@2x.png in Resources */,
 				FFAC274619E61BEE00446313 /* Main.storyboard in Resources */,
 				FFDE36AA19E97249004C526C /* chatBar_keyboardSelected@2x.png in Resources */,
 				FFDE373719E973FC004C526C /* groupPrivateHeader@2x.png in Resources */,
@@ -3586,6 +3638,7 @@
 				FFAC27C219E621E700446313 /* UILabel+QM_Category.m in Sources */,
 				FF60D67719E69EF7002378A5 /* CurrencyViewController.m in Sources */,
 				FFFF841319E7CA43007ACA2B /* BulletinDetailViewController.m in Sources */,
+				FFC432F719F01CF500DAA9BC /* VoteViewController02.m in Sources */,
 				FFAC27C419E621E700446313 /* UITextField+QM_Category.m in Sources */,
 				FFDE370E19E97249004C526C /* EMSearchBar.m in Sources */,
 				FFDE38BB19E97A31004C526C /* NSObject+MagicalDataImport.m in Sources */,
@@ -3638,6 +3691,7 @@
 				FFDE381419E978A9004C526C /* AddFriendCell.m in Sources */,
 				FFAC27D319E621E700446313 /* SecurityMainController.m in Sources */,
 				FF74825419EC1238001A303F /* QMPhotoScrollView.m in Sources */,
+				FFC432E519F0022F00DAA9BC /* ActorViewController.m in Sources */,
 				FFDE36A219E97249004C526C /* DXRecordView.m in Sources */,
 				FFDE38D119E97A31004C526C /* UIDemo.xcdatamodeld in Sources */,
 				FFDE370F19E97249004C526C /* EMTextView.m in Sources */,
@@ -3678,6 +3732,7 @@
 				FFDE38C019E97A31004C526C /* NSManagedObject+MagicalFinders.m in Sources */,
 				FF79192119ECB7780086C8B0 /* PageAssessCell.m in Sources */,
 				FF74823219EBCBD2001A303F /* PaymentViewController02.m in Sources */,
+				FFC432DF19EFC43000DAA9BC /* FilterViewController.m in Sources */,
 				FF8E81A619EDE7D000937E7B /* Carpool.m in Sources */,
 				FFDE367E19E97249004C526C /* PSTCollectionViewItemKey.m in Sources */,
 				FFDE373119E973FC004C526C /* CreateGroupViewController.m in Sources */,
@@ -3702,15 +3757,19 @@
 				FFDE369119E97249004C526C /* NSString+Valid.m in Sources */,
 				FFDE36D819E97249004C526C /* MessageModelManager.m in Sources */,
 				FFAC27CE19E621E700446313 /* PageViewController.m in Sources */,
+				FFC432E819F002BE00DAA9BC /* ActorViewController01.m in Sources */,
 				FFDE367C19E97249004C526C /* PSTCollectionViewData.m in Sources */,
+				FFC432FA19F01F2D00DAA9BC /* VoteCell.m in Sources */,
 				FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */,
 				FFAC27C019E621E700446313 /* UIButton+QM_Category.m in Sources */,
 				FFDE36D119E97249004C526C /* EMChatVideoBubbleView.m in Sources */,
 				FFDE368419E97249004C526C /* PSTGridLayoutSection.m in Sources */,
+				FFC432EB19F00A5F00DAA9BC /* VoteViewController.m in Sources */,
 				FFAC27C919E621E700446313 /* ViewController.m in Sources */,
 				FF74824E19EC00F5001A303F /* PageHeaderCell.m in Sources */,
 				FFDE38BE19E97A31004C526C /* NSManagedObject+MagicalAggregation.m in Sources */,
 				FF79192419ECB8930086C8B0 /* PageDetailViewController01.m in Sources */,
+				FFC432EE19F00ADC00DAA9BC /* VoteViewController01.m in Sources */,
 				FFDE38C719E97A31004C526C /* NSManagedObjectModel+MagicalRecord.m in Sources */,
 				FFDE367D19E97249004C526C /* PSTCollectionViewFlowLayout.m in Sources */,
 				FF7B103419E8E16A003867FC /* AddressViewController.m in Sources */,
@@ -3750,6 +3809,7 @@
 				FFDE38CA19E97A31004C526C /* MagicalRecord+Actions.m in Sources */,
 				FFDE368319E97249004C526C /* PSTGridLayoutRow.m in Sources */,
 				FFDE371019E97249004C526C /* EMRemarkImageView.m in Sources */,
+				FFC432E219EFD63900DAA9BC /* ReleaseViewController.m in Sources */,
 				FFAC273A19E61BEE00446313 /* main.m in Sources */,
 				FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */,
 				FFDE36D919E97249004C526C /* MessageReadManager.m in Sources */,

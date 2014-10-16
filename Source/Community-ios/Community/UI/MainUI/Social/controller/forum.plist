@@ -14,6 +14,36 @@
 			<key>replys</key>
 			<array/>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>风火轮</string>
+			<key>title</key>
+			<string>新社区,快来入驻</string>
+			<key>time</key>
+			<string>2014-09-15 12:12</string>
+			<key>replys</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>风火轮</string>
+			<key>title</key>
+			<string>你还在买彩票吗?</string>
+			<key>time</key>
+			<string>2014-09-15 12:12</string>
+			<key>replys</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>风火轮</string>
+			<key>title</key>
+			<string>想交友的进来哟~</string>
+			<key>time</key>
+			<string>2014-09-15 12:12</string>
+			<key>replys</key>
+			<array/>
+		</dict>
 	</array>
 </dict>
 </plist>

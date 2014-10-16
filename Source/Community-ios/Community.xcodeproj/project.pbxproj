@@ -117,7 +117,6 @@
 		FF74823519EBCCE0001A303F /* PaymentCell02.m in Sources */ = {isa = PBXBuildFile; fileRef = FF74823419EBCCE0001A303F /* PaymentCell02.m */; };
 		FF74823719EBD0DD001A303F /* express.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF74823619EBD0DD001A303F /* express.plist */; };
 		FF74823A19EBD249001A303F /* Express.m in Sources */ = {isa = PBXBuildFile; fileRef = FF74823919EBD249001A303F /* Express.m */; };
-		FF74823D19EBD3F7001A303F /* ExpressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF74823C19EBD3F7001A303F /* ExpressCell.m */; };
 		FF74824319EBF252001A303F /* PaymentViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = FF74824219EBF252001A303F /* PaymentViewController03.m */; };
 		FF74824619EBF399001A303F /* PaymentRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF74824519EBF399001A303F /* PaymentRecordViewController.m */; };
 		FF74824919EBF472001A303F /* PaymentRecordViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF74824819EBF472001A303F /* PaymentRecordViewController01.m */; };
@@ -146,13 +145,11 @@
 		FF79192419ECB8930086C8B0 /* PageDetailViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF79192319ECB8930086C8B0 /* PageDetailViewController01.m */; };
 		FF79192719ECC27C0086C8B0 /* PageDetailViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FF79192619ECC27C0086C8B0 /* PageDetailViewController02.m */; };
 		FF7B103419E8E16A003867FC /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B103319E8E16A003867FC /* AddressViewController.m */; };
-		FF8E819519EDD7E100937E7B /* TakeoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E819419EDD7E100937E7B /* TakeoutCell.m */; };
 		FF8E819A19EDD8BF00937E7B /* complete_btn_add_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E819619EDD8BF00937E7B /* complete_btn_add_hl@2x.png */; };
 		FF8E819B19EDD8BF00937E7B /* complete_btn_add_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E819719EDD8BF00937E7B /* complete_btn_add_nor@2x.png */; };
 		FF8E819C19EDD8BF00937E7B /* complete_btn_reduce_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E819819EDD8BF00937E7B /* complete_btn_reduce_hl@2x.png */; };
 		FF8E819D19EDD8BF00937E7B /* complete_btn_reduce_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E819919EDD8BF00937E7B /* complete_btn_reduce_nor@2x.png */; };
 		FF8E81A019EDDCBB00937E7B /* Takeout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E819F19EDDCBB00937E7B /* Takeout.m */; };
-		FF8E81A319EDE5F600937E7B /* CarpoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E81A219EDE5F600937E7B /* CarpoolCell.m */; };
 		FF8E81A619EDE7D000937E7B /* Carpool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E81A519EDE7D000937E7B /* Carpool.m */; };
 		FF8E81A819EDE8B100937E7B /* carpool.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8E81A719EDE8B100937E7B /* carpool.plist */; };
 		FF8E81AD19EDEC6500937E7B /* complete_icon_car_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E81A919EDEC6500937E7B /* complete_icon_car_1@2x.png */; };
@@ -160,6 +157,16 @@
 		FF8E81AF19EDEC6500937E7B /* complete_icon_passenger_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E81AB19EDEC6500937E7B /* complete_icon_passenger_1@2x.png */; };
 		FF8E81B019EDEC6500937E7B /* complete_icon_passenger_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8E81AC19EDEC6500937E7B /* complete_icon_passenger_2@2x.png */; };
 		FF9673EF19E9F1D20052B23A /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9673EE19E9F1D20052B23A /* SettingTableViewController.m */; };
+		FF9E984C19EF2FB10050A426 /* TakeoutViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E984B19EF2FB10050A426 /* TakeoutViewController02.m */; };
+		FF9E984F19EF42D60050A426 /* CarpoolViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E984E19EF42D60050A426 /* CarpoolViewController01.m */; };
+		FF9E985719EF46090050A426 /* CarpoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E985219EF46090050A426 /* CarpoolCell.m */; };
+		FF9E985819EF46090050A426 /* ExpressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E985419EF46090050A426 /* ExpressCell.m */; };
+		FF9E985919EF46090050A426 /* TakeoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E985619EF46090050A426 /* TakeoutCell.m */; };
+		FF9E985C19EF46190050A426 /* CarpoolCell01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E985B19EF46190050A426 /* CarpoolCell01.m */; };
+		FF9E986119EF4E8A0050A426 /* ForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E986019EF4E8A0050A426 /* ForumViewController.m */; };
+		FF9E986419EF4F610050A426 /* ForumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E986319EF4F610050A426 /* ForumCell.m */; };
+		FF9E986719EF4FDD0050A426 /* Forum.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E986619EF4FDD0050A426 /* Forum.m */; };
+		FF9E986919EF50720050A426 /* forum.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF9E986819EF50720050A426 /* forum.plist */; };
 		FFA0644519E66B350021DC0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644319E66B350021DC0B /* Default-568h@2x.png */; };
 		FFA0644619E66B350021DC0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644419E66B350021DC0B /* Default@2x.png */; };
 		FFA0644A19E676550021DC0B /* usercenter_img_headportrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */; };
@@ -646,8 +653,6 @@
 		FF74823619EBD0DD001A303F /* express.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = express.plist; sourceTree = "<group>"; };
 		FF74823819EBD249001A303F /* Express.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Express.h; sourceTree = "<group>"; };
 		FF74823919EBD249001A303F /* Express.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Express.m; sourceTree = "<group>"; };
-		FF74823B19EBD3F7001A303F /* ExpressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressCell.h; sourceTree = SOURCE_ROOT; };
-		FF74823C19EBD3F7001A303F /* ExpressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressCell.m; sourceTree = SOURCE_ROOT; };
 		FF74824119EBF252001A303F /* PaymentViewController03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController03.h; sourceTree = "<group>"; };
 		FF74824219EBF252001A303F /* PaymentViewController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController03.m; sourceTree = "<group>"; };
 		FF74824419EBF399001A303F /* PaymentRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentRecordViewController.h; sourceTree = "<group>"; };
@@ -689,16 +694,12 @@
 		FF79192619ECC27C0086C8B0 /* PageDetailViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageDetailViewController02.m; sourceTree = "<group>"; };
 		FF7B103219E8E16A003867FC /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
 		FF7B103319E8E16A003867FC /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
-		FF8E819319EDD7E100937E7B /* TakeoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeoutCell.h; sourceTree = SOURCE_ROOT; };
-		FF8E819419EDD7E100937E7B /* TakeoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeoutCell.m; sourceTree = SOURCE_ROOT; };
 		FF8E819619EDD8BF00937E7B /* complete_btn_add_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complete_btn_add_hl@2x.png"; sourceTree = "<group>"; };
 		FF8E819719EDD8BF00937E7B /* complete_btn_add_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complete_btn_add_nor@2x.png"; sourceTree = "<group>"; };
 		FF8E819819EDD8BF00937E7B /* complete_btn_reduce_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complete_btn_reduce_hl@2x.png"; sourceTree = "<group>"; };
 		FF8E819919EDD8BF00937E7B /* complete_btn_reduce_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complete_btn_reduce_nor@2x.png"; sourceTree = "<group>"; };
 		FF8E819E19EDDCBB00937E7B /* Takeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Takeout.h; sourceTree = "<group>"; };
 		FF8E819F19EDDCBB00937E7B /* Takeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Takeout.m; sourceTree = "<group>"; };
-		FF8E81A119EDE5F600937E7B /* CarpoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolCell.h; sourceTree = SOURCE_ROOT; };
-		FF8E81A219EDE5F600937E7B /* CarpoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolCell.m; sourceTree = SOURCE_ROOT; };
 		FF8E81A419EDE7D000937E7B /* Carpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carpool.h; sourceTree = "<group>"; };
 		FF8E81A519EDE7D000937E7B /* Carpool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carpool.m; sourceTree = "<group>"; };
 		FF8E81A719EDE8B100937E7B /* carpool.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carpool.plist; sourceTree = "<group>"; };
@@ -708,6 +709,25 @@
 		FF8E81AC19EDEC6500937E7B /* complete_icon_passenger_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complete_icon_passenger_2@2x.png"; sourceTree = "<group>"; };
 		FF9673ED19E9F1D20052B23A /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
 		FF9673EE19E9F1D20052B23A /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		FF9E984A19EF2FB10050A426 /* TakeoutViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeoutViewController02.h; sourceTree = "<group>"; };
+		FF9E984B19EF2FB10050A426 /* TakeoutViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeoutViewController02.m; sourceTree = "<group>"; };
+		FF9E984D19EF42D60050A426 /* CarpoolViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolViewController01.h; sourceTree = "<group>"; };
+		FF9E984E19EF42D60050A426 /* CarpoolViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolViewController01.m; sourceTree = "<group>"; };
+		FF9E985119EF46090050A426 /* CarpoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolCell.h; sourceTree = "<group>"; };
+		FF9E985219EF46090050A426 /* CarpoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolCell.m; sourceTree = "<group>"; };
+		FF9E985319EF46090050A426 /* ExpressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressCell.h; sourceTree = "<group>"; };
+		FF9E985419EF46090050A426 /* ExpressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressCell.m; sourceTree = "<group>"; };
+		FF9E985519EF46090050A426 /* TakeoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeoutCell.h; sourceTree = "<group>"; };
+		FF9E985619EF46090050A426 /* TakeoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeoutCell.m; sourceTree = "<group>"; };
+		FF9E985A19EF46190050A426 /* CarpoolCell01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolCell01.h; sourceTree = "<group>"; };
+		FF9E985B19EF46190050A426 /* CarpoolCell01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolCell01.m; sourceTree = "<group>"; };
+		FF9E985F19EF4E8A0050A426 /* ForumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumViewController.h; sourceTree = "<group>"; };
+		FF9E986019EF4E8A0050A426 /* ForumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumViewController.m; sourceTree = "<group>"; };
+		FF9E986219EF4F610050A426 /* ForumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumCell.h; sourceTree = "<group>"; };
+		FF9E986319EF4F610050A426 /* ForumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumCell.m; sourceTree = "<group>"; };
+		FF9E986519EF4FDD0050A426 /* Forum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forum.h; sourceTree = "<group>"; };
+		FF9E986619EF4FDD0050A426 /* Forum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forum.m; sourceTree = "<group>"; };
+		FF9E986819EF50720050A426 /* forum.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = forum.plist; sourceTree = "<group>"; };
 		FFA0644319E66B350021DC0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FFA0644419E66B350021DC0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFA0644819E676550021DC0B /* usercenter_img_headportrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usercenter_img_headportrait@2x.png"; sourceTree = "<group>"; };
@@ -1513,6 +1533,40 @@
 			path = common;
 			sourceTree = "<group>";
 		};
+		FF9E985019EF46090050A426 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E985119EF46090050A426 /* CarpoolCell.h */,
+				FF9E985219EF46090050A426 /* CarpoolCell.m */,
+				FF9E985A19EF46190050A426 /* CarpoolCell01.h */,
+				FF9E985B19EF46190050A426 /* CarpoolCell01.m */,
+				FF9E985319EF46090050A426 /* ExpressCell.h */,
+				FF9E985419EF46090050A426 /* ExpressCell.m */,
+				FF9E985519EF46090050A426 /* TakeoutCell.h */,
+				FF9E985619EF46090050A426 /* TakeoutCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FF9E985D19EF4E580050A426 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E985F19EF4E8A0050A426 /* ForumViewController.h */,
+				FF9E986019EF4E8A0050A426 /* ForumViewController.m */,
+				FF9E986819EF50720050A426 /* forum.plist */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FF9E985E19EF4E580050A426 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E986219EF4F610050A426 /* ForumCell.h */,
+				FF9E986319EF4F610050A426 /* ForumCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		FFA0644719E676550021DC0B /* personal */ = {
 			isa = PBXGroup;
 			children = (
@@ -1657,6 +1711,8 @@
 				FF8E819F19EDDCBB00937E7B /* Takeout.m */,
 				FF8E81A419EDE7D000937E7B /* Carpool.h */,
 				FF8E81A519EDE7D000937E7B /* Carpool.m */,
+				FF9E986519EF4FDD0050A426 /* Forum.h */,
+				FF9E986619EF4FDD0050A426 /* Forum.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1846,8 +1902,8 @@
 			children = (
 				FFAC279819E621E700446313 /* LifeSupportMainController.h */,
 				FFAC279919E621E700446313 /* LifeSupportMainController.m */,
+				FF9E985019EF46090050A426 /* view */,
 				FFFF842119E81171007ACA2B /* controller */,
-				FFFF842219E81171007ACA2B /* view */,
 			);
 			path = LifeSupport;
 			sourceTree = "<group>";
@@ -1920,6 +1976,8 @@
 			children = (
 				FFAC27B019E621E700446313 /* SocialMainController.h */,
 				FFAC27B119E621E700446313 /* SocialMainController.m */,
+				FF9E985D19EF4E580050A426 /* controller */,
+				FF9E985E19EF4E580050A426 /* view */,
 				FFDE339F19E970D8004C526C /* EaseIM */,
 			);
 			path = Social;
@@ -3054,19 +3112,6 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
-		FFFF842219E81171007ACA2B /* view */ = {
-			isa = PBXGroup;
-			children = (
-				FF74823B19EBD3F7001A303F /* ExpressCell.h */,
-				FF74823C19EBD3F7001A303F /* ExpressCell.m */,
-				FF8E819319EDD7E100937E7B /* TakeoutCell.h */,
-				FF8E819419EDD7E100937E7B /* TakeoutCell.m */,
-				FF8E81A119EDE5F600937E7B /* CarpoolCell.h */,
-				FF8E81A219EDE5F600937E7B /* CarpoolCell.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		FFFF842919E8209F007ACA2B /* 快递代收 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3086,6 +3131,8 @@
 				FFFF842C19E820DA007ACA2B /* TakeoutViewController.m */,
 				FFFF842E19E82120007ACA2B /* TakeoutViewController01.h */,
 				FFFF842F19E82120007ACA2B /* TakeoutViewController01.m */,
+				FF9E984A19EF2FB10050A426 /* TakeoutViewController02.h */,
+				FF9E984B19EF2FB10050A426 /* TakeoutViewController02.m */,
 			);
 			name = "外卖";
 			sourceTree = "<group>";
@@ -3095,6 +3142,8 @@
 			children = (
 				FFFF843219E82C7A007ACA2B /* CarpoolViewController.h */,
 				FFFF843319E82C7A007ACA2B /* CarpoolViewController.m */,
+				FF9E984D19EF42D60050A426 /* CarpoolViewController01.h */,
+				FF9E984E19EF42D60050A426 /* CarpoolViewController01.m */,
 				FF8E81A719EDE8B100937E7B /* carpool.plist */,
 			);
 			name = "拼车";
@@ -3417,6 +3466,7 @@
 				FF5C30B319E6B32B00DD942E /* complete_btn_courier_nor@2x.png in Resources */,
 				FF5C308E19E6A42100DD942E /* tab_personal@2x.png in Resources */,
 				FF5C309319E6A42100DD942E /* tab_sns_hl@2x.png in Resources */,
+				FF9E986919EF50720050A426 /* forum.plist in Resources */,
 				FFDE37C919E977CF004C526C /* VoiceSearchFeedback015@2x.png in Resources */,
 				FF7481A919EB3D9A001A303F /* login_icon_Pulldown@2x.png in Resources */,
 				FFDE37E219E977CF004C526C /* chat_location_detail_disclosure@2x.png in Resources */,
@@ -3543,12 +3593,14 @@
 				FFAC27C719E621E700446313 /* QMTableViewController.m in Sources */,
 				FFDE38C519E97A31004C526C /* NSManagedObjectContext+MagicalSaves.m in Sources */,
 				FFDE368219E97249004C526C /* PSTGridLayoutItem.m in Sources */,
+				FF9E984F19EF42D60050A426 /* CarpoolViewController01.m in Sources */,
 				FFDE36CD19E97249004C526C /* EMChatBaseBubbleView.m in Sources */,
 				FFAC27CA19E621E700446313 /* HomeViewController.m in Sources */,
 				FFDE367619E97249004C526C /* MWZoomingScrollView.m in Sources */,
 				FFDE369619E97249004C526C /* ChatListViewController.m in Sources */,
 				FFDE366E19E97249004C526C /* MBProgressHUD.m in Sources */,
 				FF74824319EBF252001A303F /* PaymentViewController03.m in Sources */,
+				FF9E985819EF46090050A426 /* ExpressCell.m in Sources */,
 				FFDE36CE19E97249004C526C /* EMChatImageBubbleView.m in Sources */,
 				FFAC27CD19E621E700446313 /* BulletinViewController.m in Sources */,
 				FFDE38CD19E97A31004C526C /* MagicalRecord+Options.m in Sources */,
@@ -3573,6 +3625,7 @@
 				FFDE36A119E97249004C526C /* DXChatBarMoreView.m in Sources */,
 				FFDE38BC19E97A31004C526C /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
 				FFDE371119E97249004C526C /* BaseViewController.m in Sources */,
+				FF9E986419EF4F610050A426 /* ForumCell.m in Sources */,
 				FFDE367A19E97249004C526C /* PSTCollectionViewCell.m in Sources */,
 				FF74824919EBF472001A303F /* PaymentRecordViewController01.m in Sources */,
 				FFDE366D19E97249004C526C /* MBProgressHUD+Add.m in Sources */,
@@ -3589,13 +3642,13 @@
 				FFDE38D119E97A31004C526C /* UIDemo.xcdatamodeld in Sources */,
 				FFDE370F19E97249004C526C /* EMTextView.m in Sources */,
 				FFDE368019E97249004C526C /* PSTCollectionViewUpdateItem.m in Sources */,
-				FF74823D19EBD3F7001A303F /* ExpressCell.m in Sources */,
 				FFAC27C619E621E700446313 /* QMNavigationController.m in Sources */,
 				FFDE381919E978A9004C526C /* RealtimeSearchUtil.m in Sources */,
 				FFDE373619E973FC004C526C /* GroupListViewController.m in Sources */,
 				FF74822A19EBBF0B001A303F /* ComplaintsViewController.m in Sources */,
 				FFDE368C19E97249004C526C /* TTGlobalUICommon.m in Sources */,
 				FFDE36D019E97249004C526C /* EMChatTextBubbleView.m in Sources */,
+				FF9E986719EF4FDD0050A426 /* Forum.m in Sources */,
 				FFDE38C319E97A31004C526C /* NSManagedObjectContext+MagicalObserving.m in Sources */,
 				FFDE369319E97249004C526C /* UIViewController+DismissKeyboard.m in Sources */,
 				FFDE38BA19E97A31004C526C /* NSNumber+MagicalDataImport.m in Sources */,
@@ -3606,6 +3659,7 @@
 				FF5C30C819E6BDCE00DD942E /* VerticalButton.m in Sources */,
 				FFDE36CC19E97249004C526C /* EMChatAudioBubbleView.m in Sources */,
 				FFAC27CC19E621E700446313 /* PersonalMainController.m in Sources */,
+				FF9E984C19EF2FB10050A426 /* TakeoutViewController02.m in Sources */,
 				FFDE367919E97249004C526C /* PSTCollectionView.m in Sources */,
 				FFDE373C19E973FC004C526C /* PublicGroupListViewController.m in Sources */,
 				FFDE38C819E97A31004C526C /* NSPersistentStore+MagicalRecord.m in Sources */,
@@ -3641,7 +3695,9 @@
 				FFDE371519E97249004C526C /* XHMessageTextView.m in Sources */,
 				FFFF843019E82120007ACA2B /* TakeoutViewController01.m in Sources */,
 				FFDE38CF19E97A31004C526C /* MagicalRecord+ShorthandSupport.m in Sources */,
+				FF9E986119EF4E8A0050A426 /* ForumViewController.m in Sources */,
 				FFDE38CE19E97A31004C526C /* MagicalRecord+Setup.m in Sources */,
+				FF9E985919EF46090050A426 /* TakeoutCell.m in Sources */,
 				FFA0646F19E680910021DC0B /* FeedbackViewController.m in Sources */,
 				FFDE369119E97249004C526C /* NSString+Valid.m in Sources */,
 				FFDE36D819E97249004C526C /* MessageModelManager.m in Sources */,
@@ -3662,8 +3718,6 @@
 				FFDE368B19E97249004C526C /* THProgressView.m in Sources */,
 				FF74822F19EBC54D001A303F /* Payment.m in Sources */,
 				FFDE369819E97249004C526C /* ChatViewController.m in Sources */,
-				FF8E819519EDD7E100937E7B /* TakeoutCell.m in Sources */,
-				FF8E81A319EDE5F600937E7B /* CarpoolCell.m in Sources */,
 				FFAC27BE19E621E700446313 /* NSDictionary+QM_Category.m in Sources */,
 				FFAC27C119E621E700446313 /* UIImage+QM_Category.m in Sources */,
 				FFDE368A19E97249004C526C /* SRSlimeView.m in Sources */,
@@ -3685,8 +3739,10 @@
 				FFAC27C819E621E700446313 /* QMViewController.m in Sources */,
 				FF74821919EB9B72001A303F /* SignUpViewController03.m in Sources */,
 				FF74823A19EBD249001A303F /* Express.m in Sources */,
+				FF9E985719EF46090050A426 /* CarpoolCell.m in Sources */,
 				FFDE371419E97249004C526C /* EMSearchDisplayController.m in Sources */,
 				FFDE367119E97249004C526C /* MWGridViewController.m in Sources */,
+				FF9E985C19EF46190050A426 /* CarpoolCell01.m in Sources */,
 				FFDE367819E97249004C526C /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				FFAC27D419E621E700446313 /* SocialMainController.m in Sources */,
 				FFAC27C319E621E700446313 /* QMScrollView.m in Sources */,

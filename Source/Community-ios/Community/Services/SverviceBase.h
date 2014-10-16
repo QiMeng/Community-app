@@ -58,7 +58,8 @@
 #pragma mark - 拼车
 - (void)loadCarpoolUserID:(NSString *)userID callBack:(id)callback;
 
-
+#pragma mark - 论坛
+- (void)loadForumUserID:(NSString *)userID callBack:(id)callback;
 
 
 @end

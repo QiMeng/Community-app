@@ -61,8 +61,10 @@
                                                                   
                                                                   [[ApplyViewController shareController] loadDataSourceFromLocalDB];
                                                                   
-                                                                  [self performSegueWithIdentifier:@"HomeViewController" sender:self];
+//                                                                  [self performSegueWithIdentifier:@"HomeViewController" sender:self];
                                                               }
+                                                              
+                                                              [self performSegueWithIdentifier:@"HomeViewController" sender:self];
                                                               
                                                               
                                                           } onQueue:nil];

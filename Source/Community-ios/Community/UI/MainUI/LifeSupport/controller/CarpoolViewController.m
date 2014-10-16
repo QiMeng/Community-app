@@ -9,6 +9,7 @@
 #import "CarpoolViewController.h"
 #import "CarpoolCell.h"
 #import "Carpool.h"
+#import "CarpoolViewController01.h"
 @interface CarpoolViewController ()
 
 @end
@@ -80,20 +81,40 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [self performSegueWithIdentifier:@"CarpoolViewController01" sender:selectList[indexPath.row]];
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    CarpoolViewController01 * ctrl = segue.destinationViewController;
+    
+    if ([ctrl isKindOfClass:[CarpoolViewController01 class]]) {
+        
+        if (selectInt == 0) {
+            ctrl.title = @"找车主";
+        }else {
+            ctrl.title = @"找乘客";
+        }
+        
+        
+        ctrl.carpool = sender;
+    }
+    
 }
-*/
+
 
 @end

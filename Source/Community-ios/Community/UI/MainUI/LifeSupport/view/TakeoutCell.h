@@ -17,7 +17,8 @@
 
 @interface TakeoutCell : UITableViewCell {
     
-    __weak IBOutlet UIView *iconImageView;
+   
+    __weak IBOutlet UIImageView *iconImageView;
     
 
     __weak IBOutlet UILabel *titleLabel;

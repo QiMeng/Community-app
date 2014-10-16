@@ -12,6 +12,7 @@
 #import "Payment.h"
 #import "Express.h"
 #import "Carpool.h"
+#import "Forum.h"
 @implementation SverviceBase
 
 
@@ -176,6 +177,25 @@
     NSMutableArray * list = [NSMutableArray array];
     for (NSDictionary * dic in pArray) {
         [list addObject:[Carpool itemFromDic:dic]];
+    }
+    
+    if (callback && [callback respondsToSelector:@selector(loadListCallBack:msg:list:)] ) {
+        [callback loadListCallBack:200 msg:@"加载数据成功" list:list];
+        
+    }
+    
+}
+#pragma mark - 论坛
+- (void)loadForumUserID:(NSString *)userID callBack:(id)callback {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"forum" ofType:@"plist"];
+    NSDictionary * modelDic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    
+    NSArray * pArray = [modelDic objectForKeyNotNull:@"forum"];
+    
+    NSMutableArray * list = [NSMutableArray array];
+    for (NSDictionary * dic in pArray) {
+        [list addObject:[Forum itemFromDic:dic]];
     }
     
     if (callback && [callback respondsToSelector:@selector(loadListCallBack:msg:list:)] ) {

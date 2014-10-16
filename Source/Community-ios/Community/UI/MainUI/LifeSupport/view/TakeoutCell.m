@@ -17,8 +17,8 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    
-    
+    iconImageView.image = [UIImage imageNamed:@"property_icon_test"];
+  
     
     [lessBtn viewLineColor:RGBA(227, 227, 227, 1) borderWidth:1 cornerRadius:0];
     [amountLabel viewLineColor:RGBA(227, 227, 227, 1) borderWidth:1 cornerRadius:0];
@@ -29,7 +29,7 @@
     
     titleLabel.text = _takout.name;
     
-    priceLabel.text = [NSString stringWithFormat:@"%g",_takout.price];
+    priceLabel.text = [NSString stringWithFormat:@"￥%g",_takout.price];
     
 }
 

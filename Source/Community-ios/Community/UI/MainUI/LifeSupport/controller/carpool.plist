@@ -22,7 +22,16 @@
 			<key>updateTime</key>
 			<string>2014-09-15 15:06</string>
 			<key>replys</key>
-			<array/>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>互不动听</string>
+					<key>content</key>
+					<string>楼主,实在第七大道路口?求搭载</string>
+					<key>time</key>
+					<string>2014-09-05 12:12</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>icon</key>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>forum</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>风火轮</string>
+			<key>title</key>
+			<string>安全家全面开放</string>
+			<key>time</key>
+			<string>2014-09-15 12:12</string>
+			<key>replys</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>

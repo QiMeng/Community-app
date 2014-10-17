@@ -14,6 +14,8 @@
 #import "MBProgressHUD.h"
 #import <objc/runtime.h>
 
+#import <SVProgressHUD.h>
+
 static const void *HttpRequestHUDKey = &HttpRequestHUDKey;
 
 @implementation UIViewController (HUD)
@@ -71,5 +73,20 @@ static const void *HttpRequestHUDKey = &HttpRequestHUDKey;
 - (void)hideHud{
     [[self HUD] hide:YES];
 }
+
+- (void)showWithStatus:(NSString *)string {
+    [SVProgressHUD showWithStatus:string maskType:SVProgressHUDMaskTypeBlack];
+}
+- (void)showErrorString:(NSString *)string {
+    [SVProgressHUD showErrorWithStatus:string ];
+}
+- (void)showSuccessString:(NSString *)string {
+    
+    [SVProgressHUD showSuccessWithStatus:string];
+}
+- (void)dismiss {
+    [SVProgressHUD dismiss];
+}
+
 
 @end

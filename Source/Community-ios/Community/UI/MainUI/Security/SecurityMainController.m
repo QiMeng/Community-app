@@ -7,6 +7,9 @@
 //
 
 #import "SecurityMainController.h"
+#import "UnlockViewController.h"
+
+#import "SecurityWebcamController.h"
 
 @interface SecurityMainController ()
 
@@ -22,15 +25,28 @@
     }
     return self;
 }
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.parentViewController.title = @"安全";
-}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+#pragma mark - 呼叫
+- (IBAction)touchCall:(id)sender {
+    
+    [self performSegueWithIdentifier:@"UnlockViewController" sender:self];
+}
+
+#pragma mark - 摄像头
+- (IBAction)touchWebcam:(id)sender {
+    
+    
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning
 {

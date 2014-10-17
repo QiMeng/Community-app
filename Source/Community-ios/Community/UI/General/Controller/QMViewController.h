@@ -13,16 +13,7 @@
 @interface QMViewController : UIViewController
 
 
-- (void)showWithStatus:(NSString *)string;
 
-
-//显示错误信息
-- (void)showErrorString:(NSString *)string;
-
-//显示成功信息
-- (void)showSuccessString:(NSString *)string;
-
-- (void)dismiss;
 
 
 @end

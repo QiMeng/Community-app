@@ -40,7 +40,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    DLog(@"%d",indexPath.row);
+    DLog(@"%d,%d",indexPath.section,indexPath.row);
+    
+    if (indexPath.section == 0 && indexPath.row == 2) {
+        [self showSuccessString:@"清除缓存成功"];
+    }
+    
     
 }
 

@@ -518,6 +518,13 @@
 		FFDE38D019E97A31004C526C /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE38B119E97A31004C526C /* MagicalRecord.m */; };
 		FFDE38D119E97A31004C526C /* UIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFDE38B519E97A31004C526C /* UIDemo.xcdatamodeld */; };
 		FFDE38D319E98448004C526C /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDE38D219E98448004C526C /* back@2x.png */; };
+		FFFAEEF119F10A6700F90E45 /* UnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAEEF019F10A6700F90E45 /* UnlockViewController.m */; };
+		FFFAEEF419F10DBE00F90E45 /* SecurityCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAEEF319F10DBE00F90E45 /* SecurityCallViewController.m */; };
+		FFFAEEF719F10F0400F90E45 /* SecurityWebcamController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAEEF619F10F0400F90E45 /* SecurityWebcamController.m */; };
+		FFFAEEFB19F110CC00F90E45 /* CameraHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAEEFA19F110CC00F90E45 /* CameraHelp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFFAEEFD19F1128300F90E45 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFAEEFC19F1128300F90E45 /* CoreVideo.framework */; };
+		FFFAEEFF19F1128C00F90E45 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFAEEFE19F1128C00F90E45 /* CoreMedia.framework */; };
+		FFFAEF0119F1129400F90E45 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFAEF0019F1129400F90E45 /* AVFoundation.framework */; };
 		FFFF840A19E7ADF0007ACA2B /* MallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840919E7ADF0007ACA2B /* MallCell.m */; };
 		FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840C19E7B7F1007ACA2B /* PaymentViewController.m */; };
 		FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF840F19E7B84D007ACA2B /* PaymentCell.m */; };
@@ -1339,6 +1346,17 @@
 		FFDE38B419E97A31004C526C /* MagicalRecordVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordVersion.h; sourceTree = "<group>"; };
 		FFDE38B619E97A31004C526C /* UIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIDemo.xcdatamodel; sourceTree = "<group>"; };
 		FFDE38D219E98448004C526C /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		FFFAEEEF19F10A6700F90E45 /* UnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockViewController.h; sourceTree = "<group>"; };
+		FFFAEEF019F10A6700F90E45 /* UnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockViewController.m; sourceTree = "<group>"; };
+		FFFAEEF219F10DBE00F90E45 /* SecurityCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityCallViewController.h; sourceTree = "<group>"; };
+		FFFAEEF319F10DBE00F90E45 /* SecurityCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityCallViewController.m; sourceTree = "<group>"; };
+		FFFAEEF519F10F0400F90E45 /* SecurityWebcamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityWebcamController.h; sourceTree = "<group>"; };
+		FFFAEEF619F10F0400F90E45 /* SecurityWebcamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityWebcamController.m; sourceTree = "<group>"; };
+		FFFAEEF919F110CC00F90E45 /* CameraHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHelp.h; sourceTree = "<group>"; };
+		FFFAEEFA19F110CC00F90E45 /* CameraHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraHelp.m; sourceTree = "<group>"; };
+		FFFAEEFC19F1128300F90E45 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FFFAEEFE19F1128C00F90E45 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FFFAEF0019F1129400F90E45 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FFFF840819E7ADF0007ACA2B /* MallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallCell.h; sourceTree = "<group>"; };
 		FFFF840919E7ADF0007ACA2B /* MallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallCell.m; sourceTree = "<group>"; };
 		FFFF840B19E7B7F1007ACA2B /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
@@ -1368,6 +1386,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFAEF0119F1129400F90E45 /* AVFoundation.framework in Frameworks */,
+				FFFAEEFF19F1128C00F90E45 /* CoreMedia.framework in Frameworks */,
+				FFFAEEFD19F1128300F90E45 /* CoreVideo.framework in Frameworks */,
 				FFDE339E19E96EC2004C526C /* Foundation.framework in Frameworks */,
 				FFDE339C19E96EB9004C526C /* UIKit.framework in Frameworks */,
 				FFDE339A19E96EB3004C526C /* libxml2.dylib in Frameworks */,
@@ -1403,6 +1424,9 @@
 		95DFBAA3447FF1DB864E6AB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFFAEF0019F1129400F90E45 /* AVFoundation.framework */,
+				FFFAEEFE19F1128C00F90E45 /* CoreMedia.framework */,
+				FFFAEEFC19F1128300F90E45 /* CoreVideo.framework */,
 				FFDE339D19E96EC2004C526C /* Foundation.framework */,
 				FFDE339B19E96EB9004C526C /* UIKit.framework */,
 				FFDE339919E96EB3004C526C /* libxml2.dylib */,
@@ -2023,6 +2047,8 @@
 			children = (
 				FFAC27AD19E621E700446313 /* SecurityMainController.h */,
 				FFAC27AE19E621E700446313 /* SecurityMainController.m */,
+				FFFAEEEA19F1068400F90E45 /* view */,
+				FFFAEEEB19F1068400F90E45 /* viewcontroller */,
 			);
 			path = Security;
 			sourceTree = "<group>";
@@ -2071,6 +2097,7 @@
 		FFDE331F19E96E15004C526C /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				FFFAEEF819F110CC00F90E45 /* CameraHelp */,
 				FFC712BB19F08C62008A45A3 /* NineGridUnlockerView */,
 				FFDE332019E96E15004C526C /* EaseMobSDK */,
 			);
@@ -3091,6 +3118,35 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		FFFAEEEA19F1068400F90E45 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FFFAEEEB19F1068400F90E45 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				FFFAEEEF19F10A6700F90E45 /* UnlockViewController.h */,
+				FFFAEEF019F10A6700F90E45 /* UnlockViewController.m */,
+				FFFAEEF219F10DBE00F90E45 /* SecurityCallViewController.h */,
+				FFFAEEF319F10DBE00F90E45 /* SecurityCallViewController.m */,
+				FFFAEEF519F10F0400F90E45 /* SecurityWebcamController.h */,
+				FFFAEEF619F10F0400F90E45 /* SecurityWebcamController.m */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		FFFAEEF819F110CC00F90E45 /* CameraHelp */ = {
+			isa = PBXGroup;
+			children = (
+				FFFAEEF919F110CC00F90E45 /* CameraHelp.h */,
+				FFFAEEFA19F110CC00F90E45 /* CameraHelp.m */,
+			);
+			path = CameraHelp;
+			sourceTree = "<group>";
+		};
 		FFFF841419E7CB95007ACA2B /* nav */ = {
 			isa = PBXGroup;
 			children = (
@@ -3662,6 +3718,7 @@
 				FFC432F719F01CF500DAA9BC /* VoteViewController02.m in Sources */,
 				FFAC27C419E621E700446313 /* UITextField+QM_Category.m in Sources */,
 				FFDE370E19E97249004C526C /* EMSearchBar.m in Sources */,
+				FFFAEEFB19F110CC00F90E45 /* CameraHelp.m in Sources */,
 				FFDE38BB19E97A31004C526C /* NSObject+MagicalDataImport.m in Sources */,
 				FFDE38C419E97A31004C526C /* NSManagedObjectContext+MagicalRecord.m in Sources */,
 				FFAC27C719E621E700446313 /* QMTableViewController.m in Sources */,
@@ -3709,6 +3766,7 @@
 				FFDE372F19E973FC004C526C /* ChatGroupDetailViewController.m in Sources */,
 				FF9673EF19E9F1D20052B23A /* SettingTableViewController.m in Sources */,
 				FFAC27D119E621E700446313 /* BulletinCell.m in Sources */,
+				FFFAEEF419F10DBE00F90E45 /* SecurityCallViewController.m in Sources */,
 				FFFF840D19E7B7F1007ACA2B /* PaymentViewController.m in Sources */,
 				FFDE381419E978A9004C526C /* AddFriendCell.m in Sources */,
 				FFAC27D319E621E700446313 /* SecurityMainController.m in Sources */,
@@ -3786,6 +3844,7 @@
 				FFAC27C019E621E700446313 /* UIButton+QM_Category.m in Sources */,
 				FFDE36D119E97249004C526C /* EMChatVideoBubbleView.m in Sources */,
 				FFDE368419E97249004C526C /* PSTGridLayoutSection.m in Sources */,
+				FFFAEEF719F10F0400F90E45 /* SecurityWebcamController.m in Sources */,
 				FFC432EB19F00A5F00DAA9BC /* VoteViewController.m in Sources */,
 				FFAC27C919E621E700446313 /* ViewController.m in Sources */,
 				FF74824E19EC00F5001A303F /* PageHeaderCell.m in Sources */,
@@ -3814,6 +3873,7 @@
 				FFDE373919E973FC004C526C /* GroupSettingViewController.m in Sources */,
 				FFA0645319E6798D0021DC0B /* PersonalHeaderCell.m in Sources */,
 				FFDE369919E97249004C526C /* ConvertToCommonEmoticonsHelper.m in Sources */,
+				FFFAEEF119F10A6700F90E45 /* UnlockViewController.m in Sources */,
 				FF75EBE519E77CBE0028FD9B /* FavoritesViewController.m in Sources */,
 				FFDE38C119E97A31004C526C /* NSManagedObject+MagicalRecord.m in Sources */,
 				FFAC273D19E61BEE00446313 /* AppDelegate.m in Sources */,

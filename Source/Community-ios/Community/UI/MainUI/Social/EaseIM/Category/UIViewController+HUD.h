@@ -23,4 +23,16 @@
 // 从默认(showHint:)显示的位置再往上(下)yOffset
 - (void)showHint:(NSString *)hint yOffset:(float)yOffset;
 
+- (void)showWithStatus:(NSString *)string;
+
+
+//显示错误信息
+- (void)showErrorString:(NSString *)string;
+
+//显示成功信息
+- (void)showSuccessString:(NSString *)string;
+
+- (void)dismiss;
+
+
 @end

@@ -233,6 +233,9 @@
 		FFC432F419F01C2A00DAA9BC /* bbs_icon_signle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC432F119F01C2A00DAA9BC /* bbs_icon_signle@2x.png */; };
 		FFC432F719F01CF500DAA9BC /* VoteViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432F619F01CF500DAA9BC /* VoteViewController02.m */; };
 		FFC432FA19F01F2D00DAA9BC /* VoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC432F919F01F2D00DAA9BC /* VoteCell.m */; };
+		FFC712C019F08C62008A45A3 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC712BC19F08C62008A45A3 /* check.png */; };
+		FFC712C119F08C62008A45A3 /* NineGridUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC712BE19F08C62008A45A3 /* NineGridUnlockView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFC712C219F08C62008A45A3 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC712BF19F08C62008A45A3 /* uncheck.png */; };
 		FFDE337F19E96E15004C526C /* libEaseMobClientSDKLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDE337C19E96E15004C526C /* libEaseMobClientSDKLite.a */; };
 		FFDE338019E96E15004C526C /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFDE337E19E96E15004C526C /* EaseMob.bundle */; };
 		FFDE338219E96E43004C526C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDE338119E96E43004C526C /* ImageIO.framework */; };
@@ -852,6 +855,10 @@
 		FFC432F619F01CF500DAA9BC /* VoteViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteViewController02.m; sourceTree = "<group>"; };
 		FFC432F819F01F2D00DAA9BC /* VoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteCell.h; sourceTree = "<group>"; };
 		FFC432F919F01F2D00DAA9BC /* VoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteCell.m; sourceTree = "<group>"; };
+		FFC712BC19F08C62008A45A3 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		FFC712BD19F08C62008A45A3 /* NineGridUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineGridUnlockView.h; sourceTree = "<group>"; };
+		FFC712BE19F08C62008A45A3 /* NineGridUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineGridUnlockView.m; sourceTree = "<group>"; };
+		FFC712BF19F08C62008A45A3 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
 		FFDE332519E96E15004C526C /* IChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IChatManagerDelegate.h; sourceTree = "<group>"; };
 		FFDE332719E96E15004C526C /* EMChatManagerBuddyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerBuddyDelegate.h; sourceTree = "<group>"; };
 		FFDE332819E96E15004C526C /* EMChatManagerChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerChatDelegate.h; sourceTree = "<group>"; };
@@ -2050,9 +2057,21 @@
 			path = Signup;
 			sourceTree = "<group>";
 		};
+		FFC712BB19F08C62008A45A3 /* NineGridUnlockerView */ = {
+			isa = PBXGroup;
+			children = (
+				FFC712BC19F08C62008A45A3 /* check.png */,
+				FFC712BD19F08C62008A45A3 /* NineGridUnlockView.h */,
+				FFC712BE19F08C62008A45A3 /* NineGridUnlockView.m */,
+				FFC712BF19F08C62008A45A3 /* uncheck.png */,
+			);
+			path = NineGridUnlockerView;
+			sourceTree = "<group>";
+		};
 		FFDE331F19E96E15004C526C /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				FFC712BB19F08C62008A45A3 /* NineGridUnlockerView */,
 				FFDE332019E96E15004C526C /* EaseMobSDK */,
 			);
 			path = Vendors;
@@ -3322,6 +3341,7 @@
 				FFA0646519E67B870021DC0B /* usercenter_icon_coupons@2x.png in Resources */,
 				FFDE37AE19E977CF004C526C /* VoiceSearchFeedback002.png in Resources */,
 				FF7481F019EB46E3001A303F /* complete_img_goods_peanut@2x.png in Resources */,
+				FFC712C019F08C62008A45A3 /* check.png in Resources */,
 				FF7481FC19EB4AD9001A303F /* usercenter_icon_edition@2x.png in Resources */,
 				FFDE36AB19E97249004C526C /* chatBar_more.png in Resources */,
 				FFDE37FB19E977CF004C526C /* chat_sender_audio_playing_full.png in Resources */,
@@ -3568,6 +3588,7 @@
 				FFDE37F819E977CF004C526C /* chat_sender_audio_playing_002@2x.png in Resources */,
 				FF74821019EB5387001A303F /* property_icon_bubble@2x.png in Resources */,
 				FFDE36D619E97249004C526C /* messageSendFail@2x.png in Resources */,
+				FFC712C219F08C62008A45A3 /* uncheck.png in Resources */,
 				FFDE36A619E97249004C526C /* chatBar_faceSelected@2x.png in Resources */,
 				FF74822719EBB9F0001A303F /* property_btn_tel_nor@2x.png in Resources */,
 				FFDE37AB19E977CF004C526C /* chatFire_audioPlaying3@2x.png in Resources */,
@@ -3670,6 +3691,7 @@
 				FFDE371219E97249004C526C /* EMChooseViewController.m in Sources */,
 				FFDE38D019E97A31004C526C /* MagicalRecord.m in Sources */,
 				FFDE368E19E97249004C526C /* WCAlertView.m in Sources */,
+				FFC712C119F08C62008A45A3 /* NineGridUnlockView.m in Sources */,
 				FFDE36CF19E97249004C526C /* EMChatLocationBubbleView.m in Sources */,
 				FFDE385C19E978DF004C526C /* ApplyEntity.m in Sources */,
 				FFAC27D519E621E700446313 /* SignUpViewController.m in Sources */,

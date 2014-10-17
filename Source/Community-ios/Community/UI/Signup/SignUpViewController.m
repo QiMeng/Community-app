@@ -33,6 +33,7 @@
     
     [agreeBtn viewLineColor:RGBA(255, 255, 255, 1) borderWidth:1 cornerRadius:0];
     
+    
 }
 
 #pragma mark - 退出

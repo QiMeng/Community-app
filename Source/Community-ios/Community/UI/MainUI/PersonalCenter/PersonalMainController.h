@@ -6,12 +6,11 @@
 //  Copyright (c) 2014年 QiMENG_LYS. All rights reserved.
 //
 
-#import "QMTableViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface PersonalMainController : QMTableViewController {
+@interface PersonalMainController : UITableViewController {
     
-    
-    __weak IBOutlet UITableView *myTableView;
+
     
 }
 

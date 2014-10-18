@@ -9,7 +9,7 @@
 #import "CarpoolViewController01.h"
 #import "CarpoolCell.h"
 #import "CarpoolCell01.h"
-@interface CarpoolViewController01 ()
+@interface CarpoolViewController01 () <CarpoolCell01Delegate>
 
 @end
 
@@ -49,10 +49,17 @@
     
     CarpoolCell01 * cell = [tableView dequeueReusableCellWithIdentifier:@"CarpoolCell01" forIndexPath:indexPath];
     cell.infoDic = _carpool.replys[indexPath.row-1];
-    
+    cell.delegate = self;
     return cell;
     
 
+}
+
+- (void)carpoolRelpy:(id)sender {
+    
+    
+    [self performSegueWithIdentifier:@"PostsViewController01" sender:self];
+    
 }
 
 

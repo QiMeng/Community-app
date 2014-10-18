@@ -8,6 +8,13 @@
 
 #import "QMViewController.h"
 
-@interface SecurityMainController : QMViewController
+@interface SecurityMainController : QMViewController {
+    
+    
+    __weak IBOutlet UIImageView *bgImageView;
+    
+//    __weak IBOutlet UIScrollView *myScrollView;
+    
+}
 
 @end

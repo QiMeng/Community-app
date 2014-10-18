@@ -28,6 +28,31 @@
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
+
+- (IBAction)touchLong:(id)sender {
+    
+    [self showSuccessString:@"发送成功"];
+    
+    
+}
+
+
+- (IBAction)touchCall:(UIButton *)sender {
+    
+    DLog(@"%@",sender.titleLabel.text);
+    //不返回应用
+    NSMutableString * str=[[NSMutableString alloc] initWithFormat:@"tel:%@",sender.titleLabel.text];
+    //    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+    
+    //返回应用
+    UIWebView * callWebview = [[UIWebView alloc] init];
+    [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
+    [self.view addSubview:callWebview];
+}
+
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

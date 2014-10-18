@@ -7,10 +7,11 @@
 //
 
 #import "UnlockViewController.h"
-#import "NineGridUnlockView.h"
 #import "SecurityCallViewController.h"
 
-@interface UnlockViewController ()<NinGridUnlockViewDelegate>
+@interface UnlockViewController ()<NinGridUnlockViewDelegate , UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+
+
 
 @end
 
@@ -20,14 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.password = @"";
+    self.state = PasswordUnset;
+    
     self.navigationController.navigationBarHidden = YES;
     
-    
     NineGridUnlockView* v = [[NineGridUnlockView alloc] initWithFrame:CGRectMake(0, view01.bottom, self.view.width, self.view.width)];
-    //v.strokeColor = [UIColor greenColor];
+    v.strokeColor = RGBA(0, 216, 255, 1);
     v.delegate = self;
     [self.view addSubview:v];
-    
     
 }
 
@@ -37,12 +39,89 @@
 }
 
 - (void)unlockerView:(NineGridUnlockView *)unlockerView didFinished:(NSArray *)points{
-    NSLog(@"%@",points);
     
-    [self performSegueWithIdentifier:@"SecurityWebcamController" sender:self];
-//    [self performSegueWithIdentifier:@"SecurityCallViewController" sender:self];
+    if (!points.count) {
+        return;
+    }
+    
+    NSString * password = [points componentsJoinedByString:@","];
+    
+    switch (self.state)
+    {
+        case PasswordUnset:
+        {
+            self.password = password;
+            self.state = PasswordRepeat;
+            [self showSuccessString:@"请再次输入刚才的密码! "];
+            
+        }
+            break;
+            
+        case PasswordRepeat:
+            if ([password isEqualToString:self.password])
+            {
+                self.state = PasswordExist;
+                [self showSuccessString:@"密码设置成功！"];
+                
+                if (self.typeInt == 0) {
+                 
+                    [self performSegueWithIdentifier:@"SecurityCallViewController" sender:self];
+                    
+                }else {
+                    
+                    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
+                    ipc.sourceType =  UIImagePickerControllerSourceTypeCamera;
+                    ipc.delegate = self;
+                    ipc.allowsEditing = YES;
+                    ipc.videoQuality = UIImagePickerControllerQualityTypeMedium;
+                    ipc.videoMaximumDuration = 30.0f; // 30 seconds
+                    ///ipc.mediaTypes = [NSArray arrayWithObject:@"public.movie"];
+                    //主要是下边的两能数，@"public.movie", @"public.image"  一个是录像，一个是拍照
+                    ipc.mediaTypes = [NSArray arrayWithObjects:@"public.movie", nil];
+                    //    [self presentModalViewController:ipc animated:YES];
+                    [self presentViewController:ipc animated:YES completion:nil];
+                    
+//                    [self performSegueWithIdentifier:@"SecurityWebcamController" sender:self];
+                    
+                }
+                
+            }else {
+                [self showErrorString:@"输入的密码不一致,请重试！"];
+            }
+            break;
+            
+        case PasswordExist:
+            if ([password isEqualToString:self.password])
+            {
+                [self showSuccessString:@"密码正确！"];
+                
+            }
+            else
+            {
+                [self showSuccessString:@"密码错误，请重试！"];
+            }
+            
+            break;
+            
+        default:
+            break;
+    }
+    
+    [unlockerView resetView];
+    
 }
-
+#pragma mark - 相册照片
+-(void)imagePickerController:(UIImagePickerController*)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    
+     [picker dismissViewControllerAnimated:NO completion:nil];
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [picker dismissViewControllerAnimated:NO completion:nil];
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 /*
 #pragma mark - Navigation
 

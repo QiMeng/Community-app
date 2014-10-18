@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol CarpoolCell01Delegate <NSObject>
+- (void)carpoolRelpy:(id)sender;
+@end
+
+
 @interface CarpoolCell01 : UITableViewCell {
     
     
@@ -21,6 +26,8 @@
     
     
 }
+
+@property (assign) id<CarpoolCell01Delegate> delegate;
 
 @property (nonatomic, strong) NSDictionary * infoDic;
 

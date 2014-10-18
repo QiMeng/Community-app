@@ -186,8 +186,8 @@ static CameraHelp* g_camera = 0;
 							  nil];
 
     avCaptureVideoDataOutput.videoSettings = settings;
-	[settings release];
-    avCaptureVideoDataOutput.minFrameDuration = CMTimeMake(1, mFps);
+//	[settings release];
+//    avCaptureVideoDataOutput.minFrameDuration = CMTimeMake(1, mFps);
 	avCaptureVideoDataOutput.alwaysDiscardsLateVideoFrames = YES;
 	
 	

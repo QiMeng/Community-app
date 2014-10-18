@@ -27,6 +27,18 @@
 }
 
 
+- (IBAction)touchReply:(id)sender {
+    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(carpoolRelpy:)]) {
+        [self.delegate carpoolRelpy:_infoDic];
+    }
+    
+    
+}
+
+
+
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

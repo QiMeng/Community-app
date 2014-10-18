@@ -8,7 +8,7 @@
 
 #import "SecurityWebcamController.h"
 #import "CameraHelp.h"
-@interface SecurityWebcamController () //<CameraHelpDelegate>
+@interface SecurityWebcamController () <CameraHelpDelegate>
 
 @end
 
@@ -36,12 +36,14 @@
     //关闭输出
     [[CameraHelp shareCameraHelp] setVideoDataOutputBuffer:nil];
     
+//    [CameraHelp closeCamera];
+    
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
-//-(void)VideoDataOutputBuffer:(char*)videoBuffer dataSize:(int)size {
-//    
-//}
+-(void)VideoDataOutputBuffer:(char*)videoBuffer dataSize:(int)size {
+    
+}
 
 
 - (void)didReceiveMemoryWarning {

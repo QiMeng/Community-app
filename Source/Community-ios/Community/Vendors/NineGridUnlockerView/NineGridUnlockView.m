@@ -116,7 +116,7 @@
     UIGraphicsBeginImageContext(self.imageView.frame.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineCap(context, kCGLineCapRound);
-    CGContextSetLineWidth(context, 15.0);
+    CGContextSetLineWidth(context, 5.0);
     CGContextSetAllowsAntialiasing(context, YES);
     CGContextSetStrokeColorWithColor(context, _strokeColor.CGColor);
     //CGContextSetRGBStrokeColor(context, 1.0, 0.0, 0.0, 1.0);
@@ -147,11 +147,11 @@
 
 - (void)_initView{
     if (!_checkImage) {
-        self.checkImage = [UIImage imageNamed:@"check.png"];
+        self.checkImage = [UIImage imageNamed:@"safe_img_circle_hl"];
     }
     
     if (!_uncheckImage) {
-        self.uncheckImage = [UIImage imageNamed:@"uncheck.png"];
+        self.uncheckImage = [UIImage imageNamed:@"safe_img_circle_nor"];
     }
     if (!_strokeColor) {
         self.strokeColor = [UIColor redColor];

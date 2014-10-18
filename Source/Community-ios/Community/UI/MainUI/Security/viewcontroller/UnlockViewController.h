@@ -8,6 +8,7 @@
 
 #import "QMViewController.h"
 
+#import "NineGridUnlockView.h"
 @interface UnlockViewController : QMViewController {
     
     
@@ -17,6 +18,9 @@
     
 }
 
+@property (nonatomic,copy) NSString* password;
+@property (nonatomic,assign) PasswordSate state;
+@property (nonatomic,assign) NSInteger typeInt;
 
 
 

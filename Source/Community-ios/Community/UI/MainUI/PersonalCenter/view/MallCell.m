@@ -13,7 +13,9 @@
 - (void)awakeFromNib {
     // Initialization code
     
-    [convertBtn viewLineColor:RGBA(100, 100, 100, 1) borderWidth:1 cornerRadius:0];
+//    [convertBtn viewLineColor:RGBA(100, 100, 100, 1) borderWidth:1 cornerRadius:0];
+    [convertBtn viewLineColor:RGBA(97, 191, 253, 1) borderWidth:1 cornerRadius:0];
+    [convertBtn setTitleColor:RGBA(97, 191, 253, 1) forState:UIControlStateNormal];
     
 }
 

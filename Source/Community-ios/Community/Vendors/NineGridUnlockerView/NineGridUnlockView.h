@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+//密码状态
+typedef enum PasswordSate {
+    PasswordUnset,//未设置
+    PasswordRepeat,//重复输入
+    PasswordExist//密码设置成功
+}PasswordSate;
+
+
 @class NineGridUnlockView;
 
 @protocol NinGridUnlockViewDelegate <NSObject>

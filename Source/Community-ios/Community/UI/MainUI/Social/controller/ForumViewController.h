@@ -13,6 +13,12 @@
     
     __weak IBOutlet UITableView *myTableView;
     
+    __weak IBOutlet UIView *menuView;
+    
+    __weak IBOutlet UIButton *menuBtn;
+    
+    
+    __weak IBOutlet UIView *subView;
     
 }
 

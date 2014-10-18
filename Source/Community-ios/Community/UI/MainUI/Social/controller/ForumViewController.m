@@ -23,6 +23,20 @@
     [kSverviceInstance loadForumUserID:@"" callBack:self];
     
 }
+
+- (IBAction)touchMenu:(UIButton *)sender {
+    sender.selected = ! sender.selected;
+    if (sender.selected) {
+        [menuView setWidth:240];
+        subView.hidden = NO;
+    }else {
+        [menuView setWidth:60];
+        subView.hidden = YES;
+    }
+}
+
+
+
 - (void)loadListCallBack:(long)retCode msg:(NSString*)msg list:(NSArray *)list {
     
     _list = [NSArray arrayWithArray:list];

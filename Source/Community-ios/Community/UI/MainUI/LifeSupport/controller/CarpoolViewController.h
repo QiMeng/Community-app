@@ -18,6 +18,10 @@
     NSInteger selectInt;
     
     
+    __weak IBOutlet UIView *menuView;
+    
+    
+    __weak IBOutlet UIView *subView;
     
 }
 

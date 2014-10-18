@@ -60,6 +60,21 @@
     [myTableView reloadData];
 }
 
+- (IBAction)touchMenu:(UIButton *)sender {
+    
+    sender.selected = !sender.selected;
+    
+    if (sender.selected) {
+        [menuView setWidth:180];
+        subView.hidden = NO;
+    }else {
+        [menuView setWidth:60];
+        subView.hidden = YES;
+    }
+    
+}
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     

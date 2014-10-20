@@ -28,8 +28,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    for (UIView * view in self.navigationBar.subviews  ) {
+        
+        DLog(@"%@",view);
+    }
+    
+    
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"public_img_topbg"] forBarMetrics:UIBarMetricsDefault];
+
     self.navigationBar.shadowImage = [UIImage createImageWithColor:[UIColor clearColor]];
+    
+     [self.navigationBar setTranslucent:NO];
 
 }
 

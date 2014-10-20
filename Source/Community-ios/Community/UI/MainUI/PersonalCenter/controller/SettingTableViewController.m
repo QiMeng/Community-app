@@ -42,6 +42,10 @@
     
     DLog(@"%d,%d",indexPath.section,indexPath.row);
     
+    if (indexPath.section == 0 && indexPath.row == 0) {
+        [self showSuccessString:@"分享成功"];
+    }
+    
     if (indexPath.section == 0 && indexPath.row == 2) {
         [self showSuccessString:@"清除缓存成功"];
     }

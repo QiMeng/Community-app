@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		63FCEE471F19FA799E374DC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9612C62F88E1CEBDBD8D45A /* libPods.a */; };
+		FF20976B19F54F1400E2339B /* YFInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20976A19F54F1400E2339B /* YFInputBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF20977219F5525200E2339B /* ReplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20977019F5525200E2339B /* ReplyViewController.m */; };
+		FF20977319F5525200E2339B /* ReplyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF20977119F5525200E2339B /* ReplyViewController.xib */; };
+		FF20977A19F55AA400E2339B /* ReplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20977819F55AA400E2339B /* ReplyCell.m */; };
+		FF20977B19F55AA400E2339B /* ReplyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF20977919F55AA400E2339B /* ReplyCell.xib */; };
+		FF20977F19F55F8B00E2339B /* ReplyCell01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20977D19F55F8B00E2339B /* ReplyCell01.m */; };
+		FF20978019F55F8B00E2339B /* ReplyCell01.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF20977E19F55F8B00E2339B /* ReplyCell01.xib */; };
+		FF20978419F5607700E2339B /* ReplyCell02.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20978219F5607700E2339B /* ReplyCell02.m */; };
+		FF20978519F5607700E2339B /* ReplyCell02.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF20978319F5607700E2339B /* ReplyCell02.xib */; };
+		FF20978719F5616E00E2339B /* bbs_btn_re@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF20978619F5616E00E2339B /* bbs_btn_re@2x.png */; };
+		FF20978E19F5639900E2339B /* ReplyViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20978C19F5639900E2339B /* ReplyViewController01.m */; };
+		FF20978F19F5639900E2339B /* ReplyViewController01.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF20978D19F5639900E2339B /* ReplyViewController01.xib */; };
 		FF4D716419E75F0A009CC122 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */; };
 		FF5C308B19E6A42100DD942E /* tab_complete_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308119E6A42100DD942E /* tab_complete_hl@2x.png */; };
 		FF5C308C19E6A42100DD942E /* tab_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308219E6A42100DD942E /* tab_complete@2x.png */; };
@@ -599,6 +611,24 @@
 		C9612C62F88E1CEBDBD8D45A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0402F693E2B78ED9B6341F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E76C98CEC9F33672B6AFE3D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FF20976919F54F1400E2339B /* YFInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFInputBar.h; sourceTree = "<group>"; };
+		FF20976A19F54F1400E2339B /* YFInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFInputBar.m; sourceTree = "<group>"; };
+		FF20976F19F5525200E2339B /* ReplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyViewController.h; sourceTree = "<group>"; };
+		FF20977019F5525200E2339B /* ReplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyViewController.m; sourceTree = "<group>"; };
+		FF20977119F5525200E2339B /* ReplyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyViewController.xib; sourceTree = "<group>"; };
+		FF20977719F55AA400E2339B /* ReplyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyCell.h; sourceTree = "<group>"; };
+		FF20977819F55AA400E2339B /* ReplyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyCell.m; sourceTree = "<group>"; };
+		FF20977919F55AA400E2339B /* ReplyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyCell.xib; sourceTree = "<group>"; };
+		FF20977C19F55F8B00E2339B /* ReplyCell01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyCell01.h; sourceTree = "<group>"; };
+		FF20977D19F55F8B00E2339B /* ReplyCell01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyCell01.m; sourceTree = "<group>"; };
+		FF20977E19F55F8B00E2339B /* ReplyCell01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyCell01.xib; sourceTree = "<group>"; };
+		FF20978119F5607700E2339B /* ReplyCell02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyCell02.h; sourceTree = "<group>"; };
+		FF20978219F5607700E2339B /* ReplyCell02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyCell02.m; sourceTree = "<group>"; };
+		FF20978319F5607700E2339B /* ReplyCell02.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyCell02.xib; sourceTree = "<group>"; };
+		FF20978619F5616E00E2339B /* bbs_btn_re@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bbs_btn_re@2x.png"; sourceTree = "<group>"; };
+		FF20978B19F5639900E2339B /* ReplyViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyViewController01.h; sourceTree = "<group>"; };
+		FF20978C19F5639900E2339B /* ReplyViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyViewController01.m; sourceTree = "<group>"; };
+		FF20978D19F5639900E2339B /* ReplyViewController01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyViewController01.xib; sourceTree = "<group>"; };
 		FF4D716219E75F0A009CC122 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
 		FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
 		FF5C308119E6A42100DD942E /* tab_complete_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_complete_hl@2x.png"; sourceTree = "<group>"; };
@@ -1561,6 +1591,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FF20976819F54F1400E2339B /* YFInputBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF20976919F54F1400E2339B /* YFInputBar.h */,
+				FF20976A19F54F1400E2339B /* YFInputBar.m */,
+			);
+			path = YFInputBar;
+			sourceTree = "<group>";
+		};
 		FF5C308019E6A42100DD942E /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1671,6 +1710,7 @@
 		FF74820D19EB5387001A303F /* common */ = {
 			isa = PBXGroup;
 			children = (
+				FF20978619F5616E00E2339B /* bbs_btn_re@2x.png */,
 				FFE5BA3A19F4D7A300392E9C /* mall_img_goods@2x.png */,
 				FFE5BA3B19F4D7A300392E9C /* public_icon_gold_1@2x.png */,
 				FFE5BA3C19F4D7A300392E9C /* public_icon_gold_2@2x.png */,
@@ -1757,6 +1797,9 @@
 			children = (
 				FF9E985F19EF4E8A0050A426 /* ForumViewController.h */,
 				FF9E986019EF4E8A0050A426 /* ForumViewController.m */,
+				FF20976F19F5525200E2339B /* ReplyViewController.h */,
+				FF20977019F5525200E2339B /* ReplyViewController.m */,
+				FF20977119F5525200E2339B /* ReplyViewController.xib */,
 				FFC432DD19EFC43000DAA9BC /* FilterViewController.h */,
 				FFC432DE19EFC43000DAA9BC /* FilterViewController.m */,
 				FFC432E019EFD63900DAA9BC /* ReleaseViewController.h */,
@@ -1771,6 +1814,9 @@
 				FFC432ED19F00ADC00DAA9BC /* VoteViewController01.m */,
 				FFC432F519F01CF500DAA9BC /* VoteViewController02.h */,
 				FFC432F619F01CF500DAA9BC /* VoteViewController02.m */,
+				FF20978B19F5639900E2339B /* ReplyViewController01.h */,
+				FF20978C19F5639900E2339B /* ReplyViewController01.m */,
+				FF20978D19F5639900E2339B /* ReplyViewController01.xib */,
 				FF9E986819EF50720050A426 /* forum.plist */,
 			);
 			path = controller;
@@ -1783,6 +1829,15 @@
 				FF9E986319EF4F610050A426 /* ForumCell.m */,
 				FFC432F819F01F2D00DAA9BC /* VoteCell.h */,
 				FFC432F919F01F2D00DAA9BC /* VoteCell.m */,
+				FF20977719F55AA400E2339B /* ReplyCell.h */,
+				FF20977819F55AA400E2339B /* ReplyCell.m */,
+				FF20977919F55AA400E2339B /* ReplyCell.xib */,
+				FF20977C19F55F8B00E2339B /* ReplyCell01.h */,
+				FF20977D19F55F8B00E2339B /* ReplyCell01.m */,
+				FF20977E19F55F8B00E2339B /* ReplyCell01.xib */,
+				FF20978119F5607700E2339B /* ReplyCell02.h */,
+				FF20978219F5607700E2339B /* ReplyCell02.m */,
+				FF20978319F5607700E2339B /* ReplyCell02.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2242,6 +2297,7 @@
 		FFDE331F19E96E15004C526C /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				FF20976819F54F1400E2339B /* YFInputBar */,
 				FFFAEEF819F110CC00F90E45 /* CameraHelp */,
 				FFC712BB19F08C62008A45A3 /* NineGridUnlockerView */,
 				FFDE332019E96E15004C526C /* EaseMobSDK */,
@@ -3528,6 +3584,7 @@
 				FFDE36AC19E97249004C526C /* chatBar_more@2x.png in Resources */,
 				FFDE37D419E977CF004C526C /* chat_video_play.png in Resources */,
 				FFA0646A19E67B870021DC0B /* usercenter_icon_reply@2x.png in Resources */,
+				FF20978719F5616E00E2339B /* bbs_btn_re@2x.png in Resources */,
 				FFDE381819E978A9004C526C /* newFriends@2x.png in Resources */,
 				FF5C30BD19E6B32B00DD942E /* property_btn_yellowpage_hl@2x.png in Resources */,
 				FF5C30C419E6B32B00DD942E /* sns_btn_group_hl@2x.png in Resources */,
@@ -3539,6 +3596,7 @@
 				FF74821119EB5387001A303F /* property_icon_tel@2x.png in Resources */,
 				FF7481EC19EB46E3001A303F /* complete_img_goods_Cola@2x.png in Resources */,
 				FFDE37B519E977CF004C526C /* VoiceSearchFeedback005@2x.png in Resources */,
+				FF20978F19F5639900E2339B /* ReplyViewController01.xib in Resources */,
 				FFB1F15C19F1D32800CF19B1 /* usercenter_img_coupons@2x.png in Resources */,
 				FFC432F319F01C2A00DAA9BC /* bbs_icon_many@2x.png in Resources */,
 				FFDE37B319E977CF004C526C /* VoiceSearchFeedback004@2x.png in Resources */,
@@ -3554,6 +3612,7 @@
 				FFA0646119E67B870021DC0B /* usercenter_icon_address@2x.png in Resources */,
 				FF79191E19ECAECF0086C8B0 /* property_icon_pay_06@2x.png in Resources */,
 				FF79190819EC8B6E0086C8B0 /* property_btn_complaint_nor@2x.png in Resources */,
+				FF20978519F5607700E2339B /* ReplyCell02.xib in Resources */,
 				FFDE373819E973FC004C526C /* groupPublicHeader@2x.png in Resources */,
 				FF79191C19ECAECF0086C8B0 /* property_icon_pay_02@2x.png in Resources */,
 				FFDE373419E973FC004C526C /* group_participant_add@2x.png in Resources */,
@@ -3694,6 +3753,7 @@
 				FFDE36AF19E97249004C526C /* chatBar_record.png in Resources */,
 				FF7481AC19EB3D9A001A303F /* login_img_bg@2x.png in Resources */,
 				FFDE36C319E97249004C526C /* chatBar_more_location.png in Resources */,
+				FF20977319F5525200E2339B /* ReplyViewController.xib in Resources */,
 				FFB1F15419F1D32800CF19B1 /* safe_ico_choose@2x.png in Resources */,
 				FFDE37CD19E977CF004C526C /* VoiceSearchFeedback017@2x.png in Resources */,
 				FFDE36B919E97249004C526C /* chatBar_colorMore_location@2x.png in Resources */,
@@ -3752,6 +3812,7 @@
 				FFDE37ED19E977CF004C526C /* chat_receiver_audio_playing003.png in Resources */,
 				FF7481FB19EB4AD9001A303F /* usercenter_icon_clear@2x.png in Resources */,
 				FFDE37DC19E977CF004C526C /* chatBar_more_faceSelected@2x.png in Resources */,
+				FF20978019F55F8B00E2339B /* ReplyCell01.xib in Resources */,
 				FFA0644F19E677400021DC0B /* usercenter_icon_men@2x.png in Resources */,
 				FFDE381319E978A9004C526C /* add@2x.png in Resources */,
 				FF74823719EBD0DD001A303F /* express.plist in Resources */,
@@ -3801,6 +3862,7 @@
 				FF8E81A819EDE8B100937E7B /* carpool.plist in Resources */,
 				FFB1F15519F1D32800CF19B1 /* safe_img_circle_hl@2x.png in Resources */,
 				FFA0644B19E676550021DC0B /* usercenter_img_infobg@2x.png in Resources */,
+				FF20977B19F55AA400E2339B /* ReplyCell.xib in Resources */,
 				FFA0646019E67B870021DC0B /* usercenter_icon_activity@2x.png in Resources */,
 				FFDE36C819E97249004C526C /* chatBar_more_photo@2x.png in Resources */,
 				FFAC274819E61BEE00446313 /* Images.xcassets in Resources */,
@@ -3915,6 +3977,7 @@
 				FF60D67719E69EF7002378A5 /* CurrencyViewController.m in Sources */,
 				FFFF841319E7CA43007ACA2B /* BulletinDetailViewController.m in Sources */,
 				FFC432F719F01CF500DAA9BC /* VoteViewController02.m in Sources */,
+				FF20977219F5525200E2339B /* ReplyViewController.m in Sources */,
 				FFAC27C419E621E700446313 /* UITextField+QM_Category.m in Sources */,
 				FFDE370E19E97249004C526C /* EMSearchBar.m in Sources */,
 				FFFAEEFB19F110CC00F90E45 /* CameraHelp.m in Sources */,
@@ -3933,6 +3996,7 @@
 				FF74824319EBF252001A303F /* PaymentViewController03.m in Sources */,
 				FF9E985819EF46090050A426 /* ExpressCell.m in Sources */,
 				FFDE36CE19E97249004C526C /* EMChatImageBubbleView.m in Sources */,
+				FF20977F19F55F8B00E2339B /* ReplyCell01.m in Sources */,
 				FFAC27CD19E621E700446313 /* BulletinViewController.m in Sources */,
 				FFDE38CD19E97A31004C526C /* MagicalRecord+Options.m in Sources */,
 				FFDE369719E97249004C526C /* ChatSendHelper.m in Sources */,
@@ -3960,9 +4024,11 @@
 				FF9E986419EF4F610050A426 /* ForumCell.m in Sources */,
 				FFDE367A19E97249004C526C /* PSTCollectionViewCell.m in Sources */,
 				FF74824919EBF472001A303F /* PaymentRecordViewController01.m in Sources */,
+				FF20978419F5607700E2339B /* ReplyCell02.m in Sources */,
 				FFDE366D19E97249004C526C /* MBProgressHUD+Add.m in Sources */,
 				FFDE38C219E97A31004C526C /* NSManagedObject+MagicalRequests.m in Sources */,
 				FFAC27D619E621E700446313 /* SignUpViewController01.m in Sources */,
+				FF20977A19F55AA400E2339B /* ReplyCell.m in Sources */,
 				FFDE372F19E973FC004C526C /* ChatGroupDetailViewController.m in Sources */,
 				FF9673EF19E9F1D20052B23A /* SettingTableViewController.m in Sources */,
 				FFAC27D119E621E700446313 /* BulletinCell.m in Sources */,
@@ -4055,6 +4121,7 @@
 				FF74824E19EC00F5001A303F /* PageHeaderCell.m in Sources */,
 				FFDE38BE19E97A31004C526C /* NSManagedObject+MagicalAggregation.m in Sources */,
 				FF79192419ECB8930086C8B0 /* PageDetailViewController01.m in Sources */,
+				FF20976B19F54F1400E2339B /* YFInputBar.m in Sources */,
 				FFC432EE19F00ADC00DAA9BC /* VoteViewController01.m in Sources */,
 				FFDE38C719E97A31004C526C /* NSManagedObjectModel+MagicalRecord.m in Sources */,
 				FFDE367D19E97249004C526C /* PSTCollectionViewFlowLayout.m in Sources */,
@@ -4104,6 +4171,7 @@
 				FFFF841019E7B84D007ACA2B /* PaymentCell.m in Sources */,
 				FFDE36D919E97249004C526C /* MessageReadManager.m in Sources */,
 				FFDE369019E97249004C526C /* NSDateFormatter+Category.m in Sources */,
+				FF20978E19F5639900E2339B /* ReplyViewController01.m in Sources */,
 				FFDE369219E97249004C526C /* UIResponder+Router.m in Sources */,
 				FFAC27BD19E621E700446313 /* SverviceBase.m in Sources */,
 				FF75EBE819E77F360028FD9B /* PostsViewController.m in Sources */,

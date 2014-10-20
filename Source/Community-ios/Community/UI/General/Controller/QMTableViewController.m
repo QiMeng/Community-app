@@ -8,8 +8,7 @@
 
 #import "QMTableViewController.h"
 
-@interface QMTableViewController () <UITableViewDelegate, UITableViewDataSource>
-
+@interface QMTableViewController () 
 @end
 
 @implementation QMTableViewController

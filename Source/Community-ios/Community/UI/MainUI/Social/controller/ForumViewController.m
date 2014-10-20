@@ -8,6 +8,9 @@
 
 #import "ForumViewController.h"
 #import "ForumCell.h"
+
+#import "ReplyViewController.h"
+
 @interface ForumViewController ()
 
 @end
@@ -60,6 +63,16 @@
 //    cell.delegate = self;
     cell.forum = _list[indexPath.row];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    ReplyViewController * ctrl = [[ReplyViewController alloc]initWithNibName:@"ReplyViewController" bundle:nil];
+    
+    ctrl.title = @"详情";
+    
+    [self.navigationController pushViewController:ctrl animated:YES];
+    
 }
 
 

@@ -87,6 +87,39 @@
 }
 
 
+#pragma mark - 创建输入框
++ (UITextField *)allocTextFieldFrame:(CGRect)frame
+                                text:(NSString *)text
+                         placeholder:(NSString *)placeholder
+                            delegate:(id)delegate
+                       returnKeyType:(UIReturnKeyType)returnKeyType
+                           leftWidth:(float)leftWidth
+                          rightWidth:(float)rightWidth
+                      layerLineColor:(UIColor *)lineColor
+
+{
+    UITextField * textField = [UITextField allocTextFieldFrame:frame
+                                                     text:text
+                                              placeholder:placeholder
+                                                     font:nil
+                                                textColor:[UIColor blackColor]
+                                                  bgColor:[UIColor whiteColor]
+                                                 delegate:delegate
+                                            returnKeyType:UIReturnKeyDone
+                                         autoresizingMask:UIViewAutoresizingNone
+                                                 leftData:nil
+                                                leftWidth:leftWidth
+                                                leftColor:nil
+                                                rightData:nil
+                                               rightWidth:rightWidth
+                                               rightColor:nil
+                                           layerLineColor:lineColor];
+
+    return textField;
+}
+
+
+
 
 
 

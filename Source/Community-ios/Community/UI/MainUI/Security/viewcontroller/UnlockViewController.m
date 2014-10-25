@@ -9,7 +9,14 @@
 #import "UnlockViewController.h"
 #import "SecurityCallViewController.h"
 
-@interface UnlockViewController ()<NinGridUnlockViewDelegate , UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+#import "MovieViewController.h"
+
+@interface UnlockViewController ()<NinGridUnlockViewDelegate , UIImagePickerControllerDelegate,UINavigationControllerDelegate , UIWebViewDelegate> {
+    
+    UIWebView * myWebView;
+    
+    
+}
 
 
 
@@ -17,21 +24,47 @@
 
 @implementation UnlockViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+    
+    if (!myWebView.hidden) {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     self.password = @"";
     self.state = PasswordUnset;
+
+    myWebView = [[UIWebView alloc]initWithFrame:self.view.frame];
+    myWebView.hidden = YES;
+    myWebView.delegate =self;
+    [self.view addSubview:myWebView];
     
-    self.navigationController.navigationBarHidden = YES;
     
     NineGridUnlockView* v = [[NineGridUnlockView alloc] initWithFrame:CGRectMake(0, view01.bottom, self.view.width, self.view.width)];
     v.strokeColor = RGBA(0, 216, 255, 1);
     v.delegate = self;
     [self.view addSubview:v];
     
+    
+    
+
+
+    
 }
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    
+    
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -68,18 +101,31 @@
                     [self performSegueWithIdentifier:@"SecurityCallViewController" sender:self];
                     
                 }else {
+                    myWebView.hidden = NO;
+                    NSString *path = [[NSBundle mainBundle] pathForResource:@"movie" ofType:@"mov"];
+                    NSURL *baseURL = [NSURL fileURLWithPath:path];
                     
-                    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
-                    ipc.sourceType =  UIImagePickerControllerSourceTypeCamera;
-                    ipc.delegate = self;
-                    ipc.allowsEditing = YES;
-                    ipc.videoQuality = UIImagePickerControllerQualityTypeMedium;
-                    ipc.videoMaximumDuration = 30.0f; // 30 seconds
-                    ///ipc.mediaTypes = [NSArray arrayWithObject:@"public.movie"];
-                    //主要是下边的两能数，@"public.movie", @"public.image"  一个是录像，一个是拍照
-                    ipc.mediaTypes = [NSArray arrayWithObjects:@"public.movie", nil];
-                    //    [self presentModalViewController:ipc animated:YES];
-                    [self presentViewController:ipc animated:YES completion:nil];
+                    [myWebView loadRequest:[NSURLRequest requestWithURL:baseURL]];
+
+                    
+                    
+//                    MovieViewController * ctrl = [[MovieViewController alloc]initWithNibName:@"MovieViewController" bundle:nil];
+//                    ctrl.title = @"视频监控";
+//                    [self.navigationController pushViewController:ctrl animated:YES];
+                    
+                    
+                    
+//                    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
+//                    ipc.sourceType =  UIImagePickerControllerSourceTypeCamera;
+//                    ipc.delegate = self;
+//                    ipc.allowsEditing = YES;
+//                    ipc.videoQuality = UIImagePickerControllerQualityTypeMedium;
+//                    ipc.videoMaximumDuration = 30.0f; // 30 seconds
+//                    ///ipc.mediaTypes = [NSArray arrayWithObject:@"public.movie"];
+//                    //主要是下边的两能数，@"public.movie", @"public.image"  一个是录像，一个是拍照
+//                    ipc.mediaTypes = [NSArray arrayWithObjects:@"public.movie", nil];
+//                    //    [self presentModalViewController:ipc animated:YES];
+//                    [self presentViewController:ipc animated:YES completion:nil];
                     
 //                    [self performSegueWithIdentifier:@"SecurityWebcamController" sender:self];
                     

@@ -21,6 +21,10 @@
 		FF20978E19F5639900E2339B /* ReplyViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = FF20978C19F5639900E2339B /* ReplyViewController01.m */; };
 		FF20978F19F5639900E2339B /* ReplyViewController01.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF20978D19F5639900E2339B /* ReplyViewController01.xib */; };
 		FF4D716419E75F0A009CC122 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */; };
+		FF555D4419FB42AA00A8678D /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF555D4219FB42AA00A8678D /* MovieViewController.m */; };
+		FF555D4519FB42AA00A8678D /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF555D4319FB42AA00A8678D /* MovieViewController.xib */; };
+		FF555D4719FB439600A8678D /* movie.mov in Resources */ = {isa = PBXBuildFile; fileRef = FF555D4619FB439600A8678D /* movie.mov */; };
+		FF555D4919FB467200A8678D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF555D4819FB467200A8678D /* MediaPlayer.framework */; };
 		FF5C308B19E6A42100DD942E /* tab_complete_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308119E6A42100DD942E /* tab_complete_hl@2x.png */; };
 		FF5C308C19E6A42100DD942E /* tab_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308219E6A42100DD942E /* tab_complete@2x.png */; };
 		FF5C308D19E6A42100DD942E /* tab_personal_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5C308319E6A42100DD942E /* tab_personal_hl@2x.png */; };
@@ -631,6 +635,11 @@
 		FF20978D19F5639900E2339B /* ReplyViewController01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplyViewController01.xib; sourceTree = "<group>"; };
 		FF4D716219E75F0A009CC122 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
 		FF4D716319E75F0A009CC122 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		FF555D4119FB42AA00A8678D /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		FF555D4219FB42AA00A8678D /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		FF555D4319FB42AA00A8678D /* MovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
+		FF555D4619FB439600A8678D /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie.mov; sourceTree = "<group>"; };
+		FF555D4819FB467200A8678D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FF5C308119E6A42100DD942E /* tab_complete_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_complete_hl@2x.png"; sourceTree = "<group>"; };
 		FF5C308219E6A42100DD942E /* tab_complete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_complete@2x.png"; sourceTree = "<group>"; };
 		FF5C308319E6A42100DD942E /* tab_personal_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_personal_hl@2x.png"; sourceTree = "<group>"; };
@@ -1521,6 +1530,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF555D4919FB467200A8678D /* MediaPlayer.framework in Frameworks */,
 				FFFAEF0119F1129400F90E45 /* AVFoundation.framework in Frameworks */,
 				FFFAEEFF19F1128C00F90E45 /* CoreMedia.framework in Frameworks */,
 				FFFAEEFD19F1128300F90E45 /* CoreVideo.framework in Frameworks */,
@@ -1559,6 +1569,7 @@
 		95DFBAA3447FF1DB864E6AB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF555D4819FB467200A8678D /* MediaPlayer.framework */,
 				FFFAEF0019F1129400F90E45 /* AVFoundation.framework */,
 				FFFAEEFE19F1128C00F90E45 /* CoreMedia.framework */,
 				FFFAEEFC19F1128300F90E45 /* CoreVideo.framework */,
@@ -1999,6 +2010,7 @@
 		FFAC276519E621E700446313 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FF555D4619FB439600A8678D /* movie.mov */,
 				FFE5BA4019F4D97B00392E9C /* Icon.png */,
 				FFE5BA4119F4D97B00392E9C /* Icon@2x.png */,
 				FFA0644319E66B350021DC0B /* Default-568h@2x.png */,
@@ -3337,6 +3349,9 @@
 			children = (
 				FFFAEEEF19F10A6700F90E45 /* UnlockViewController.h */,
 				FFFAEEF019F10A6700F90E45 /* UnlockViewController.m */,
+				FF555D4119FB42AA00A8678D /* MovieViewController.h */,
+				FF555D4219FB42AA00A8678D /* MovieViewController.m */,
+				FF555D4319FB42AA00A8678D /* MovieViewController.xib */,
 				FFFAEEF219F10DBE00F90E45 /* SecurityCallViewController.h */,
 				FFFAEEF319F10DBE00F90E45 /* SecurityCallViewController.m */,
 				FFB1F15D19F1EA2C00CF19B1 /* CallViewController01.h */,
@@ -3736,6 +3751,7 @@
 				FFDE37D619E977CF004C526C /* chatBar_more_card@2x.png in Resources */,
 				FFDE37DB19E977CF004C526C /* chatBar_more_faceSelected.png in Resources */,
 				FF7481B219EB3F62001A303F /* public_btn_back_nor@2x.png in Resources */,
+				FF555D4519FB42AA00A8678D /* MovieViewController.xib in Resources */,
 				FF7481A119EB3A12001A303F /* public_img_topbg@2x.png in Resources */,
 				FFDE373519E973FC004C526C /* group_participant_addHL@2x.png in Resources */,
 				FFB1F15719F1D32800CF19B1 /* safe_img_home_bg@2x.png in Resources */,
@@ -3840,6 +3856,7 @@
 				FF5C309119E6A42100DD942E /* tab_security_hl@2x.png in Resources */,
 				FFDE36C119E97249004C526C /* chatBar_more_cameraSelected.png in Resources */,
 				FF7481CC19EB430F001A303F /* property_btn_express_nor@2x.png in Resources */,
+				FF555D4719FB439600A8678D /* movie.mov in Resources */,
 				FFDE37AA19E977CF004C526C /* chatFire_audioPlaying3.png in Resources */,
 				FFDE36CB19E97249004C526C /* messageToolbarBg@2x.png in Resources */,
 				FFDE36BA19E97249004C526C /* chatBar_colorMore_locationSelected@2x.png in Resources */,
@@ -4111,6 +4128,7 @@
 				FFDE367C19E97249004C526C /* PSTCollectionViewData.m in Sources */,
 				FFC432FA19F01F2D00DAA9BC /* VoteCell.m in Sources */,
 				FFAC27D719E621E700446313 /* SignUpViewController02.m in Sources */,
+				FF555D4419FB42AA00A8678D /* MovieViewController.m in Sources */,
 				FFAC27C019E621E700446313 /* UIButton+QM_Category.m in Sources */,
 				FFB1F17719F2036600CF19B1 /* CouponViewController.m in Sources */,
 				FFDE36D119E97249004C526C /* EMChatVideoBubbleView.m in Sources */,

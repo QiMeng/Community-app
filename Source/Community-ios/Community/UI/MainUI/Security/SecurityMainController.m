@@ -11,6 +11,8 @@
 
 #import "SecurityWebcamController.h"
 
+#import "ChatViewController.h"
+
 @interface SecurityMainController ()
 
 @end
@@ -56,6 +58,29 @@
     
 }
 
+- (IBAction)jiatingzuBtn:(id)sender {
+    
+    NSArray *rooms = [[EaseMob sharedInstance].chatManager groupList];
+    
+    if (rooms.count) {
+        for (EMGroup * group in rooms) {
+            DLog(@"adsf");
+            if ([group.groupSubject isEqualToString:@"家庭组"]) {
+                ChatViewController *chatController = [[ChatViewController alloc] initWithGroup:group];
+                chatController.title = group.groupSubject;
+                chatController.hidesBottomBarWhenPushed = YES;
+                [self.navigationController pushViewController:chatController animated:YES];
+                return;
+            }
+        }
+        
+        EMGroup *group = [rooms firstObject];
+        ChatViewController *chatController = [[ChatViewController alloc] initWithGroup:group];
+        chatController.title = group.groupSubject;
+        chatController.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:chatController animated:YES];
+    }
+}
 
 
 

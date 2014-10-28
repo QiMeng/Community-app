@@ -16,6 +16,7 @@
     
     __weak IBOutlet UIView *view02;
     
+    __weak IBOutlet UIButton *forgetBtn;
 }
 
 @property (nonatomic,copy) NSString* password;

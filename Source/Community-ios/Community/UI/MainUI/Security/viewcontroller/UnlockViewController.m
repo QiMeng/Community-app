@@ -52,12 +52,19 @@
     v.delegate = self;
     [self.view addSubview:v];
     
-    
-    
+    forgetBtn.hidden = YES;
+    [forgetBtn setY:self.view.bottom - 30];
 
 
     
 }
+
+- (IBAction)forgetBtn:(id)sender {
+    
+    [self.navigationController popToRootViewControllerAnimated:YES];
+    
+}
+
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     
@@ -132,6 +139,7 @@
                 }
                 
             }else {
+                forgetBtn.hidden = NO;
                 [self showErrorString:@"输入的密码不一致,请重试！"];
             }
             break;
@@ -144,6 +152,7 @@
             }
             else
             {
+                forgetBtn.hidden = NO;
                 [self showSuccessString:@"密码错误，请重试！"];
             }
             
